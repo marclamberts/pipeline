@@ -42,7 +42,51 @@ def find_assist(events, i, shot):
     return None
 
 
-def shot_row(events, i, league, match_file):
+def set_piece_origin(events, i, restarts):
+    """The restart event (corner, free kick, throw-in, ...) that started this set piece."""
+    sp = events[i]["setPiece"]
+    if not sp:
+        return None
+    return restarts.get(sp["id"])
+
+
+def set_piece_features(events, i, restarts, assist):
+    e = events[i]
+    is_pen = e["action"] == "PENALTY_KICK"
+    o = set_piece_origin(events, i, restarts)
+    if o is None and not is_pen:
+        return {"is_set_piece": 0}
+    if is_pen:
+        restart = "PENALTY"
+    elif o["actionType"] == "SHOT":
+        restart = "DIRECT_FREE_KICK" if o["action"] in ("DIRECT_FREE_KICK", "LONG_RANGE_SHOT", "MID_RANGE_SHOT") else o["action"]
+    else:
+        restart = o["actionType"]
+    row = {"is_set_piece": 1, "restart_type": restart}
+    if o is None:
+        return row
+    ox = o["start"]["adjCoordinates"]["x"]
+    oy = o["start"]["adjCoordinates"]["y"]
+    foot = o["bodyPartExtended"]
+    row.update({
+        "restart_x": ox,
+        "restart_abs_y": abs(oy),
+        "restart_dist_to_goal": math.hypot(GOAL_X - ox, oy),
+        "time_since_restart": e["gameTime"]["gameTimeInSec"] - o["gameTime"]["gameTimeInSec"],
+        "events_since_restart": e["index"] - o["index"],
+        # shot is struck from the delivery itself (first contact) or is the restart itself
+        "first_contact": int(o is e or (assist is not None and assist["id"] == o["id"])),
+        # still in the same sub-phase as the delivery, i.e. not a second ball / recycled attack
+        "first_phase": int(o["setPiece"]["subPhaseId"] == e["setPiece"]["subPhaseId"]),
+        "delivery_distance": (o["pass"] or {}).get("distance"),
+        # taker's foot relative to the side of the pitch: 1 and -1 separate in- and out-swinging deliveries
+        "delivery_swing": (1 if foot == "FOOT_RIGHT" else -1 if foot == "FOOT_LEFT" else 0) * (1 if oy >= 0 else -1),
+        "short_delivery": int(o["pass"] is not None and o["pass"]["distance"] < 15),
+    })
+    return row
+
+
+def shot_row(events, i, league, match_file, restarts):
     e = events[i]
     s = e["shot"]
     x = e["start"]["adjCoordinates"]["x"]
@@ -95,6 +139,7 @@ def shot_row(events, i, league, match_file):
         # provider possession value, kept only as a benchmark (not a model input)
         "provider_pxT": e["pxT"]["team"],
     }
+    row.update(set_piece_features(events, i, restarts, assist))
     return row
 
 
@@ -106,9 +151,13 @@ def main():
             events = json.load(f)
         if not isinstance(events, list):
             continue
+        restarts = {}
+        for e in events:
+            if e.get("setPiece") and e["setPiece"]["mainEvent"]:
+                restarts.setdefault(e["setPiece"]["id"], e)
         for i, e in enumerate(events):
             if e.get("shot"):
-                rows.append(shot_row(events, i, league, os.path.basename(path)))
+                rows.append(shot_row(events, i, league, os.path.basename(path), restarts))
     df = pd.DataFrame(rows)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     df.to_csv(OUT, index=False)
