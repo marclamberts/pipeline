@@ -153,7 +153,12 @@ def main():
                   free_kick_xg=("xg", lambda s: s[ere.loc[s.index, "restart_type"].isin(["FREE_KICK", "DIRECT_FREE_KICK"])].sum()),
                   throw_in_xg=("xg", lambda s: s[ere.loc[s.index, "restart_type"] == "THROW_IN"].sum()),
                   penalty_xg=("xg", lambda s: s[ere.loc[s.index, "restart_type"] == "PENALTY"].sum()))
-             .assign(xg_per_match=lambda d: d.xg / d.matches, goals_minus_xg=lambda d: d.goals - d.xg)
+             .drop(columns="matches"))
+    # count every match a team played, not only those with a set-piece shot
+    all_shots = pd.read_csv(os.path.join(OUT_DIR, "shots.csv"))
+    played = all_shots[all_shots.league.str.startswith("Eredivisie")].groupby("squad_id").match_id.nunique()
+    teams.insert(0, "matches", teams.index.get_level_values("squad_id").map(played))
+    teams = (teams.assign(xg_per_match=lambda d: d.xg / d.matches, goals_minus_xg=lambda d: d.goals - d.xg)
              .sort_values("xg", ascending=False).round(3))
     teams.to_csv(os.path.join(SP_DIR, "eredivisie_teams_setpiece_xg.csv"))
     print("\nEredivisie set-piece xG (for):\n", teams.to_string())
