@@ -1,0 +1,5 @@
+output/shots.csv
+output/shots_xg.csv
+output/goalkicks.csv
+output/goalkicks_labelled.csv
+__pycache__/
