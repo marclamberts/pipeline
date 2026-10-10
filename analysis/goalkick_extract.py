@@ -66,6 +66,21 @@ def gk_zone(x, y):
     return "long"
 
 
+# File names replace non-ASCII letters with "_"; restore the ones in these leagues.
+NAME_FIXES = {
+    "K_ln": "Köln", "M_nchengladbach": "Mönchengladbach", "M_nchen": "München", "F_rth": "Fürth",
+    "D_sseldorf": "Düsseldorf", "W_rzburger": "Würzburger", "N_rnberg": "Nürnberg",
+    "Osnabr_ck": "Osnabrück", "Saarbr_cken": "Saarbrücken", "Preu_en": "Preußen", "M_nster": "Münster",
+    "Gro_aspach": "Großaspach",
+}
+
+
+def fix_name(name):
+    for bad, good in NAME_FIXES.items():
+        name = name.replace(bad, good)
+    return name.replace("_", " ")
+
+
 def parse_match(path):
     try:
         d = json.load(open(path))
@@ -288,7 +303,7 @@ def main():
     sq2name = {}
     for name, c in cand.items():
         (s, cnt), = c.most_common(1)
-        sq2name[s] = name.replace("_", " ")
+        sq2name[s] = fix_name(name)
     teams = pd.DataFrame(sorted(sq2name.items()), columns=["squad", "team_name"])
     shots.to_csv(os.path.join(OUT, "shots.csv"), index=False)
     gks.to_csv(os.path.join(OUT, "goalkicks.csv"), index=False)
