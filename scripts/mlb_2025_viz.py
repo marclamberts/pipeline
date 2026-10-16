@@ -40,9 +40,9 @@ def density_cmap():
     return LinearSegmentedColormap.from_list("meridian_blue_dark", steps)
 
 
-def legend(ax, palette, density_label, accent_label, loc="lower left"):
+def legend(ax, palette, density_label, accent_label, loc="lower left", marker="h"):
     handles = [
-        Line2D([], [], marker="h", linestyle="none", markersize=11,
+        Line2D([], [], marker=marker, linestyle="none", markersize=11 if marker == "h" else 6,
                markerfacecolor=SEQUENTIAL_BLUE_DARK[500], markeredgewidth=0),
         Line2D([], [], marker="o", linestyle="none", markersize=6,
                markerfacecolor=palette["accent"], markeredgecolor=palette["surface"],
