@@ -1,0 +1,16 @@
+{
+  "coefficients": {
+    "const": 1.62796,
+    "log_dist": -1.42214,
+    "angle": 0.15241,
+    "header": -0.87478,
+    "direct_fk": 0.06564,
+    "open_goal": 1.43901,
+    "one_v_one": 0.71091
+  },
+  "penalty_xg": 0.76,
+  "n_shots": 6083,
+  "n_goals": 709,
+  "brier": 0.09366,
+  "fitted": "2026-10-24"
+}

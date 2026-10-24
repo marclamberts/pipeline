@@ -1,0 +1,711 @@
+match,match_id,sp_id,clock,type,team,taker,foot,side,short,swing,target_zone,first_contact,long_throw,shots,xg,goals,shooters,counter_shots_conceded
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608013,00:16.0520,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,1,0.199,0,Oliver Schmitt,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608014,00:53.2209,GOAL_KICK,MSV Duisburg,Maximilian Braune,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608015,01:57.4610,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608016,02:20.9259,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608017,03:17.8280,FREE_KICK,MSV Duisburg,Ben Schlicke,FOOT_LEFT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608018,04:02.2870,THROW_IN,MSV Duisburg,Can Coskun,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608019,04:55.3010,FREE_KICK,MSV Duisburg,Dominik Kother,FOOT_RIGHT,left,False,,penalty spot / edge,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608020,05:34.0220,CORNER,MSV Duisburg,Dominik Kother,FOOT_RIGHT,left,False,inswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608021,06:08.6040,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608022,06:19.5890,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608023,06:37.5889,THROW_IN,MSV Duisburg,Can Coskun,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608025,08:50.7999,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608026,11:29.7700,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,OPPONENT,True,1,0.077,0,Jakob Bookjans,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608027,13:10.8970,CORNER,MSV Duisburg,Dominik Kother,FOOT_RIGHT,left,False,inswing,far post,,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608028,13:42.7139,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608029,16:01.6870,THROW_IN,MSV Duisburg,Can Coskun,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608030,16:42.4950,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608031,17:12.8479,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608032,18:20.7380,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,far post,TEAMMATE,False,1,0.04,0,Oliver Schmitt,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608033,19:45.5930,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,central,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608034,20:17.1840,GOAL_KICK,MSV Duisburg,Maximilian Braune,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608035,20:59.9419,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,penalty spot / edge,,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608036,21:20.8309,THROW_IN,MSV Duisburg,Can Coskun,HAND,left,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608037,24:00.8970,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,far post,,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608038,24:50.3620,CORNER,MSV Duisburg,Dominik Kother,FOOT_RIGHT,left,False,inswing,central,TEAMMATE,False,1,0.158,0,Lex Tyger Lobinger,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608039,25:14.1930,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608040,25:28.1960,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608041,26:31.7230,CORNER,MSV Duisburg,Dominik Kother,FOOT_RIGHT,left,False,inswing,near post,OPPONENT,False,2,0.241,0,Christian Viet; Jakob Bookjans,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608042,27:16.8920,CORNER,MSV Duisburg,Dominik Kother,FOOT_RIGHT,left,False,inswing,near post,OPPONENT,False,1,0.058,0,Jakob Bookjans,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608043,27:54.2510,CORNER,MSV Duisburg,Dominik Kother,FOOT_RIGHT,left,False,inswing,6-yard box,,False,1,0.146,0,Lex Tyger Lobinger,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608044,28:45.4540,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608045,29:39.5729,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608046,30:44.8959,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608047,31:01.1190,THROW_IN,MSV Duisburg,Can Coskun,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608048,31:38.9180,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608049,32:13.2579,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608050,33:43.1709,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608051,35:02.7039,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608052,35:48.5650,GOAL_KICK,MSV Duisburg,Ben Schlicke,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608053,37:51.7330,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608054,42:12.9250,THROW_IN,MSV Duisburg,Can Coskun,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608055,42:45.5639,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,near post,,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608056,45:00.0000 (+00:45.2600),FREE_KICK,MSV Duisburg,Dominik Kother,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608057,45:00.0000 (+01:26.3050),FREE_KICK,SV Meppen,Tobias Mißner,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608058,45:00.0000 (+02:48.3169),THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608059,45:00.0000 (+03:35.1159),FREE_KICK,MSV Duisburg,Ben Schlicke,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608061,45:34.5670,FREE_KICK,MSV Duisburg,Maximilian Braune,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608062,46:36.3889,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608063,46:44.7400,FREE_KICK,MSV Duisburg,Ben Schlicke,FOOT_LEFT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608064,47:23.7150,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608065,48:17.2860,FREE_KICK,MSV Duisburg,Jakob Bookjans,FOOT_LEFT,left,False,,central,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608066,49:06.8020,CORNER,MSV Duisburg,Jakob Bookjans,FOOT_LEFT,right,False,inswing,,,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608067,49:36.3070,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608068,51:01.9200,THROW_IN,SV Meppen,Thorben Deters,HAND,right,False,,,,True,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608069,51:39.2330,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608070,51:52.9320,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608071,53:15.5940,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,far post,,False,1,0.213,0,Cyrill Akono,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608072,54:07.0369,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608073,54:49.3690,THROW_IN,MSV Duisburg,Dominik Kother,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608074,56:08.3250,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608075,57:07.5790,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608076,59:09.3839,FREE_KICK,MSV Duisburg,Ben Schlicke,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608077,59:51.1020,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608078,61:44.2000,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608079,62:25.4650,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608080,63:25.8380,CORNER,MSV Duisburg,Conor Noß,FOOT_RIGHT,right,False,outswing,far post,TEAMMATE,False,1,0.125,0,Ben Schlicke,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608081,63:50.7110,CORNER,MSV Duisburg,Conor Noß,FOOT_RIGHT,right,False,outswing,far post,TEAMMATE,False,1,0.105,1,Ben Schlicke,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608083,66:07.0859,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,OPPONENT,True,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608084,67:23.7930,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,near post,OPPONENT,False,0,0.0,0,,1.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608085,68:02.3679,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608086,68:58.2160,FREE_KICK,MSV Duisburg,Joshua Bitter,FOOT_RIGHT,right,False,,near post,,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608087,71:47.1390,FREE_KICK,SV Meppen,Erik Zenga,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608088,72:42.1419,FREE_KICK,MSV Duisburg,Ben Schlicke,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608089,74:44.8250,FREE_KICK,MSV Duisburg,Can Coskun,FOOT_LEFT,right,False,,near post,,False,1,0.066,0,Can Coskun,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608090,75:17.7810,CORNER,MSV Duisburg,Conor Noß,FOOT_RIGHT,right,False,outswing,near post,TEAMMATE,False,1,0.253,0,Lex Tyger Lobinger,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608091,75:43.4259,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608092,76:45.1189,GOAL_KICK,MSV Duisburg,Maximilian Braune,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,1.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608093,77:12.1850,GOAL_KICK,MSV Duisburg,Maximilian Braune,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608094,78:38.5940,FREE_KICK,MSV Duisburg,Patrick Sussek,FOOT_RIGHT,left,False,,penalty spot / edge,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608095,79:12.7970,THROW_IN,MSV Duisburg,Joshua Bitter,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608096,79:44.6440,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608097,81:06.3870,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608098,82:34.6150,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608099,85:24.0140,CORNER,SV Meppen,Florian Bähr,FOOT_LEFT,left,False,outswing,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608100,86:12.8130,THROW_IN,SV Meppen,Florian Bähr,HAND,left,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608101,89:13.4800,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608102,90:00.0000 (+00:26.8390),CORNER,SV Meppen,Florian Bähr,FOOT_LEFT,left,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608103,90:00.0000 (+01:41.6170),THROW_IN,SV Meppen,Luca Prasse,HAND,right,False,,,OPPONENT,False,1,0.154,0,Simon Engelmann,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608104,90:00.0000 (+02:28.0789),GOAL_KICK,MSV Duisburg,Tobias Fleckstein,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-08 MSV Duisburg vs SV Meppen,277553,89608105,90:00.0000 (+03:35.8919),GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115413,00:18.4880,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,1,0.061,0,Niclas Nadj,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115414,00:49.4720,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115415,01:10.4160,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115416,02:32.6409,GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,1.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115417,03:40.8730,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115418,04:24.7450,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115419,05:27.0510,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,near post,TEAMMATE,False,1,0.115,1,Stefan Rankic,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115421,07:25.4190,GOAL_KICK,SG Sonnenhof Großaspach,Arbnor Nuraj,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115422,07:37.8720,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115423,07:53.5960,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115424,08:28.2899,FREE_KICK,SG Sonnenhof Großaspach,Elias Rahn,FOOT_RIGHT,right,True,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115425,09:07.6260,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115426,09:23.2819,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115427,09:45.3760,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115428,10:48.5689,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,True,,,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115429,11:19.3400,FREE_KICK,SG Sonnenhof Großaspach,Tim Rossmann,FOOT_LEFT,left,False,,central,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115430,11:43.3220,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115431,12:34.2850,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115432,13:04.0979,FREE_KICK,SG Sonnenhof Großaspach,Elias Rahn,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115433,13:50.6360,GOAL_KICK,SG Sonnenhof Großaspach,Arbnor Nuraj,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115434,15:11.4480,FREE_KICK,SG Sonnenhof Großaspach,Antonis Aidonis,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115435,16:09.2270,FREE_KICK,SG Sonnenhof Großaspach,Marius Kunde,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115436,16:32.0700,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115437,17:12.5960,THROW_IN,SV Meppen,Luca Prasse,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115438,18:14.2350,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,1,0.122,0,Luca Prasse,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115439,18:59.7090,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,penalty spot / edge,TEAMMATE,False,1,0.049,0,Oliver Schmitt,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115440,20:10.4779,FREE_KICK,SG Sonnenhof Großaspach,Volkan Celiktas,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115441,20:53.9119,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115442,21:30.2180,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,False,,,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115443,22:17.7870,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115444,23:37.8480,FREE_KICK,SV Meppen,Tobias Mißner,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115445,24:05.7980,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115446,24:57.4839,THROW_IN,SV Meppen,Luis Sprekelmeyer,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115447,25:43.3920,FREE_KICK,SG Sonnenhof Großaspach,Tim Rossmann,FOOT_LEFT,left,False,,far post,TEAMMATE,False,1,0.081,0,Arbnor Nuraj,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115448,26:11.5249,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115449,27:43.1380,FREE_KICK,SV Meppen,Ersin Zehir,FOOT_RIGHT,left,False,,penalty spot / edge,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115450,28:16.0710,FREE_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115451,28:45.2539,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115452,29:22.8410,GOAL_KICK,SG Sonnenhof Großaspach,Arbnor Nuraj,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115453,29:53.1130,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115454,30:38.5140,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115455,32:17.4230,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115456,33:00.7990,GOAL_KICK,SG Sonnenhof Großaspach,Arbnor Nuraj,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115457,33:18.6239,FREE_KICK,SG Sonnenhof Großaspach,Arbnor Nuraj,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115458,34:37.1109,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115459,35:35.4510,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115460,36:56.9830,FREE_KICK,SG Sonnenhof Großaspach,Marius Kunde,FOOT_LEFT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115461,38:11.0810,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115462,40:20.1030,FREE_KICK,SG Sonnenhof Großaspach,Niklas Pollex,FOOT_LEFT,right,False,,penalty spot / edge,,False,1,0.046,0,Niklas Pollex,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115463,42:42.0549,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115464,43:09.1990,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115465,43:53.9590,FREE_KICK,SG Sonnenhof Großaspach,Arbnor Nuraj,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115466,44:16.0640,FREE_KICK,SG Sonnenhof Großaspach,Volkan Celiktas,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115467,44:35.2820,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115468,45:00.0000 (+00:28.8719),FREE_KICK,SG Sonnenhof Großaspach,Arbnor Nuraj,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115470,45:17.2670,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115471,46:07.4589,FREE_KICK,SG Sonnenhof Großaspach,Luca Molinari,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115472,47:38.8020,CORNER,SG Sonnenhof Großaspach,Tim Rossmann,FOOT_LEFT,left,False,outswing,short / outside box,TEAMMATE,False,1,0.246,0,Volkan Celiktas,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115473,49:02.8760,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115474,50:07.2819,GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115475,50:40.0520,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,1.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115476,51:09.6630,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115477,52:07.5640,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,far post,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115478,52:44.6570,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,central,TEAMMATE,False,1,0.13,0,Richard Meier,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115479,52:55.1800,GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115480,53:47.2979,GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115481,54:31.0880,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115482,56:35.2059,FREE_KICK,SG Sonnenhof Großaspach,Elias Rahn,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115484,59:25.7360,FREE_KICK,SG Sonnenhof Großaspach,Tim Rossmann,FOOT_LEFT,right,False,,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115485,59:57.0610,THROW_IN,SG Sonnenhof Großaspach,Niklas Pollex,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115486,61:10.1810,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115487,61:30.7440,THROW_IN,SG Sonnenhof Großaspach,Tim Rossmann,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115488,62:02.2650,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115489,64:22.5890,FREE_KICK,SG Sonnenhof Großaspach,Niklas Pollex,FOOT_RIGHT,right,False,,penalty spot / edge,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115490,64:51.9350,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115491,65:12.4589,THROW_IN,SV Meppen,Luis Sprekelmeyer,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115492,68:08.6729,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,TEAMMATE,True,1,0.156,0,Thorben Deters,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115493,70:24.7280,CORNER,SG Sonnenhof Großaspach,Lukas Stoppel,FOOT_RIGHT,right,False,outswing,penalty spot / edge,TEAMMATE,False,1,0.109,0,Luca Molinari,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115494,71:02.9180,CORNER,SG Sonnenhof Großaspach,Tim Rossmann,FOOT_LEFT,left,False,outswing,central,,False,1,0.058,0,Lukas Stoppel,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115495,71:51.5850,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115496,74:45.1290,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115497,75:24.8260,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115498,75:42.0220,GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115499,77:16.0230,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,True,,,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115500,78:47.2539,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115501,80:27.8520,THROW_IN,SG Sonnenhof Großaspach,Loris Maier,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115502,80:59.4450,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115503,81:08.2130,FREE_KICK,SG Sonnenhof Großaspach,Marius Uhl,FOOT_LEFT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115504,82:26.6880,FREE_KICK,SV Meppen,Ersin Zehir,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,1,0.114,0,Jona Borsum,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115505,82:49.8079,GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115506,83:26.2060,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,1.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115507,83:59.3819,FREE_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115508,84:30.4689,FREE_KICK,SG Sonnenhof Großaspach,Marius Uhl,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115509,85:29.7089,GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115510,86:39.5870,THROW_IN,SG Sonnenhof Großaspach,Luca Molinari,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115511,87:02.8670,THROW_IN,SG Sonnenhof Großaspach,Elias Rahn,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115512,87:51.5969,GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115513,89:32.3220,CORNER,SG Sonnenhof Großaspach,Lukas Stoppel,FOOT_RIGHT,left,False,inswing,penalty spot / edge,TEAMMATE,False,1,0.079,0,Deli Hajdini,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115514,90:00.0000 (+00:09.9839),GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,1.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115515,90:00.0000 (+01:35.2470),CORNER,SV Meppen,Florian Bähr,FOOT_LEFT,left,True,outswing,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115516,90:00.0000 (+02:37.1010),FREE_KICK,SV Meppen,Florian Bähr,FOOT_LEFT,left,False,,short / outside box,,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115517,90:00.0000 (+02:48.1340),THROW_IN,SG Sonnenhof Großaspach,Marius Uhl,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115518,90:00.0000 (+04:07.3109),FREE_KICK,SV Meppen,Dominique Domröse,FOOT_RIGHT,right,False,,far post,TEAMMATE,False,1,0.052,0,Jona Borsum,0.0
+2026-08-15 SV Meppen vs SG Sonnenhof Großaspach,277563,90115519,90:00.0000 (+04:14.4610),GOAL_KICK,SG Sonnenhof Großaspach,Maximilian Reule,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827613,00:13.3590,THROW_IN,Alemannia Aachen,Nathan Bitumazala,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827614,01:28.6350,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827615,01:54.6319,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827616,02:43.1290,THROW_IN,Alemannia Aachen,Joel da Silva Kiala,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827617,03:20.1379,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827618,03:51.9940,THROW_IN,SV Meppen,Luca Prasse,HAND,right,False,,,OPPONENT,True,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827619,04:11.7209,FREE_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827620,05:05.4880,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827621,05:21.8100,THROW_IN,SV Meppen,Luca Prasse,HAND,right,False,,,OPPONENT,False,1,0.037,0,Tobias Mißner,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827622,05:51.9859,GOAL_KICK,Alemannia Aachen,Petros Bagkalianis,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827623,06:22.1160,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827624,07:37.2190,FREE_KICK,Alemannia Aachen,Nathan Bitumazala,FOOT_RIGHT,right,False,,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827625,08:15.2549,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,1,0.212,1,Thorben Deters,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827627,10:10.5160,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,1,0.211,1,Cyrill Akono,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827629,12:24.5150,THROW_IN,Alemannia Aachen,Mika Schroers,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827630,13:23.6620,THROW_IN,SV Meppen,Luca Prasse,HAND,right,False,,,,True,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827631,13:51.8799,FREE_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827632,14:34.4100,FREE_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827633,15:40.2989,FREE_KICK,Alemannia Aachen,Meiko Wäschenbach,FOOT_RIGHT,left,False,,penalty spot / edge,OPPONENT,False,1,0.076,0,Kacper Koscierski,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827634,16:13.4149,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827635,16:23.4360,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827636,16:56.2009,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827637,18:29.0570,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827638,19:05.3779,FREE_KICK,Alemannia Aachen,Petros Bagkalianis,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827639,20:27.5300,FREE_KICK,Alemannia Aachen,Matti Wagner,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,1,0.094,0,Joel da Silva Kiala,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827640,20:45.5970,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827641,21:49.1470,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,near post,TEAMMATE,False,1,0.077,0,Niclas Nadj,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827642,22:40.4970,FREE_KICK,Alemannia Aachen,Danilo Wiebe,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827643,23:00.0509,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827644,23:23.7610,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827645,24:14.7459,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827646,24:45.3599,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827647,25:31.8760,GOAL_KICK,Alemannia Aachen,Matti Wagner,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827648,26:45.1580,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,penalty spot / edge,OPPONENT,False,1,0.111,0,Oliver Schmitt,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827649,26:58.1309,GOAL_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827650,28:32.1259,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827651,29:35.2190,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827652,29:52.6750,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827653,30:11.6430,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827654,31:50.6019,FREE_KICK,Alemannia Aachen,Kacper Koscierski,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827655,32:55.6490,THROW_IN,Alemannia Aachen,Petros Bagkalianis,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827656,33:51.3189,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827657,34:00.8559,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827658,34:45.2140,THROW_IN,SV Meppen,Thorben Deters,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827659,34:59.4980,FREE_KICK,Alemannia Aachen,Meiko Wäschenbach,FOOT_LEFT,left,False,,,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827660,35:59.2650,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827661,37:38.4929,FREE_KICK,SV Meppen,Tobias Mißner,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827662,38:21.0030,CORNER,Alemannia Aachen,Matti Wagner,FOOT_LEFT,right,True,inswing,short / outside box,TEAMMATE,False,1,0.089,0,Danilo Wiebe,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827663,38:40.8359,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827664,39:14.2210,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827665,40:23.3949,FREE_KICK,Alemannia Aachen,Meiko Wäschenbach,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827666,41:15.6270,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827667,41:57.0540,GOAL_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827669,43:46.1920,THROW_IN,Alemannia Aachen,Kacper Koscierski,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827670,44:07.5209,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827671,44:52.9989,FREE_KICK,Alemannia Aachen,Kacper Koscierski,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827672,45:00.0000 (+01:02.9760),FREE_KICK,Alemannia Aachen,Nathan Bitumazala,FOOT_RIGHT,right,False,,far post,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827673,45:00.0000 (+01:33.9840),GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827674,45:00.0000 (+01:46.2550),FREE_KICK,Alemannia Aachen,Lukas Scepanik,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827676,45:50.8890,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827677,46:42.0160,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827678,46:58.9650,GOAL_KICK,Alemannia Aachen,Petros Bagkalianis,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827679,47:46.9220,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827680,48:19.1550,FREE_KICK,SV Meppen,Ersin Zehir,FOOT_RIGHT,right,False,,short / outside box,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827681,48:31.8350,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827682,48:45.0079,FREE_KICK,Alemannia Aachen,Danilo Wiebe,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827683,49:23.9300,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827684,49:58.2660,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827685,50:06.3580,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827686,50:26.4400,FREE_KICK,SV Meppen,Ersin Zehir,FOOT_LEFT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827687,51:41.2980,GOAL_KICK,Alemannia Aachen,Petros Bagkalianis,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827688,52:32.4230,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827689,52:56.6990,GOAL_KICK,Alemannia Aachen,Petros Bagkalianis,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827690,53:24.2739,GOAL_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827691,55:30.7999,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827692,55:46.3039,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827693,56:46.0209,FREE_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827694,58:25.4009,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827695,59:15.0190,THROW_IN,Alemannia Aachen,Kacper Koscierski,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827696,59:28.7410,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827697,59:39.1830,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827698,60:24.6449,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827699,61:45.3800,FREE_KICK,Alemannia Aachen,Nathan Bitumazala,FOOT_RIGHT,right,False,,6-yard box,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827700,63:43.5930,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,central,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827701,64:37.2140,CORNER,Alemannia Aachen,Nathan Bitumazala,FOOT_RIGHT,right,False,outswing,near post,TEAMMATE,False,1,0.079,0,Joel da Silva Kiala,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827702,65:17.1580,FREE_KICK,Alemannia Aachen,Lukas Scepanik,FOOT_LEFT,right,False,,penalty spot / edge,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827703,65:46.0520,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827704,66:36.3839,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827705,67:38.1970,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,far post,TEAMMATE,False,1,0.068,0,Stefan Rankic,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827706,68:31.9110,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,far post,TEAMMATE,False,1,0.067,0,Niclas Nadj,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827707,69:17.2419,GOAL_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827708,70:20.8960,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827709,72:42.1229,FREE_KICK,SV Meppen,Luca Prasse,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827710,73:04.6469,FREE_KICK,Alemannia Aachen,Georg Ermolaev,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827711,73:48.2970,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827712,74:35.6260,FREE_KICK,SV Meppen,Florian Bähr,FOOT_LEFT,right,False,,far post,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827713,74:51.0359,GOAL_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827714,76:06.4360,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827715,76:36.4210,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827716,77:39.2259,GOAL_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827717,78:17.0739,CORNER,Alemannia Aachen,Nathan Bitumazala,FOOT_RIGHT,right,False,outswing,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827718,79:30.6000,FREE_KICK,Alemannia Aachen,Danilo Wiebe,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827719,80:44.5780,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,False,,,TEAMMATE,True,1,0.086,0,Louis Köster,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827720,81:13.3720,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827721,83:51.8730,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827722,84:32.7210,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827723,86:21.0159,FREE_KICK,Alemannia Aachen,Petros Bagkalianis,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827724,86:40.9950,FREE_KICK,Alemannia Aachen,Lukas Scepanik,FOOT_LEFT,right,False,,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827725,87:59.2930,FREE_KICK,Alemannia Aachen,Lukas Scepanik,FOOT_LEFT,left,False,,6-yard box,,False,1,0.041,0,Lukas Scepanik,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827726,88:10.9859,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827727,88:46.5550,THROW_IN,Alemannia Aachen,Matti Wagner,HAND,left,True,,,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827728,89:25.3930,FREE_KICK,Alemannia Aachen,Matti Wagner,FOOT_LEFT,left,False,,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827729,89:56.5780,THROW_IN,Alemannia Aachen,Lukas Scepanik,HAND,right,True,,,,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827730,90:00.0000 (+00:22.2440),GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827731,90:00.0000 (+00:41.2200),FREE_KICK,Alemannia Aachen,Matti Wagner,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827732,90:00.0000 (+01:24.3700),GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827733,90:00.0000 (+02:09.1990),FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827734,90:00.0000 (+02:36.0829),GOAL_KICK,Alemannia Aachen,Stefan Bajic,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-08-29 Alemannia Aachen vs SV Meppen,277574,90827735,90:00.0000 (+03:05.4810),FREE_KICK,Alemannia Aachen,Joel da Silva Kiala,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251013,00:19.7030,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251014,01:00.8170,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251015,01:09.2010,THROW_IN,1 FC Saarbrücken,Philip Fahrner,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251016,01:59.4590,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,6-yard box,,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251017,02:35.6140,THROW_IN,SV Meppen,Thorben Deters,HAND,left,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251018,03:01.9410,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251019,03:59.0480,CORNER,1 FC Saarbrücken,Daniel Gleiber,FOOT_LEFT,left,False,outswing,near post,TEAMMATE,False,1,0.174,1,Siemen Voet,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251021,05:26.8240,THROW_IN,1 FC Saarbrücken,Philip Fahrner,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251022,06:07.0670,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,1,0.086,0,Niclas Nadj,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251023,06:48.9230,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251024,06:59.6600,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251025,07:24.8310,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251026,08:13.9620,GOAL_KICK,1 FC Saarbrücken,Mladen Cvjetinovic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251027,09:37.2680,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,penalty spot / edge,TEAMMATE,False,3,0.405,0,Stefan Rankic; Dominique Domröse; Luca Prasse,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251028,09:58.8809,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,OPPONENT,True,1,0.052,0,Ersin Zehir,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251029,12:15.3689,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251030,12:50.3120,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251031,13:08.8930,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251032,14:06.1710,FREE_KICK,1 FC Saarbrücken,Florian Pick,FOOT_RIGHT,right,False,,penalty spot / edge,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251033,14:21.4160,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251034,15:52.7919,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251035,16:38.8289,GOAL_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251036,19:40.8040,FREE_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251037,21:15.4010,GOAL_KICK,1 FC Saarbrücken,Mladen Cvjetinovic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251038,22:05.7950,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251039,22:30.4969,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251040,23:30.9239,FREE_KICK,1 FC Saarbrücken,Patrick Sontheimer,FOOT_RIGHT,left,False,,,,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251041,24:23.7709,FREE_KICK,1 FC Saarbrücken,Niko Bretschneider,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251042,24:49.8700,FREE_KICK,1 FC Saarbrücken,Siemen Voet,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251043,25:14.3300,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251044,26:31.5460,FREE_KICK,1 FC Saarbrücken,Mladen Cvjetinovic,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251046,29:10.1550,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251047,29:56.5290,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,near post,TEAMMATE,False,1,0.192,0,Nikell Touglo,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251048,30:22.1740,GOAL_KICK,1 FC Saarbrücken,Mladen Cvjetinovic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251049,31:20.5310,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,6-yard box,,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251050,32:29.8730,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251051,33:57.5709,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251053,38:46.6160,CORNER,1 FC Saarbrücken,Daniel Gleiber,FOOT_LEFT,left,False,outswing,near post,TEAMMATE,False,1,0.177,0,Christian Kühlwetter,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251054,39:40.9370,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251055,40:28.2860,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251056,41:33.1520,THROW_IN,1 FC Saarbrücken,Philip Fahrner,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251057,43:01.6520,FREE_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251058,43:24.8800,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251060,45:00.0000 (+01:16.7080),FREE_KICK,1 FC Saarbrücken,Siemen Voet,FOOT_LEFT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251061,45:00.0000 (+02:01.8020),CORNER,1 FC Saarbrücken,Daniel Gleiber,FOOT_LEFT,left,False,outswing,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251063,45:47.6130,FREE_KICK,1 FC Saarbrücken,Patrick Sontheimer,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251064,46:26.1390,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251065,46:41.2410,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251066,46:57.0720,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,OPPONENT,False,1,0.069,0,Ersin Zehir,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251067,47:21.0090,GOAL_KICK,1 FC Saarbrücken,Mladen Cvjetinovic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251068,47:41.6360,FREE_KICK,1 FC Saarbrücken,Daniel Gleiber,FOOT_LEFT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251069,48:58.1170,FREE_KICK,1 FC Saarbrücken,Daniel Gleiber,FOOT_LEFT,right,False,,far post,,False,1,0.055,0,Daniel Gleiber,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251070,49:15.6159,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251071,49:54.7700,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,,,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251072,50:19.6550,FREE_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251073,51:31.4649,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251074,51:54.3350,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251075,52:45.3880,CORNER,1 FC Saarbrücken,Florian Pick,FOOT_RIGHT,right,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251076,53:21.6169,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251077,54:00.7309,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251078,55:04.0189,FREE_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251079,55:36.5959,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251080,56:51.0390,THROW_IN,1 FC Saarbrücken,Florian Pick,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251081,57:56.0930,FREE_KICK,1 FC Saarbrücken,Florian Pick,FOOT_RIGHT,right,False,,near post,OPPONENT,False,1,0.099,1,Siemen Voet,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251083,60:07.4539,GOAL_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251084,60:47.0150,THROW_IN,1 FC Saarbrücken,Philip Fahrner,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251085,60:56.0450,FREE_KICK,SV Meppen,Tobias Mißner,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251086,62:19.0560,CORNER,1 FC Saarbrücken,Florian Pick,FOOT_LEFT,right,False,inswing,6-yard box,,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251087,63:50.9950,GOAL_KICK,1 FC Saarbrücken,Siemen Voet,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251088,65:11.8530,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251089,65:18.2910,THROW_IN,SV Meppen,Thorben Deters,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251090,65:49.7910,THROW_IN,SV Meppen,Niclas Nadj,HAND,right,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251091,67:11.0490,FREE_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,left,False,,short / outside box,,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251092,67:29.7510,FREE_KICK,SV Meppen,Ersin Zehir,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251093,68:44.3469,FREE_KICK,1 FC Saarbrücken,Siemen Voet,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251094,70:03.0360,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,far post,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251095,71:20.4060,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251096,72:43.7219,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251097,73:47.6059,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251098,74:59.0529,THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251099,76:38.5810,GOAL_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251100,77:34.5519,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251101,80:04.6619,FREE_KICK,1 FC Saarbrücken,Siemen Voet,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251102,80:45.4749,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251103,82:20.7280,FREE_KICK,1 FC Saarbrücken,Mladen Cvjetinovic,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251105,84:50.7800,CORNER,SV Meppen,Florian Bähr,FOOT_LEFT,left,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251106,86:22.4169,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251107,86:50.3800,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251108,86:58.4230,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251109,87:28.7830,GOAL_KICK,1 FC Saarbrücken,Matteo Bignetti,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251110,87:43.9970,THROW_IN,1 FC Saarbrücken,Calogero Rizzuto,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251111,88:22.5150,CORNER,1 FC Saarbrücken,Daniel Gleiber,FOOT_LEFT,left,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251112,90:00.0000 (+00:16.9000),CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251113,90:00.0000 (+00:32.3400),THROW_IN,SV Meppen,Jannic Ehlers,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,91251114,90:00.0000 (+02:04.7410),THROW_IN,1 FC Saarbrücken,Niko Bretschneider,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-05 SV Meppen vs 1 FC Saarbrücken,277585,,36:56.5490,PENALTY,SV Meppen,Ersin Zehir,,,False,,,,False,1,0.76,1,Ersin Zehir,
+2026-09-12 SC Verl vs SV Meppen,277592,91634213,01:00.0810,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634214,01:14.9210,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634215,01:36.5370,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634216,02:05.2070,THROW_IN,SV Meppen,Oliver Schmitt,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634217,03:09.1570,THROW_IN,SC Verl,Felix Vogler,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634218,03:46.6950,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634219,04:00.9940,THROW_IN,SC Verl,Felix Vogler,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634220,04:17.6080,FREE_KICK,SC Verl,Felix Vogler,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634221,04:32.5570,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634222,05:25.2970,THROW_IN,SC Verl,André Leipold,HAND,left,False,,,TEAMMATE,False,2,0.461,0,Fabian Wessig; Amin Farouk,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634223,06:19.6119,FREE_KICK,SC Verl,Felix Vogler,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634224,06:37.4100,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634225,07:31.8470,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634226,08:10.6150,THROW_IN,SC Verl,Niko Kijewski,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634227,08:30.4480,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634228,08:44.4630,THROW_IN,SC Verl,Niko Kijewski,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634229,09:49.2880,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634230,11:06.8660,THROW_IN,SC Verl,Felix Vogler,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634231,11:36.4090,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634232,12:12.7250,THROW_IN,SC Verl,Niko Kijewski,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634233,14:44.5820,GOAL_KICK,SC Verl,Nick Seidel,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634234,16:23.8650,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634235,17:50.9310,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,far post,TEAMMATE,False,1,0.075,0,Luis Sprekelmeyer,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634236,18:07.4270,GOAL_KICK,SC Verl,Nick Seidel,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634237,18:46.1290,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634238,19:40.4120,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634239,20:10.6770,THROW_IN,SC Verl,Niko Kijewski,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634240,21:08.8590,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634241,21:30.0570,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634242,21:46.1820,THROW_IN,SC Verl,Felix Vogler,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634243,23:32.9760,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,1,0.041,0,Niclas Nadj,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634244,23:57.4309,GOAL_KICK,SC Verl,Timo Schlieck,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634245,24:21.9760,THROW_IN,SC Verl,Niko Kijewski,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634246,25:05.6870,THROW_IN,SC Verl,Felix Vogler,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634247,26:43.4930,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634248,28:02.2150,THROW_IN,SC Verl,André Leipold,HAND,right,False,,,OPPONENT,True,1,0.184,0,André Leipold,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634249,28:58.7180,FREE_KICK,SC Verl,Nick Seidel,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634250,30:00.8600,THROW_IN,SC Verl,Felix Vogler,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634251,30:19.9880,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634252,32:20.7630,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634253,33:39.5910,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634254,36:00.8780,THROW_IN,SC Verl,Niko Kijewski,HAND,left,True,,,OPPONENT,False,0,0.0,0,,1.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634255,37:04.7150,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634256,37:28.3560,THROW_IN,SC Verl,Niko Kijewski,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,1.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634257,39:47.7320,THROW_IN,SC Verl,Felix Vogler,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634258,40:16.5930,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634259,40:42.9430,THROW_IN,SC Verl,Felix Vogler,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634260,40:55.8730,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634261,41:36.2670,THROW_IN,SC Verl,Felix Vogler,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634262,42:12.9470,THROW_IN,SC Verl,Nick Seidel,HAND,left,False,,,,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634263,43:40.5250,FREE_KICK,SC Verl,Paul Lehmann,FOOT_LEFT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634264,45:00.0000 (+00:04.0850),CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,near post,TEAMMATE,False,2,1.174,1,Oliver Schmitt; Oliver Schmitt,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634265,45:00.0000 (+01:33.9820),GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634266,45:00.0000 (+01:48.9090),THROW_IN,SC Verl,André Leipold,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634268,47:25.2110,FREE_KICK,SC Verl,Tim Heike,FOOT_RIGHT,left,False,,near post,,False,1,0.048,0,Tim Heike,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634269,48:02.7760,CORNER,SC Verl,Fabian Wessig,FOOT_LEFT,left,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634270,48:38.1759,FREE_KICK,SC Verl,Paul Lehmann,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634271,49:09.6610,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634272,49:27.1809,FREE_KICK,SC Verl,Paul Lehmann,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634273,50:00.2090,FREE_KICK,SC Verl,Niko Kijewski,FOOT_LEFT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634274,52:05.8300,FREE_KICK,SC Verl,Tim Heike,FOOT_RIGHT,left,False,,near post,,False,1,0.063,1,Tim Heike,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634276,53:22.0120,THROW_IN,SV Meppen,Luca Prasse,HAND,left,False,,,,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634277,53:48.2030,FREE_KICK,SC Verl,Paul Lehmann,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634278,54:36.9980,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634279,55:01.6150,THROW_IN,SC Verl,Niko Kijewski,HAND,left,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634280,56:26.6110,THROW_IN,SC Verl,André Leipold,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634281,58:13.8240,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634282,59:16.4160,THROW_IN,SC Verl,Janne Berner,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634283,60:15.4500,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634284,61:09.9290,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634285,61:42.6700,FREE_KICK,SC Verl,Dennis Waidner,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634286,62:55.5570,FREE_KICK,SC Verl,Fabian Wessig,FOOT_LEFT,left,False,,,,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634287,64:00.7900,THROW_IN,SC Verl,André Leipold,HAND,left,False,,,OPPONENT,True,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634288,64:42.9589,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634289,65:17.2659,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,near post,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634290,65:37.9710,GOAL_KICK,SC Verl,Nick Seidel,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634291,67:53.8110,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634292,68:09.6980,FREE_KICK,SC Verl,Mika Clausen,FOOT_LEFT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634293,69:24.1890,CORNER,SC Verl,André Leipold,FOOT_RIGHT,right,False,outswing,far post,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634294,70:35.1910,THROW_IN,SC Verl,Janne Berner,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634295,71:34.7189,FREE_KICK,SC Verl,Noah König,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634296,72:26.7820,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634297,73:19.7059,FREE_KICK,SV Meppen,Ersin Zehir,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634298,75:08.2140,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634299,75:50.2399,FREE_KICK,SC Verl,Noah König,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634301,77:41.3490,FREE_KICK,SC Verl,Noah König,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634302,78:21.2870,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634303,79:53.9190,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,central,OPPONENT,False,1,0.111,0,Jona Borsum,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634304,80:55.1360,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634305,83:27.1250,FREE_KICK,SC Verl,Almin Mesanovic,FOOT_LEFT,left,False,,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634306,83:59.0520,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634307,85:24.9660,THROW_IN,SC Verl,Niko Kijewski,HAND,left,False,,,TEAMMATE,True,1,0.102,0,Almin Mesanovic,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634308,86:02.3580,CORNER,SC Verl,Almin Mesanovic,FOOT_LEFT,left,False,outswing,near post,,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634309,86:21.5910,THROW_IN,SV Meppen,Thorben Deters,HAND,right,False,,,,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634310,87:11.6220,THROW_IN,SV Meppen,Florian Bähr,HAND,right,False,,,OPPONENT,True,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634311,87:42.7909,GOAL_KICK,SC Verl,Timo Schlieck,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634312,88:05.0960,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,OPPONENT,True,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634313,88:52.0390,GOAL_KICK,SC Verl,Nick Seidel,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634314,89:56.5870,FREE_KICK,SC Verl,Niko Kijewski,FOOT_LEFT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634315,90:00.0000 (+00:45.4420),THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-12 SC Verl vs SV Meppen,277592,91634316,90:00.0000 (+02:02.7640),FREE_KICK,SC Verl,Timo Schlieck,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760213,01:20.2380,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,True,outswing,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760214,01:48.5650,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,True,outswing,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760215,02:06.4550,FREE_KICK,FC Viktoria Köln,Tim Kloss,FOOT_LEFT,left,False,,,,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760216,03:27.9369,THROW_IN,FC Viktoria Köln,Pascal Fallmann,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760217,04:50.2239,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760218,05:06.7349,FREE_KICK,FC Viktoria Köln,Meiko Sponsel,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760219,05:59.4989,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760220,06:30.4889,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760221,07:09.5819,THROW_IN,FC Viktoria Köln,Pascal Fallmann,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760222,07:44.1039,THROW_IN,FC Viktoria Köln,Pascal Fallmann,HAND,right,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760223,08:37.6030,THROW_IN,SV Meppen,Luca Prasse,HAND,right,False,,,OPPONENT,True,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760224,09:42.8149,GOAL_KICK,FC Viktoria Köln,Tim Kloss,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760225,11:03.1810,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760226,11:56.3430,FREE_KICK,FC Viktoria Köln,Tim Kloss,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760227,13:03.1330,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760228,14:18.2879,FREE_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760229,16:46.7709,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760230,17:33.4819,FREE_KICK,FC Viktoria Köln,Verthomy Boboy,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760231,18:23.7740,FREE_KICK,FC Viktoria Köln,Pascal Fallmann,FOOT_RIGHT,right,False,,far post,,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760232,19:05.1319,FREE_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760233,19:46.5279,THROW_IN,FC Viktoria Köln,Pascal Fallmann,HAND,right,False,,,TEAMMATE,False,1,0.062,0,Niklas Castelle,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760234,20:17.4690,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760235,21:28.9899,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760236,22:46.5889,FREE_KICK,FC Viktoria Köln,Meiko Sponsel,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760237,23:32.9890,FREE_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760238,24:43.5909,FREE_KICK,FC Viktoria Köln,Meiko Sponsel,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760239,25:32.6730,THROW_IN,FC Viktoria Köln,Meiko Sponsel,HAND,right,False,,,TEAMMATE,True,1,0.16,0,David Otto,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760240,26:37.1300,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,True,inswing,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760241,27:07.6340,GOAL_KICK,FC Viktoria Köln,Tim Kloss,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760242,27:35.3880,THROW_IN,FC Viktoria Köln,Tim Kloss,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760243,29:18.8129,THROW_IN,FC Viktoria Köln,Pascal Fallmann,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760244,32:04.7940,CORNER,FC Viktoria Köln,Pascal Fallmann,FOOT_RIGHT,right,False,outswing,central,TEAMMATE,False,2,0.272,1,Tim Kloss; Lucas Wolf,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760246,34:18.6400,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760247,35:45.9390,FREE_KICK,FC Viktoria Köln,Lucas Wolf,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760248,36:46.3609,FREE_KICK,FC Viktoria Köln,Meiko Sponsel,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760249,38:08.6450,GOAL_KICK,FC Viktoria Köln,Tim Kloss,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760250,39:14.6040,THROW_IN,SV Meppen,Luca Prasse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760251,39:49.7300,THROW_IN,FC Viktoria Köln,Meiko Sponsel,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760252,40:27.7660,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760253,41:31.6269,THROW_IN,FC Viktoria Köln,Pascal Fallmann,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760254,42:33.2499,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760255,43:31.7499,GOAL_KICK,FC Viktoria Köln,Tim Kloss,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760256,44:43.6960,FREE_KICK,FC Viktoria Köln,Tim Kloss,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760257,45:00.0000 (+01:14.6810),GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760259,47:24.4909,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760260,48:33.8240,FREE_KICK,FC Viktoria Köln,Tobias Eisenhuth,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760261,49:16.7660,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760262,49:45.2509,THROW_IN,FC Viktoria Köln,Verthomy Boboy,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760263,51:17.0780,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760264,52:00.7150,THROW_IN,FC Viktoria Köln,Verthomy Boboy,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760265,52:43.2690,THROW_IN,FC Viktoria Köln,Pascal Fallmann,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760266,53:09.2090,THROW_IN,FC Viktoria Köln,Meiko Sponsel,HAND,right,False,,,OPPONENT,True,1,0.09,0,Lucas Wolf,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760267,53:37.2780,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760268,54:41.5670,CORNER,FC Viktoria Köln,Pascal Fallmann,FOOT_RIGHT,right,False,outswing,near post,TEAMMATE,False,1,0.122,1,Tim Kloss,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760270,56:25.5860,GOAL_KICK,FC Viktoria Köln,Tim Kloss,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760271,56:49.1260,THROW_IN,FC Viktoria Köln,Meiko Sponsel,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760272,57:27.1919,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760273,59:55.5640,THROW_IN,SV Meppen,Luca Prasse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760274,60:38.7220,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760275,61:15.1400,THROW_IN,FC Viktoria Köln,Meiko Sponsel,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760276,62:24.6240,THROW_IN,FC Viktoria Köln,Meiko Sponsel,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760277,65:34.8769,FREE_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760278,66:50.6320,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760280,69:55.6290,THROW_IN,FC Viktoria Köln,Verthomy Boboy,HAND,left,False,,,,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760281,71:06.6430,FREE_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,left,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760282,72:03.0710,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,near post,OPPONENT,False,1,0.09,0,Jannic Ehlers,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760283,72:32.4170,GOAL_KICK,FC Viktoria Köln,Tim Kloss,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760284,73:59.4210,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,,central,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760285,74:37.5350,FREE_KICK,FC Viktoria Köln,Tobias Eisenhuth,FOOT_RIGHT,right,False,,short / outside box,,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760286,74:47.5840,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760287,76:23.4600,FREE_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,left,False,,,,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760288,78:40.1750,FREE_KICK,FC Viktoria Köln,Marco Pledl,FOOT_LEFT,right,False,,penalty spot / edge,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760289,78:56.3460,THROW_IN,SV Meppen,Jannic Ehlers,HAND,right,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760290,80:30.7170,THROW_IN,FC Viktoria Köln,Verthomy Boboy,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760291,82:38.9090,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,near post,TEAMMATE,False,1,0.23,0,Cyrill Akono,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760292,83:07.5929,GOAL_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760293,84:06.8760,THROW_IN,FC Viktoria Köln,Marco Pledl,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760294,84:59.1130,FREE_KICK,FC Viktoria Köln,Meiko Sponsel,FOOT_RIGHT,right,False,,short / outside box,,False,1,0.041,0,Marco Pledl,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760295,85:27.8850,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760296,85:45.6700,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,1,0.098,0,Jannic Ehlers,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760297,86:19.7039,GOAL_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760298,86:51.8630,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,far post,TEAMMATE,False,1,0.083,0,Nikell Touglo,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760299,87:12.0240,GOAL_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760300,87:26.1510,THROW_IN,SV Meppen,Oliver Schmitt,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760301,88:11.0230,THROW_IN,FC Viktoria Köln,Meiko Sponsel,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760302,89:08.4759,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760303,89:32.0220,GOAL_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760304,90:00.0000 (+01:04.5430),FREE_KICK,SV Meppen,Jannic Ehlers,FOOT_RIGHT,right,False,,penalty spot / edge,TEAMMATE,False,1,0.067,0,Simon Engelmann,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760305,90:00.0000 (+01:24.0910),GOAL_KICK,FC Viktoria Köln,Arne Schulz,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760307,90:00.0000 (+03:53.4690),THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760308,90:00.0000 (+04:25.7390),CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,left,False,inswing,near post,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-15 SV Meppen vs FC Viktoria Köln,277603,91760309,90:00.0000 (+04:45.9670),THROW_IN,SV Meppen,Thorben Deters,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983313,00:14.1230,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983314,02:34.4959,FREE_KICK,TSG 1899 Hoffenheim II,Sean Dulic,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983315,02:55.7880,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983316,03:49.4150,GOAL_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983317,04:10.1750,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983318,04:35.0590,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983319,04:49.1030,THROW_IN,TSG 1899 Hoffenheim II,Alexander Prass,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983320,05:26.3169,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983321,06:08.5370,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,far post,TEAMMATE,False,1,0.08,0,Luis Sprekelmeyer,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983322,06:30.0230,GOAL_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983323,06:46.7030,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983324,07:03.8230,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983325,07:21.6930,GOAL_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983326,08:05.0620,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983327,08:37.9740,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983328,10:54.9980,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983329,13:36.5410,GOAL_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983330,14:41.1770,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983331,15:12.5600,THROW_IN,SV Meppen,Tobias Mißner,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983332,16:10.0920,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983333,18:42.2450,THROW_IN,TSG 1899 Hoffenheim II,Tristan Spranger,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983334,19:15.1990,THROW_IN,TSG 1899 Hoffenheim II,Tristan Spranger,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983335,19:41.1499,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983336,21:38.9650,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983337,22:13.6860,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983338,22:40.4840,FREE_KICK,SV Meppen,Thorben Deters,FOOT_RIGHT,left,True,,short / outside box,OPPONENT,False,1,0.07,0,Ersin Zehir,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983339,22:59.7240,GOAL_KICK,TSG 1899 Hoffenheim II,Lúkas Petersson,FOOT_RIGHT,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983340,24:15.3779,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983341,25:23.5940,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,central,,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983342,26:38.3950,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983343,28:30.3850,FREE_KICK,TSG 1899 Hoffenheim II,Tristan Spranger,FOOT_LEFT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983345,31:05.8110,GOAL_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983346,32:02.7160,GOAL_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983347,32:53.9130,GOAL_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983348,34:42.0030,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983349,35:56.5750,FREE_KICK,TSG 1899 Hoffenheim II,Lúkas Petersson,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983350,36:24.8249,FREE_KICK,SV Meppen,Stefan Rankic,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983351,36:58.0180,GOAL_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983352,38:57.9360,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983353,40:41.7420,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983354,41:06.3199,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983355,41:55.3160,FREE_KICK,TSG 1899 Hoffenheim II,Sean Dulic,FOOT_RIGHT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983356,43:50.1720,GOAL_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983357,44:36.6530,THROW_IN,SV Meppen,Richard Meier,HAND,right,False,,,OPPONENT,True,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983358,44:50.6450,THROW_IN,SV Meppen,Richard Meier,HAND,right,False,,,,True,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983359,45:00.0000 (+00:11.3950),THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983361,45:33.4820,THROW_IN,TSG 1899 Hoffenheim II,Maximilian Theuer,HAND,left,False,,,,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983362,46:55.2320,FREE_KICK,SV Meppen,Dominique Domröse,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983363,47:38.8150,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983364,49:06.0879,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983365,50:12.3240,CORNER,SV Meppen,Thorben Deters,FOOT_RIGHT,right,False,outswing,near post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983366,50:33.6990,THROW_IN,SV Meppen,Jannic Ehlers,HAND,right,True,,,TEAMMATE,False,1,0.125,0,Cyrill Akono,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983367,52:14.2050,FREE_KICK,TSG 1899 Hoffenheim II,Lúkas Petersson,FOOT_LEFT,right,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983368,52:42.3510,THROW_IN,TSG 1899 Hoffenheim II,Maximilian Theuer,HAND,left,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983369,53:52.2900,THROW_IN,TSG 1899 Hoffenheim II,Maximilian Theuer,HAND,left,False,,,,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983370,54:17.4490,FREE_KICK,TSG 1899 Hoffenheim II,Luis Engelns,FOOT_LEFT,left,False,,,,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983371,56:30.2869,THROW_IN,SV Meppen,Luis Sprekelmeyer,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983372,57:55.2999,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983373,58:54.0650,THROW_IN,SV Meppen,Jannic Ehlers,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983374,59:57.1150,FREE_KICK,TSG 1899 Hoffenheim II,Sean Dulic,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983375,60:07.1090,THROW_IN,TSG 1899 Hoffenheim II,Maximilian Theuer,HAND,left,False,,,,True,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983376,60:15.1830,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,,,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983377,61:00.9610,FREE_KICK,SV Meppen,Florian Bähr,FOOT_LEFT,left,False,,near post,,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983378,61:30.4510,FREE_KICK,TSG 1899 Hoffenheim II,Klaus Gjasula,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983379,62:22.8610,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983380,63:13.2960,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983381,64:59.0170,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983382,65:16.2190,THROW_IN,TSG 1899 Hoffenheim II,Maximilian Theuer,HAND,left,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983383,65:56.7100,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983384,66:29.6660,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983385,67:18.9860,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983386,68:26.7900,FREE_KICK,TSG 1899 Hoffenheim II,Lúkas Petersson,FOOT_RIGHT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983387,69:29.3590,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983388,70:37.3620,CORNER,TSG 1899 Hoffenheim II,Florian Micheler,FOOT_RIGHT,right,False,outswing,far post,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983389,72:30.8189,THROW_IN,TSG 1899 Hoffenheim II,Maximilian Theuer,HAND,left,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983390,73:34.4030,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983391,74:11.1990,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983392,74:30.6650,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983393,74:50.6780,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983394,75:19.3329,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,OPPONENT,True,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983395,75:38.4069,FREE_KICK,TSG 1899 Hoffenheim II,Sean Dulic,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983396,75:57.5590,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983397,77:13.1760,GOAL_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983398,78:03.3139,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983399,78:20.2920,FREE_KICK,TSG 1899 Hoffenheim II,Klaus Gjasula,FOOT_LEFT,left,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983400,78:43.6140,THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983401,78:58.2900,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_LEFT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983402,79:31.1909,THROW_IN,TSG 1899 Hoffenheim II,Maximilian Theuer,HAND,left,False,,,,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983403,79:50.7069,FREE_KICK,SV Meppen,Luis Sprekelmeyer,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983404,80:47.0710,FREE_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,False,,short / outside box,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983405,81:20.3600,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983406,81:52.2610,GOAL_KICK,TSG 1899 Hoffenheim II,Lúkas Petersson,FOOT_RIGHT,right,False,,,TEAMMATE,False,1,0.102,0,Blessing Makanda,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983407,83:13.5040,FREE_KICK,SV Meppen,Florian Bähr,FOOT_LEFT,left,False,,penalty spot / edge,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983408,83:42.6570,FREE_KICK,TSG 1899 Hoffenheim II,Valentin Lässig,FOOT_LEFT,left,False,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983409,84:19.7439,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983410,84:41.7780,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,TEAMMATE,True,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983411,85:25.0080,GOAL_KICK,TSG 1899 Hoffenheim II,Lúkas Petersson,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983412,85:46.2830,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983413,86:10.7189,GOAL_KICK,SV Meppen,Julius Pünt,FOOT_RIGHT,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983414,88:21.3270,FREE_KICK,TSG 1899 Hoffenheim II,Florian Micheler,FOOT_RIGHT,right,True,,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983415,88:50.7550,THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983416,89:16.0411,OTHER,TSG 1899 Hoffenheim II,Luis Engelns,FOOT_RIGHT,right,True,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983417,89:40.0810,THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983418,90:00.0000 (+00:01.4620),THROW_IN,SV Meppen,Florian Bähr,HAND,left,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983419,90:00.0000 (+00:53.8549),GOAL_KICK,TSG 1899 Hoffenheim II,Lúkas Petersson,FOOT_RIGHT,right,False,,,OPPONENT,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983420,90:00.0000 (+01:17.2550),THROW_IN,TSG 1899 Hoffenheim II,Natnael Abraha,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983421,90:00.0000 (+01:44.6810),CORNER,TSG 1899 Hoffenheim II,Luis Engelns,FOOT_RIGHT,right,True,outswing,short / outside box,TEAMMATE,False,0,0.0,0,,0.0
+2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen,277619,91983422,90:00.0000 (+02:49.6970),THROW_IN,SV Meppen,Dominique Domröse,HAND,right,True,,,TEAMMATE,False,0,0.0,0,,0.0

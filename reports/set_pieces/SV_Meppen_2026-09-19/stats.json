@@ -1,0 +1,203 @@
+{
+ "team": "SV Meppen",
+ "league": "3. Liga 2026-2027",
+ "matches": [
+  "2026-08-08 MSV Duisburg vs SV Meppen",
+  "2026-08-15 SV Meppen vs SG Sonnenhof Großaspach",
+  "2026-08-29 Alemannia Aachen vs SV Meppen",
+  "2026-09-05 SV Meppen vs 1 FC Saarbrücken",
+  "2026-09-12 SC Verl vs SV Meppen",
+  "2026-09-15 SV Meppen vs FC Viktoria Köln",
+  "2026-09-19 TSG 1899 Hoffenheim II vs SV Meppen"
+ ],
+ "summary": {
+  "team": "SV Meppen",
+  "matches": 7,
+  "attacking": {
+   "corners": 40,
+   "corners_per_match": 5.71,
+   "corner_short_pct": 10.0,
+   "corner_inswing_pct": 44.4,
+   "corner_first_contact_won_pct": 50.0,
+   "corner_target_zones": {
+    "near post": 15,
+    "far post": 12,
+    "central": 4,
+    "short / outside box": 2,
+    "6-yard box": 2,
+    "penalty spot / edge": 1
+   },
+   "corner_shots": 16,
+   "corner_xg": 2.7,
+   "corner_goals": 2,
+   "xg_per_corner": 0.068,
+   "attacking_free_kicks": 10,
+   "direct_fk_shots": 0,
+   "fk_xg": 0.31,
+   "fk_goals": 0,
+   "throw_ins": 141,
+   "long_throws": 19,
+   "long_throw_xg": 0.21,
+   "goal_kicks": 53,
+   "goal_kick_short_pct": 60.4,
+   "penalties": 1,
+   "set_piece_shots": 30,
+   "set_piece_xg": 4.66,
+   "set_piece_goals": 4,
+   "set_piece_xg_per_match": 0.67,
+   "counter_shots_conceded_after": 1,
+   "counter_goals_conceded_after": 0
+  },
+  "defending": {
+   "corners": 30,
+   "corners_per_match": 4.29,
+   "corner_short_pct": 6.7,
+   "corner_inswing_pct": 32.1,
+   "corner_first_contact_won_pct": 50.0,
+   "corner_target_zones": {
+    "near post": 12,
+    "far post": 6,
+    "central": 3,
+    "6-yard box": 2,
+    "short / outside box": 2,
+    "penalty spot / edge": 2
+   },
+   "corner_shots": 19,
+   "corner_xg": 2.49,
+   "corner_goals": 4,
+   "xg_per_corner": 0.083,
+   "attacking_free_kicks": 22,
+   "direct_fk_shots": 6,
+   "fk_xg": 0.51,
+   "fk_goals": 2,
+   "throw_ins": 161,
+   "long_throws": 13,
+   "long_throw_xg": 0.7,
+   "goal_kicks": 69,
+   "goal_kick_short_pct": 63.8,
+   "penalties": 0,
+   "set_piece_shots": 36,
+   "set_piece_xg": 4.22,
+   "set_piece_goals": 6,
+   "set_piece_xg_per_match": 0.6,
+   "counter_shots_conceded_after": 0,
+   "counter_goals_conceded_after": 0
+  },
+  "takers": [
+   {
+    "taker": "Thorben Deters",
+    "type": "CORNER",
+    "foot": "FOOT_RIGHT",
+    "n": 36
+   },
+   {
+    "taker": "Thorben Deters",
+    "type": "FREE_KICK",
+    "foot": "FOOT_RIGHT",
+    "n": 6
+   },
+   {
+    "taker": "Florian Bähr",
+    "type": "CORNER",
+    "foot": "FOOT_LEFT",
+    "n": 4
+   },
+   {
+    "taker": "Florian Bähr",
+    "type": "FREE_KICK",
+    "foot": "FOOT_LEFT",
+    "n": 2
+   },
+   {
+    "taker": "Luca Prasse",
+    "type": "FREE_KICK",
+    "foot": "FOOT_RIGHT",
+    "n": 1
+   },
+   {
+    "taker": "Jannic Ehlers",
+    "type": "FREE_KICK",
+    "foot": "FOOT_RIGHT",
+    "n": 1
+   }
+  ],
+  "targets": [
+   {
+    "player": "Oliver Schmitt",
+    "set_piece_shots": 6
+   },
+   {
+    "player": "Niclas Nadj",
+    "set_piece_shots": 5
+   },
+   {
+    "player": "Cyrill Akono",
+    "set_piece_shots": 4
+   },
+   {
+    "player": "Ersin Zehir",
+    "set_piece_shots": 4
+   },
+   {
+    "player": "Stefan Rankic",
+    "set_piece_shots": 3
+   },
+   {
+    "player": "Jona Borsum",
+    "set_piece_shots": 3
+   },
+   {
+    "player": "Simon Engelmann",
+    "set_piece_shots": 2
+   },
+   {
+    "player": "Luca Prasse",
+    "set_piece_shots": 2
+   }
+  ]
+ },
+ "league_ranks": {
+  "Set-piece xG for / match": {
+   "value": 0.67,
+   "league_avg": 0.535,
+   "rank": 4,
+   "of": 20
+  },
+  "Set-piece xG against / match": {
+   "value": 0.6,
+   "league_avg": 0.535,
+   "rank": 9,
+   "of": 20
+  },
+  "xG per corner (for)": {
+   "value": 0.068,
+   "league_avg": 0.048,
+   "rank": 4,
+   "of": 20
+  },
+  "xG per corner (against)": {
+   "value": 0.083,
+   "league_avg": 0.051,
+   "rank": 3,
+   "of": 20
+  },
+  "First contact won, own corners %": {
+   "value": 50.0,
+   "league_avg": 34.51,
+   "rank": 1,
+   "of": 20
+  },
+  "Opp. first contact won on their corners % (high = bad)": {
+   "value": 50.0,
+   "league_avg": 35.69,
+   "rank": 2,
+   "of": 20
+  },
+  "Corners won / match": {
+   "value": 5.71,
+   "league_avg": 4.693,
+   "rank": 5,
+   "of": 20
+  }
+ }
+}

@@ -1,0 +1,524 @@
+{
+ "team": "SV Meppen",
+ "league": "3. Liga 2026-2027",
+ "matches": 5,
+ "venue_filter": "all",
+ "results": [
+  {
+   "date": "2026-08-29",
+   "opponent": "Alemannia Aachen",
+   "venue": "A",
+   "score": "3-0",
+   "result": "W",
+   "xg": 1.43,
+   "xg_against": 0.71,
+   "formation": "4-3-3",
+   "opp_formation": "5-2-2-1"
+  },
+  {
+   "date": "2026-09-05",
+   "opponent": "1 FC Saarbrücken",
+   "venue": "H",
+   "score": "1-6",
+   "result": "L",
+   "xg": 1.99,
+   "xg_against": 2.06,
+   "formation": "4-3-3",
+   "opp_formation": "4-4-2 (flat)"
+  },
+  {
+   "date": "2026-09-12",
+   "opponent": "SC Verl",
+   "venue": "A",
+   "score": "1-2",
+   "result": "L",
+   "xg": 1.93,
+   "xg_against": 2.02,
+   "formation": "4-3-3",
+   "opp_formation": "4-2-3-1"
+  },
+  {
+   "date": "2026-09-15",
+   "opponent": "FC Viktoria Köln",
+   "venue": "H",
+   "score": "1-3",
+   "result": "L",
+   "xg": 1.77,
+   "xg_against": 1.31,
+   "formation": "4-3-3",
+   "opp_formation": "5-3-2"
+  },
+  {
+   "date": "2026-09-19",
+   "opponent": "TSG 1899 Hoffenheim II",
+   "venue": "A",
+   "score": "0-1",
+   "result": "L",
+   "xg": 1.29,
+   "xg_against": 1.32,
+   "formation": "4-3-3",
+   "opp_formation": "4-2-3-1"
+  }
+ ],
+ "formations": {
+  "4-3-3": 5
+ },
+ "averages_and_ranks": {
+  "xg": {
+   "label": "xG for",
+   "value": 1.68,
+   "league_avg": 1.57,
+   "rank": 7,
+   "of": 20
+  },
+  "xg_against": {
+   "label": "xG against",
+   "value": 1.48,
+   "league_avg": 1.57,
+   "rank": 14,
+   "of": 20
+  },
+  "shots": {
+   "label": "Shots",
+   "value": 12.6,
+   "league_avg": 12.94,
+   "rank": 13,
+   "of": 20
+  },
+  "xg_per_shot": {
+   "label": "xG per shot",
+   "value": 0.13,
+   "league_avg": 0.12,
+   "rank": 7,
+   "of": 20
+  },
+  "possession_pct": {
+   "label": "Possession % (pass share)",
+   "value": 44.72,
+   "league_avg": 50.0,
+   "rank": 17,
+   "of": 20
+  },
+  "pass_accuracy_pct": {
+   "label": "Pass accuracy %",
+   "value": 67.8,
+   "league_avg": 74.99,
+   "rank": 20,
+   "of": 20
+  },
+  "long_pass_pct": {
+   "label": "Long passes %",
+   "value": 16.98,
+   "league_avg": 13.27,
+   "rank": 2,
+   "of": 20
+  },
+  "progressive_passes": {
+   "label": "Progressive passes",
+   "value": 27.8,
+   "league_avg": 26.81,
+   "rank": 7,
+   "of": 20
+  },
+  "final_third_entries": {
+   "label": "Final-third entries",
+   "value": 30.6,
+   "league_avg": 33.11,
+   "rank": 14,
+   "of": 20
+  },
+  "box_entries": {
+   "label": "Box entries",
+   "value": 9.6,
+   "league_avg": 10.67,
+   "rank": 15,
+   "of": 20
+  },
+  "crosses": {
+   "label": "Crosses",
+   "value": 16.6,
+   "league_avg": 15.26,
+   "rank": 7,
+   "of": 20
+  },
+  "field_tilt_pct": {
+   "label": "Field tilt %",
+   "value": 47.24,
+   "league_avg": 50.0,
+   "rank": 15,
+   "of": 20
+  },
+  "ppda": {
+   "label": "PPDA (low = intense press)",
+   "value": 7.52,
+   "league_avg": 8.61,
+   "rank": 15,
+   "of": 20
+  },
+  "high_regains": {
+   "label": "High regains",
+   "value": 23.8,
+   "league_avg": 22.44,
+   "rank": 6,
+   "of": 20
+  },
+  "own_half_losses": {
+   "label": "Ground losses in own half",
+   "value": 20.2,
+   "league_avg": 19.41,
+   "rank": 7,
+   "of": 20
+  },
+  "pressure_on_opp_buildup": {
+   "label": "Pressure on opp. build-up",
+   "value": 25.68,
+   "league_avg": 24.24,
+   "rank": 6,
+   "of": 20
+  },
+  "set_piece_xg": {
+   "label": "Set-piece xG",
+   "value": 0.7,
+   "league_avg": 0.51,
+   "rank": 4,
+   "of": 20
+  }
+ },
+ "entries_by_lane_for": {
+  "LEFT_WING": 7.6,
+  "LEFT_HALF_SPACE": 3.6,
+  "CENTER": 3.0,
+  "RIGHT_HALF_SPACE": 5.4,
+  "RIGHT_WING": 11.0
+ },
+ "entries_by_lane_against": {
+  "LEFT_WING": 10.0,
+  "LEFT_HALF_SPACE": 5.2,
+  "CENTER": 6.0,
+  "RIGHT_HALF_SPACE": 4.2,
+  "RIGHT_WING": 9.8
+ },
+ "xg_by_phase_for": {
+  "ATTACKING_TRANSITION": 0.47,
+  "IN_POSSESSION": 0.34,
+  "SECOND_BALL": 0.17,
+  "SET_PIECE": 0.7
+ },
+ "xg_by_phase_against": {
+  "ATTACKING_TRANSITION": 0.3,
+  "IN_POSSESSION": 0.47,
+  "SECOND_BALL": 0.21,
+  "SET_PIECE": 0.51
+ },
+ "build_up": {
+  "goal_kicks_short_pct": 55.6,
+  "own_third_passes_under_pressure_pct": 27.0,
+  "own_third_pressured_pass_success_pct": 47.9
+ },
+ "key_players": [
+  {
+   "player": "Cyrill Akono",
+   "position": "CENTER_FORWARD",
+   "apps": 5,
+   "minutes": 258,
+   "goals": 2,
+   "shots": 7,
+   "xg": 1.34,
+   "key_passes": 4,
+   "xa": 0.48,
+   "prog_passes": 5,
+   "box_entries": 2,
+   "regains": 9,
+   "losses": 13,
+   "xg+xa_p90": 0.63
+  },
+  {
+   "player": "Oliver Schmitt",
+   "position": "LEFT_WINGER",
+   "apps": 5,
+   "minutes": 383,
+   "goals": 1,
+   "shots": 10,
+   "xg": 2.31,
+   "key_passes": 3,
+   "xa": 0.28,
+   "prog_passes": 4,
+   "box_entries": 12,
+   "regains": 29,
+   "losses": 54,
+   "xg+xa_p90": 0.61
+  },
+  {
+   "player": "Thorben Deters",
+   "position": "CENTRAL_MIDFIELD",
+   "apps": 5,
+   "minutes": 415,
+   "goals": 1,
+   "shots": 5,
+   "xg": 0.46,
+   "key_passes": 11,
+   "xa": 1.1,
+   "prog_passes": 12,
+   "box_entries": 5,
+   "regains": 36,
+   "losses": 53,
+   "xg+xa_p90": 0.34
+  },
+  {
+   "player": "Luca Prasse",
+   "position": "RIGHT_WINGER",
+   "apps": 5,
+   "minutes": 294,
+   "goals": 0,
+   "shots": 7,
+   "xg": 0.67,
+   "key_passes": 3,
+   "xa": 0.33,
+   "prog_passes": 6,
+   "box_entries": 3,
+   "regains": 32,
+   "losses": 42,
+   "xg+xa_p90": 0.31
+  },
+  {
+   "player": "Ersin Zehir",
+   "position": "DEFENSE_MIDFIELD",
+   "apps": 4,
+   "minutes": 359,
+   "goals": 1,
+   "shots": 4,
+   "xg": 0.95,
+   "key_passes": 1,
+   "xa": 0.07,
+   "prog_passes": 9,
+   "box_entries": 1,
+   "regains": 40,
+   "losses": 28,
+   "xg+xa_p90": 0.26
+  },
+  {
+   "player": "Niclas Nadj",
+   "position": "CENTRAL_MIDFIELD",
+   "apps": 5,
+   "minutes": 394,
+   "goals": 1,
+   "shots": 8,
+   "xg": 0.58,
+   "key_passes": 4,
+   "xa": 0.48,
+   "prog_passes": 12,
+   "box_entries": 6,
+   "regains": 46,
+   "losses": 41,
+   "xg+xa_p90": 0.24
+  },
+  {
+   "player": "Dominique Domröse",
+   "position": "RIGHT_WINGBACK_DEFENDER",
+   "apps": 5,
+   "minutes": 457,
+   "goals": 0,
+   "shots": 3,
+   "xg": 0.23,
+   "key_passes": 8,
+   "xa": 0.89,
+   "prog_passes": 15,
+   "box_entries": 6,
+   "regains": 47,
+   "losses": 38,
+   "xg+xa_p90": 0.22
+  },
+  {
+   "player": "Nikell Touglo",
+   "position": "CENTRAL_DEFENDER",
+   "apps": 3,
+   "minutes": 203,
+   "goals": 0,
+   "shots": 2,
+   "xg": 0.27,
+   "key_passes": 1,
+   "xa": 0.09,
+   "prog_passes": 17,
+   "box_entries": 2,
+   "regains": 31,
+   "losses": 21,
+   "xg+xa_p90": 0.16
+  },
+  {
+   "player": "Richard Meier",
+   "position": "CENTER_FORWARD",
+   "apps": 5,
+   "minutes": 228,
+   "goals": 0,
+   "shots": 3,
+   "xg": 0.27,
+   "key_passes": 1,
+   "xa": 0.05,
+   "prog_passes": 1,
+   "box_entries": 2,
+   "regains": 13,
+   "losses": 31,
+   "xg+xa_p90": 0.13
+  },
+  {
+   "player": "Stefan Rankic",
+   "position": "CENTRAL_DEFENDER",
+   "apps": 5,
+   "minutes": 469,
+   "goals": 0,
+   "shots": 2,
+   "xg": 0.24,
+   "key_passes": 2,
+   "xa": 0.24,
+   "prog_passes": 13,
+   "box_entries": 2,
+   "regains": 88,
+   "losses": 42,
+   "xg+xa_p90": 0.09
+  }
+ ],
+ "set_pieces": {
+  "team": "SV Meppen",
+  "matches": 5,
+  "attacking": {
+   "corners": 28,
+   "corners_per_match": 5.6,
+   "corner_short_pct": 10.7,
+   "corner_inswing_pct": 48.0,
+   "corner_first_contact_won_pct": 48.0,
+   "corner_target_zones": {
+    "near post": 11,
+    "far post": 9,
+    "central": 2,
+    "6-yard box": 2,
+    "short / outside box": 1
+   },
+   "corner_shots": 11,
+   "corner_xg": 2.15,
+   "corner_goals": 1,
+   "xg_per_corner": 0.077,
+   "attacking_free_kicks": 8,
+   "direct_fk_shots": 0,
+   "fk_xg": 0.31,
+   "fk_goals": 0,
+   "throw_ins": 106,
+   "long_throws": 16,
+   "long_throw_xg": 0.05,
+   "goal_kicks": 36,
+   "goal_kick_short_pct": 55.6,
+   "penalties": 1,
+   "set_piece_shots": 28,
+   "set_piece_xg": 4.59,
+   "set_piece_goals": 4,
+   "set_piece_xg_per_match": 0.92,
+   "counter_shots_conceded_after": 0,
+   "counter_goals_conceded_after": 0
+  },
+  "defending": {
+   "corners": 16,
+   "corners_per_match": 3.2,
+   "corner_short_pct": 12.5,
+   "corner_inswing_pct": 7.1,
+   "corner_first_contact_won_pct": 50.0,
+   "corner_target_zones": {
+    "near post": 8,
+    "far post": 3,
+    "short / outside box": 1,
+    "6-yard box": 1,
+    "central": 1
+   },
+   "corner_shots": 7,
+   "corner_xg": 0.91,
+   "corner_goals": 3,
+   "xg_per_corner": 0.057,
+   "attacking_free_kicks": 16,
+   "direct_fk_shots": 4,
+   "fk_xg": 0.4,
+   "fk_goals": 2,
+   "throw_ins": 119,
+   "long_throws": 9,
+   "long_throw_xg": 0.62,
+   "goal_kicks": 50,
+   "goal_kick_short_pct": 64.0,
+   "penalties": 0,
+   "set_piece_shots": 23,
+   "set_piece_xg": 2.57,
+   "set_piece_goals": 5,
+   "set_piece_xg_per_match": 0.51,
+   "counter_shots_conceded_after": 2,
+   "counter_goals_conceded_after": 0
+  },
+  "takers": [
+   {
+    "taker": "Thorben Deters",
+    "type": "CORNER",
+    "foot": "FOOT_RIGHT",
+    "n": 27
+   },
+   {
+    "taker": "Thorben Deters",
+    "type": "FREE_KICK",
+    "foot": "FOOT_RIGHT",
+    "n": 5
+   },
+   {
+    "taker": "Florian Bähr",
+    "type": "FREE_KICK",
+    "foot": "FOOT_LEFT",
+    "n": 1
+   },
+   {
+    "taker": "Florian Bähr",
+    "type": "CORNER",
+    "foot": "FOOT_LEFT",
+    "n": 1
+   },
+   {
+    "taker": "Luca Prasse",
+    "type": "FREE_KICK",
+    "foot": "FOOT_RIGHT",
+    "n": 1
+   },
+   {
+    "taker": "Jannic Ehlers",
+    "type": "FREE_KICK",
+    "foot": "FOOT_RIGHT",
+    "n": 1
+   }
+  ],
+  "targets": [
+   {
+    "player": "Niclas Nadj",
+    "set_piece_shots": 4
+   },
+   {
+    "player": "Ersin Zehir",
+    "set_piece_shots": 4
+   },
+   {
+    "player": "Cyrill Akono",
+    "set_piece_shots": 3
+   },
+   {
+    "player": "Oliver Schmitt",
+    "set_piece_shots": 3
+   },
+   {
+    "player": "Stefan Rankic",
+    "set_piece_shots": 2
+   },
+   {
+    "player": "Nikell Touglo",
+    "set_piece_shots": 2
+   },
+   {
+    "player": "Luis Sprekelmeyer",
+    "set_piece_shots": 2
+   },
+   {
+    "player": "Jannic Ehlers",
+    "set_piece_shots": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,2240 @@
+{
+ "names": {
+  "27": "1 FC Köln",
+  "28": "Hertha BSC",
+  "29": "Borussia Dortmund",
+  "30": "VfL Wolfsburg",
+  "31": "TSG 1899 Hoffenheim",
+  "32": "Borussia Mönchengladbach",
+  "33": "FC Bayern München",
+  "34": "SC Freiburg",
+  "35": "Eintracht Frankfurt",
+  "36": "SV Darmstadt 98",
+  "37": "RasenBallsport Leipzig",
+  "38": "SV Werder Bremen",
+  "39": "FC Augsburg",
+  "40": "Hamburger SV",
+  "41": "Bayer 04 Leverkusen",
+  "42": "1 FSV Mainz 05",
+  "43": "FC Ingolstadt 04",
+  "44": "FC Schalke 04",
+  "45": "Hannover 96",
+  "46": "VfB Stuttgart",
+  "229": "PSV Eindhoven",
+  "378": "Ajax Amsterdam",
+  "390": "AZ Alkmaar",
+  "405": "Feyenoord Rotterdam",
+  "412": "1 FC Kaiserslautern",
+  "415": "Rot-Weiss Essen",
+  "416": "VfL Bochum",
+  "417": "Arminia Bielefeld",
+  "420": "SC Paderborn 07",
+  "423": "SG Dynamo Dresden",
+  "424": "SSV Jahn Regensburg",
+  "426": "FC Viktoria Köln",
+  "429": "FC Hansa Rostock",
+  "432": "1 FC Heidenheim 1846",
+  "438": "Karlsruher SC",
+  "439": "FC St Pauli",
+  "440": "SpVgg Greuther Fürth",
+  "445": "Fortuna Düsseldorf",
+  "446": "1 FC Union Berlin",
+  "447": "Würzburger Kickers",
+  "451": "Eintracht Braunschweig",
+  "452": "1 FC Magdeburg",
+  "453": "1 FC Nürnberg",
+  "455": "MSV Duisburg",
+  "803": "FC Groningen",
+  "804": "Willem II Tilburg",
+  "805": "Sparta Rotterdam",
+  "806": "PEC Zwolle",
+  "807": "Go Ahead Eagles Deventer",
+  "809": "ADO Den Haag",
+  "810": "FC Twente Enschede",
+  "812": "FC Utrecht",
+  "813": "SC Heerenveen",
+  "814": "NEC Nijmegen",
+  "815": "Excelsior Rotterdam",
+  "847": "Holstein Kiel",
+  "851": "1 FC Saarbrücken",
+  "852": "VfL Osnabrück",
+  "858": "FC Energie Cottbus",
+  "864": "SV Wehen Wiesbaden",
+  "1697": "Fortuna Sittard",
+  "1708": "SV Meppen",
+  "1709": "SC Fortuna Köln",
+  "1710": "Preußen Münster",
+  "1711": "SG Sonnenhof Großaspach",
+  "1719": "SV 07 Elversberg",
+  "1915": "SV Waldhof Mannheim",
+  "1926": "SC Verl",
+  "1927": "Alemannia Aachen",
+  "2422": "TSV Havelse",
+  "2678": "SC Cambuur Leeuwarden",
+  "2685": "SC Telstar",
+  "4557": "VfB Stuttgart II",
+  "4560": "TSG 1899 Hoffenheim II"
+ },
+ "matches": {
+  "268918": {
+   "teams": [
+    "VfL Bochum",
+    "Hertha BSC"
+   ],
+   "squads": [
+    28,
+    416
+   ]
+  },
+  "277557": {
+   "teams": [
+    "SV Waldhof Mannheim",
+    "Fortuna Düsseldorf"
+   ],
+   "squads": [
+    445,
+    1915
+   ]
+  },
+  "279588": {
+   "teams": [
+    "SC Cambuur Leeuwarden",
+    "Excelsior Rotterdam"
+   ],
+   "squads": [
+    815,
+    2678
+   ]
+  },
+  "268916": {
+   "teams": [
+    "Karlsruher SC",
+    "Arminia Bielefeld"
+   ],
+   "squads": [
+    417,
+    438
+   ]
+  },
+  "268920": {
+   "teams": [
+    "1 FC Heidenheim 1846",
+    "VfL Osnabrück"
+   ],
+   "squads": [
+    432,
+    852
+   ]
+  },
+  "268921": {
+   "teams": [
+    "SV Darmstadt 98",
+    "Holstein Kiel"
+   ],
+   "squads": [
+    36,
+    847
+   ]
+  },
+  "268923": {
+   "teams": [
+    "1 FC Magdeburg",
+    "Eintracht Braunschweig"
+   ],
+   "squads": [
+    451,
+    452
+   ]
+  },
+  "268924": {
+   "teams": [
+    "VfL Wolfsburg",
+    "1 FC Kaiserslautern"
+   ],
+   "squads": [
+    30,
+    412
+   ]
+  },
+  "277550": {
+   "teams": [
+    "FC Viktoria Köln",
+    "SSV Jahn Regensburg"
+   ],
+   "squads": [
+    424,
+    426
+   ]
+  },
+  "277552": {
+   "teams": [
+    "SV Wehen Wiesbaden",
+    "Preußen Münster"
+   ],
+   "squads": [
+    864,
+    1710
+   ]
+  },
+  "277553": {
+   "teams": [
+    "MSV Duisburg",
+    "SV Meppen"
+   ],
+   "squads": [
+    455,
+    1708
+   ]
+  },
+  "277555": {
+   "teams": [
+    "SG Sonnenhof Großaspach",
+    "SC Fortuna Köln"
+   ],
+   "squads": [
+    1709,
+    1711
+   ]
+  },
+  "277558": {
+   "teams": [
+    "FC Ingolstadt 04",
+    "Würzburger Kickers"
+   ],
+   "squads": [
+    43,
+    447
+   ]
+  },
+  "277559": {
+   "teams": [
+    "TSV Havelse",
+    "VfB Stuttgart II"
+   ],
+   "squads": [
+    2422,
+    4557
+   ]
+  },
+  "279583": {
+   "teams": [
+    "NEC Nijmegen",
+    "SC Telstar"
+   ],
+   "squads": [
+    814,
+    2685
+   ]
+  },
+  "279584": {
+   "teams": [
+    "PSV Eindhoven",
+    "Fortuna Sittard"
+   ],
+   "squads": [
+    229,
+    1697
+   ]
+  },
+  "279585": {
+   "teams": [
+    "Go Ahead Eagles Deventer",
+    "Willem II Tilburg"
+   ],
+   "squads": [
+    804,
+    807
+   ]
+  },
+  "279589": {
+   "teams": [
+    "AZ Alkmaar",
+    "ADO Den Haag"
+   ],
+   "squads": [
+    390,
+    809
+   ]
+  },
+  "268917": {
+   "teams": [
+    "1 FC Nürnberg",
+    "SG Dynamo Dresden"
+   ],
+   "squads": [
+    423,
+    453
+   ]
+  },
+  "268919": {
+   "teams": [
+    "FC St Pauli",
+    "SpVgg Greuther Fürth"
+   ],
+   "squads": [
+    439,
+    440
+   ]
+  },
+  "268922": {
+   "teams": [
+    "FC Energie Cottbus",
+    "Hannover 96"
+   ],
+   "squads": [
+    45,
+    858
+   ]
+  },
+  "277551": {
+   "teams": [
+    "TSG 1899 Hoffenheim II",
+    "FC Hansa Rostock"
+   ],
+   "squads": [
+    429,
+    4560
+   ]
+  },
+  "277554": {
+   "teams": [
+    "Alemannia Aachen",
+    "SC Verl"
+   ],
+   "squads": [
+    1926,
+    1927
+   ]
+  },
+  "277556": {
+   "teams": [
+    "1 FC Saarbrücken",
+    "Rot-Weiss Essen"
+   ],
+   "squads": [
+    415,
+    851
+   ]
+  },
+  "279581": {
+   "teams": [
+    "PEC Zwolle",
+    "Ajax Amsterdam"
+   ],
+   "squads": [
+    378,
+    806
+   ]
+  },
+  "279582": {
+   "teams": [
+    "SC Heerenveen",
+    "FC Twente Enschede"
+   ],
+   "squads": [
+    810,
+    813
+   ]
+  },
+  "279586": {
+   "teams": [
+    "Sparta Rotterdam",
+    "Feyenoord Rotterdam"
+   ],
+   "squads": [
+    405,
+    805
+   ]
+  },
+  "279587": {
+   "teams": [
+    "FC Groningen",
+    "FC Utrecht"
+   ],
+   "squads": [
+    803,
+    812
+   ]
+  },
+  "268925": {
+   "teams": [
+    "Eintracht Braunschweig",
+    "VfL Bochum"
+   ],
+   "squads": [
+    416,
+    451
+   ]
+  },
+  "268933": {
+   "teams": [
+    "Holstein Kiel",
+    "FC St Pauli"
+   ],
+   "squads": [
+    439,
+    847
+   ]
+  },
+  "277560": {
+   "teams": [
+    "Würzburger Kickers",
+    "SV Wehen Wiesbaden"
+   ],
+   "squads": [
+    447,
+    864
+   ]
+  },
+  "279595": {
+   "teams": [
+    "SC Telstar",
+    "Sparta Rotterdam"
+   ],
+   "squads": [
+    805,
+    2685
+   ]
+  },
+  "268926": {
+   "teams": [
+    "VfL Osnabrück",
+    "1 FC Magdeburg"
+   ],
+   "squads": [
+    452,
+    852
+   ]
+  },
+  "268929": {
+   "teams": [
+    "Hertha BSC",
+    "1 FC Heidenheim 1846"
+   ],
+   "squads": [
+    28,
+    432
+   ]
+  },
+  "268930": {
+   "teams": [
+    "SpVgg Greuther Fürth",
+    "1 FC Nürnberg"
+   ],
+   "squads": [
+    440,
+    453
+   ]
+  },
+  "268932": {
+   "teams": [
+    "1 FC Kaiserslautern",
+    "Karlsruher SC"
+   ],
+   "squads": [
+    412,
+    438
+   ]
+  },
+  "277562": {
+   "teams": [
+    "Preußen Münster",
+    "FC Ingolstadt 04"
+   ],
+   "squads": [
+    43,
+    1710
+   ]
+  },
+  "277563": {
+   "teams": [
+    "SV Meppen",
+    "SG Sonnenhof Großaspach"
+   ],
+   "squads": [
+    1708,
+    1711
+   ]
+  },
+  "277565": {
+   "teams": [
+    "Rot-Weiss Essen",
+    "TSV Havelse"
+   ],
+   "squads": [
+    415,
+    2422
+   ]
+  },
+  "277567": {
+   "teams": [
+    "SC Fortuna Köln",
+    "Alemannia Aachen"
+   ],
+   "squads": [
+    1709,
+    1927
+   ]
+  },
+  "277568": {
+   "teams": [
+    "Fortuna Düsseldorf",
+    "TSG 1899 Hoffenheim II"
+   ],
+   "squads": [
+    445,
+    4560
+   ]
+  },
+  "277569": {
+   "teams": [
+    "SC Verl",
+    "MSV Duisburg"
+   ],
+   "squads": [
+    455,
+    1926
+   ]
+  },
+  "279591": {
+   "teams": [
+    "Excelsior Rotterdam",
+    "PSV Eindhoven"
+   ],
+   "squads": [
+    229,
+    815
+   ]
+  },
+  "279592": {
+   "teams": [
+    "Willem II Tilburg",
+    "NEC Nijmegen"
+   ],
+   "squads": [
+    804,
+    814
+   ]
+  },
+  "279593": {
+   "teams": [
+    "FC Utrecht",
+    "AZ Alkmaar"
+   ],
+   "squads": [
+    390,
+    812
+   ]
+  },
+  "279598": {
+   "teams": [
+    "Fortuna Sittard",
+    "SC Cambuur Leeuwarden"
+   ],
+   "squads": [
+    1697,
+    2678
+   ]
+  },
+  "268927": {
+   "teams": [
+    "Arminia Bielefeld",
+    "FC Energie Cottbus"
+   ],
+   "squads": [
+    417,
+    858
+   ]
+  },
+  "268928": {
+   "teams": [
+    "Hannover 96",
+    "VfL Wolfsburg"
+   ],
+   "squads": [
+    30,
+    45
+   ]
+  },
+  "268931": {
+   "teams": [
+    "SG Dynamo Dresden",
+    "SV Darmstadt 98"
+   ],
+   "squads": [
+    36,
+    423
+   ]
+  },
+  "277561": {
+   "teams": [
+    "FC Hansa Rostock",
+    "SV Waldhof Mannheim"
+   ],
+   "squads": [
+    429,
+    1915
+   ]
+  },
+  "277564": {
+   "teams": [
+    "VfB Stuttgart II",
+    "FC Viktoria Köln"
+   ],
+   "squads": [
+    426,
+    4557
+   ]
+  },
+  "277566": {
+   "teams": [
+    "SSV Jahn Regensburg",
+    "1 FC Saarbrücken"
+   ],
+   "squads": [
+    424,
+    851
+   ]
+  },
+  "279590": {
+   "teams": [
+    "Feyenoord Rotterdam",
+    "Go Ahead Eagles Deventer"
+   ],
+   "squads": [
+    405,
+    807
+   ]
+  },
+  "279594": {
+   "teams": [
+    "ADO Den Haag",
+    "FC Groningen"
+   ],
+   "squads": [
+    803,
+    809
+   ]
+  },
+  "279596": {
+   "teams": [
+    "Ajax Amsterdam",
+    "SC Heerenveen"
+   ],
+   "squads": [
+    378,
+    813
+   ]
+  },
+  "279597": {
+   "teams": [
+    "FC Twente Enschede",
+    "PEC Zwolle"
+   ],
+   "squads": [
+    806,
+    810
+   ]
+  },
+  "279599": {
+   "teams": [
+    "Fortuna Sittard",
+    "AZ Alkmaar"
+   ],
+   "squads": [
+    390,
+    1697
+   ]
+  },
+  "279600": {
+   "teams": [
+    "SC Heerenveen",
+    "PEC Zwolle"
+   ],
+   "squads": [
+    806,
+    813
+   ]
+  },
+  "279602": {
+   "teams": [
+    "Sparta Rotterdam",
+    "FC Utrecht"
+   ],
+   "squads": [
+    805,
+    812
+   ]
+  },
+  "279604": {
+   "teams": [
+    "PSV Eindhoven",
+    "FC Groningen"
+   ],
+   "squads": [
+    229,
+    803
+   ]
+  },
+  "279605": {
+   "teams": [
+    "Go Ahead Eagles Deventer",
+    "ADO Den Haag"
+   ],
+   "squads": [
+    807,
+    809
+   ]
+  },
+  "279606": {
+   "teams": [
+    "SC Cambuur Leeuwarden",
+    "Feyenoord Rotterdam"
+   ],
+   "squads": [
+    405,
+    2678
+   ]
+  },
+  "268382": {
+   "teams": [
+    "FC Bayern München",
+    "VfB Stuttgart"
+   ],
+   "squads": [
+    33,
+    46
+   ]
+  },
+  "268936": {
+   "teams": [
+    "Eintracht Braunschweig",
+    "Hertha BSC"
+   ],
+   "squads": [
+    28,
+    451
+   ]
+  },
+  "268937": {
+   "teams": [
+    "VfL Bochum",
+    "VfL Osnabrück"
+   ],
+   "squads": [
+    416,
+    852
+   ]
+  },
+  "277578": {
+   "teams": [
+    "Fortuna Düsseldorf",
+    "VfB Stuttgart II"
+   ],
+   "squads": [
+    445,
+    4557
+   ]
+  },
+  "279609": {
+   "teams": [
+    "FC Groningen",
+    "Fortuna Sittard"
+   ],
+   "squads": [
+    803,
+    1697
+   ]
+  },
+  "268692": {
+   "teams": [
+    "1 FSV Mainz 05",
+    "SC Paderborn 07"
+   ],
+   "squads": [
+    42,
+    420
+   ]
+  },
+  "268694": {
+   "teams": [
+    "RasenBallsport Leipzig",
+    "Borussia Mönchengladbach"
+   ],
+   "squads": [
+    32,
+    37
+   ]
+  },
+  "268695": {
+   "teams": [
+    "SV 07 Elversberg",
+    "Bayer 04 Leverkusen"
+   ],
+   "squads": [
+    41,
+    1719
+   ]
+  },
+  "268697": {
+   "teams": [
+    "Borussia Dortmund",
+    "Hamburger SV"
+   ],
+   "squads": [
+    29,
+    40
+   ]
+  },
+  "268698": {
+   "teams": [
+    "1 FC Köln",
+    "TSG 1899 Hoffenheim"
+   ],
+   "squads": [
+    27,
+    31
+   ]
+  },
+  "268699": {
+   "teams": [
+    "1 FC Union Berlin",
+    "Eintracht Frankfurt"
+   ],
+   "squads": [
+    35,
+    446
+   ]
+  },
+  "268934": {
+   "teams": [
+    "FC Energie Cottbus",
+    "SpVgg Greuther Fürth"
+   ],
+   "squads": [
+    440,
+    858
+   ]
+  },
+  "268939": {
+   "teams": [
+    "1 FC Nürnberg",
+    "Arminia Bielefeld"
+   ],
+   "squads": [
+    417,
+    453
+   ]
+  },
+  "268940": {
+   "teams": [
+    "Karlsruher SC",
+    "VfL Wolfsburg"
+   ],
+   "squads": [
+    30,
+    438
+   ]
+  },
+  "268941": {
+   "teams": [
+    "1 FC Heidenheim 1846",
+    "SG Dynamo Dresden"
+   ],
+   "squads": [
+    423,
+    432
+   ]
+  },
+  "277571": {
+   "teams": [
+    "MSV Duisburg",
+    "Würzburger Kickers"
+   ],
+   "squads": [
+    447,
+    455
+   ]
+  },
+  "277573": {
+   "teams": [
+    "SV Wehen Wiesbaden",
+    "Rot-Weiss Essen"
+   ],
+   "squads": [
+    415,
+    864
+   ]
+  },
+  "277574": {
+   "teams": [
+    "Alemannia Aachen",
+    "SV Meppen"
+   ],
+   "squads": [
+    1708,
+    1927
+   ]
+  },
+  "277575": {
+   "teams": [
+    "TSG 1899 Hoffenheim II",
+    "SSV Jahn Regensburg"
+   ],
+   "squads": [
+    424,
+    4560
+   ]
+  },
+  "277576": {
+   "teams": [
+    "SC Verl",
+    "SC Fortuna Köln"
+   ],
+   "squads": [
+    1709,
+    1926
+   ]
+  },
+  "277577": {
+   "teams": [
+    "SG Sonnenhof Großaspach",
+    "FC Ingolstadt 04"
+   ],
+   "squads": [
+    43,
+    1711
+   ]
+  },
+  "279613": {
+   "teams": [
+    "PEC Zwolle",
+    "NEC Nijmegen"
+   ],
+   "squads": [
+    806,
+    814
+   ]
+  },
+  "279614": {
+   "teams": [
+    "AZ Alkmaar",
+    "Go Ahead Eagles Deventer"
+   ],
+   "squads": [
+    390,
+    807
+   ]
+  },
+  "279615": {
+   "teams": [
+    "Excelsior Rotterdam",
+    "Sparta Rotterdam"
+   ],
+   "squads": [
+    805,
+    815
+   ]
+  },
+  "268693": {
+   "teams": [
+    "SC Freiburg",
+    "SV Werder Bremen"
+   ],
+   "squads": [
+    34,
+    38
+   ]
+  },
+  "268696": {
+   "teams": [
+    "FC Augsburg",
+    "FC Schalke 04"
+   ],
+   "squads": [
+    39,
+    44
+   ]
+  },
+  "268935": {
+   "teams": [
+    "SV Darmstadt 98",
+    "Hannover 96"
+   ],
+   "squads": [
+    36,
+    45
+   ]
+  },
+  "268938": {
+   "teams": [
+    "1 FC Magdeburg",
+    "Holstein Kiel"
+   ],
+   "squads": [
+    452,
+    847
+   ]
+  },
+  "268942": {
+   "teams": [
+    "FC St Pauli",
+    "1 FC Kaiserslautern"
+   ],
+   "squads": [
+    412,
+    439
+   ]
+  },
+  "277570": {
+   "teams": [
+    "TSV Havelse",
+    "SV Waldhof Mannheim"
+   ],
+   "squads": [
+    1915,
+    2422
+   ]
+  },
+  "277572": {
+   "teams": [
+    "1 FC Saarbrücken",
+    "FC Hansa Rostock"
+   ],
+   "squads": [
+    429,
+    851
+   ]
+  },
+  "277579": {
+   "teams": [
+    "FC Viktoria Köln",
+    "Preußen Münster"
+   ],
+   "squads": [
+    426,
+    1710
+   ]
+  },
+  "279608": {
+   "teams": [
+    "Feyenoord Rotterdam",
+    "ADO Den Haag"
+   ],
+   "squads": [
+    405,
+    809
+   ]
+  },
+  "279610": {
+   "teams": [
+    "SC Telstar",
+    "Ajax Amsterdam"
+   ],
+   "squads": [
+    378,
+    2685
+   ]
+  },
+  "279611": {
+   "teams": [
+    "FC Utrecht",
+    "PSV Eindhoven"
+   ],
+   "squads": [
+    229,
+    812
+   ]
+  },
+  "279612": {
+   "teams": [
+    "Willem II Tilburg",
+    "SC Heerenveen"
+   ],
+   "squads": [
+    804,
+    813
+   ]
+  },
+  "279616": {
+   "teams": [
+    "SC Cambuur Leeuwarden",
+    "FC Twente Enschede"
+   ],
+   "squads": [
+    810,
+    2678
+   ]
+  },
+  "268706": {
+   "teams": [
+    "VfB Stuttgart",
+    "1 FC Köln"
+   ],
+   "squads": [
+    27,
+    46
+   ]
+  },
+  "268947": {
+   "teams": [
+    "Arminia Bielefeld",
+    "FC St Pauli"
+   ],
+   "squads": [
+    417,
+    439
+   ]
+  },
+  "268948": {
+   "teams": [
+    "Hannover 96",
+    "Karlsruher SC"
+   ],
+   "squads": [
+    45,
+    438
+   ]
+  },
+  "277582": {
+   "teams": [
+    "FC Ingolstadt 04",
+    "Alemannia Aachen"
+   ],
+   "squads": [
+    43,
+    1927
+   ]
+  },
+  "279617": {
+   "teams": [
+    "Sparta Rotterdam",
+    "PEC Zwolle"
+   ],
+   "squads": [
+    805,
+    806
+   ]
+  },
+  "268700": {
+   "teams": [
+    "Borussia Mönchengladbach",
+    "SV 07 Elversberg"
+   ],
+   "squads": [
+    32,
+    1719
+   ]
+  },
+  "268701": {
+   "teams": [
+    "SC Paderborn 07",
+    "SC Freiburg"
+   ],
+   "squads": [
+    34,
+    420
+   ]
+  },
+  "268702": {
+   "teams": [
+    "Bayer 04 Leverkusen",
+    "1 FC Union Berlin"
+   ],
+   "squads": [
+    41,
+    446
+   ]
+  },
+  "268703": {
+   "teams": [
+    "TSG 1899 Hoffenheim",
+    "Borussia Dortmund"
+   ],
+   "squads": [
+    29,
+    31
+   ]
+  },
+  "268705": {
+   "teams": [
+    "SV Werder Bremen",
+    "RasenBallsport Leipzig"
+   ],
+   "squads": [
+    37,
+    38
+   ]
+  },
+  "268708": {
+   "teams": [
+    "FC Schalke 04",
+    "FC Bayern München"
+   ],
+   "squads": [
+    33,
+    44
+   ]
+  },
+  "268945": {
+   "teams": [
+    "VfL Wolfsburg",
+    "FC Energie Cottbus"
+   ],
+   "squads": [
+    30,
+    858
+   ]
+  },
+  "268946": {
+   "teams": [
+    "Holstein Kiel",
+    "1 FC Nürnberg"
+   ],
+   "squads": [
+    453,
+    847
+   ]
+  },
+  "268950": {
+   "teams": [
+    "1 FC Kaiserslautern",
+    "SV Darmstadt 98"
+   ],
+   "squads": [
+    36,
+    412
+   ]
+  },
+  "268951": {
+   "teams": [
+    "SG Dynamo Dresden",
+    "VfL Bochum"
+   ],
+   "squads": [
+    416,
+    423
+   ]
+  },
+  "277580": {
+   "teams": [
+    "SSV Jahn Regensburg",
+    "MSV Duisburg"
+   ],
+   "squads": [
+    424,
+    455
+   ]
+  },
+  "277581": {
+   "teams": [
+    "SV Waldhof Mannheim",
+    "SC Verl"
+   ],
+   "squads": [
+    1915,
+    1926
+   ]
+  },
+  "277585": {
+   "teams": [
+    "SV Meppen",
+    "1 FC Saarbrücken"
+   ],
+   "squads": [
+    851,
+    1708
+   ]
+  },
+  "277587": {
+   "teams": [
+    "Rot-Weiss Essen",
+    "FC Viktoria Köln"
+   ],
+   "squads": [
+    415,
+    426
+   ]
+  },
+  "277588": {
+   "teams": [
+    "FC Hansa Rostock",
+    "SV Wehen Wiesbaden"
+   ],
+   "squads": [
+    429,
+    864
+   ]
+  },
+  "277589": {
+   "teams": [
+    "Preußen Münster",
+    "TSV Havelse"
+   ],
+   "squads": [
+    1710,
+    2422
+   ]
+  },
+  "279620": {
+   "teams": [
+    "Ajax Amsterdam",
+    "PSV Eindhoven"
+   ],
+   "squads": [
+    229,
+    378
+   ]
+  },
+  "279621": {
+   "teams": [
+    "Willem II Tilburg",
+    "Excelsior Rotterdam"
+   ],
+   "squads": [
+    804,
+    815
+   ]
+  },
+  "279623": {
+   "teams": [
+    "NEC Nijmegen",
+    "Feyenoord Rotterdam"
+   ],
+   "squads": [
+    405,
+    814
+   ]
+  },
+  "268704": {
+   "teams": [
+    "Eintracht Frankfurt",
+    "FC Augsburg"
+   ],
+   "squads": [
+    35,
+    39
+   ]
+  },
+  "268707": {
+   "teams": [
+    "Hamburger SV",
+    "1 FSV Mainz 05"
+   ],
+   "squads": [
+    40,
+    42
+   ]
+  },
+  "268943": {
+   "teams": [
+    "SpVgg Greuther Fürth",
+    "1 FC Heidenheim 1846"
+   ],
+   "squads": [
+    432,
+    440
+   ]
+  },
+  "268944": {
+   "teams": [
+    "Hertha BSC",
+    "1 FC Magdeburg"
+   ],
+   "squads": [
+    28,
+    452
+   ]
+  },
+  "268949": {
+   "teams": [
+    "VfL Osnabrück",
+    "Eintracht Braunschweig"
+   ],
+   "squads": [
+    451,
+    852
+   ]
+  },
+  "277583": {
+   "teams": [
+    "SG Sonnenhof Großaspach",
+    "TSG 1899 Hoffenheim II"
+   ],
+   "squads": [
+    1711,
+    4560
+   ]
+  },
+  "277584": {
+   "teams": [
+    "SC Fortuna Köln",
+    "Fortuna Düsseldorf"
+   ],
+   "squads": [
+    445,
+    1709
+   ]
+  },
+  "277586": {
+   "teams": [
+    "Würzburger Kickers",
+    "VfB Stuttgart II"
+   ],
+   "squads": [
+    447,
+    4557
+   ]
+  },
+  "279618": {
+   "teams": [
+    "SC Heerenveen",
+    "AZ Alkmaar"
+   ],
+   "squads": [
+    390,
+    813
+   ]
+  },
+  "279619": {
+   "teams": [
+    "FC Groningen",
+    "FC Twente Enschede"
+   ],
+   "squads": [
+    803,
+    810
+   ]
+  },
+  "279622": {
+   "teams": [
+    "ADO Den Haag",
+    "Fortuna Sittard"
+   ],
+   "squads": [
+    809,
+    1697
+   ]
+  },
+  "279624": {
+   "teams": [
+    "SC Telstar",
+    "SC Cambuur Leeuwarden"
+   ],
+   "squads": [
+    2678,
+    2685
+   ]
+  },
+  "279603": {
+   "teams": [
+    "NEC Nijmegen",
+    "Excelsior Rotterdam"
+   ],
+   "squads": [
+    814,
+    815
+   ]
+  },
+  "279625": {
+   "teams": [
+    "FC Utrecht",
+    "Go Ahead Eagles Deventer"
+   ],
+   "squads": [
+    807,
+    812
+   ]
+  },
+  "279601": {
+   "teams": [
+    "FC Twente Enschede",
+    "SC Telstar"
+   ],
+   "squads": [
+    810,
+    2685
+   ]
+  },
+  "268713": {
+   "teams": [
+    "1 FC Union Berlin",
+    "FC Schalke 04"
+   ],
+   "squads": [
+    44,
+    446
+   ]
+  },
+  "268954": {
+   "teams": [
+    "1 FC Nürnberg",
+    "Hannover 96"
+   ],
+   "squads": [
+    45,
+    453
+   ]
+  },
+  "268956": {
+   "teams": [
+    "SV Darmstadt 98",
+    "Arminia Bielefeld"
+   ],
+   "squads": [
+    36,
+    417
+   ]
+  },
+  "277596": {
+   "teams": [
+    "FC Viktoria Köln",
+    "FC Hansa Rostock"
+   ],
+   "squads": [
+    426,
+    429
+   ]
+  },
+  "279626": {
+   "teams": [
+    "AZ Alkmaar",
+    "Willem II Tilburg"
+   ],
+   "squads": [
+    390,
+    804
+   ]
+  },
+  "268709": {
+   "teams": [
+    "FC Augsburg",
+    "Bayer 04 Leverkusen"
+   ],
+   "squads": [
+    39,
+    41
+   ]
+  },
+  "268710": {
+   "teams": [
+    "1 FC Köln",
+    "SV Werder Bremen"
+   ],
+   "squads": [
+    27,
+    38
+   ]
+  },
+  "268711": {
+   "teams": [
+    "TSG 1899 Hoffenheim",
+    "VfB Stuttgart"
+   ],
+   "squads": [
+    31,
+    46
+   ]
+  },
+  "268712": {
+   "teams": [
+    "Borussia Dortmund",
+    "SC Paderborn 07"
+   ],
+   "squads": [
+    29,
+    420
+   ]
+  },
+  "268716": {
+   "teams": [
+    "SC Freiburg",
+    "Borussia Mönchengladbach"
+   ],
+   "squads": [
+    32,
+    34
+   ]
+  },
+  "268717": {
+   "teams": [
+    "1 FSV Mainz 05",
+    "Eintracht Frankfurt"
+   ],
+   "squads": [
+    35,
+    42
+   ]
+  },
+  "268955": {
+   "teams": [
+    "1 FC Magdeburg",
+    "1 FC Kaiserslautern"
+   ],
+   "squads": [
+    412,
+    452
+   ]
+  },
+  "268957": {
+   "teams": [
+    "Eintracht Braunschweig",
+    "SG Dynamo Dresden"
+   ],
+   "squads": [
+    423,
+    451
+   ]
+  },
+  "268959": {
+   "teams": [
+    "FC St Pauli",
+    "VfL Wolfsburg"
+   ],
+   "squads": [
+    30,
+    439
+   ]
+  },
+  "268960": {
+   "teams": [
+    "VfL Bochum",
+    "SpVgg Greuther Fürth"
+   ],
+   "squads": [
+    416,
+    440
+   ]
+  },
+  "277590": {
+   "teams": [
+    "Rot-Weiss Essen",
+    "Würzburger Kickers"
+   ],
+   "squads": [
+    415,
+    447
+   ]
+  },
+  "277591": {
+   "teams": [
+    "Fortuna Düsseldorf",
+    "MSV Duisburg"
+   ],
+   "squads": [
+    445,
+    455
+   ]
+  },
+  "277592": {
+   "teams": [
+    "SC Verl",
+    "SV Meppen"
+   ],
+   "squads": [
+    1708,
+    1926
+   ]
+  },
+  "277593": {
+   "teams": [
+    "Alemannia Aachen",
+    "SSV Jahn Regensburg"
+   ],
+   "squads": [
+    424,
+    1927
+   ]
+  },
+  "277598": {
+   "teams": [
+    "TSV Havelse",
+    "SG Sonnenhof Großaspach"
+   ],
+   "squads": [
+    1711,
+    2422
+   ]
+  },
+  "277599": {
+   "teams": [
+    "1 FC Saarbrücken",
+    "FC Ingolstadt 04"
+   ],
+   "squads": [
+    43,
+    851
+   ]
+  },
+  "279628": {
+   "teams": [
+    "FC Twente Enschede",
+    "ADO Den Haag"
+   ],
+   "squads": [
+    809,
+    810
+   ]
+  },
+  "279632": {
+   "teams": [
+    "Fortuna Sittard",
+    "Ajax Amsterdam"
+   ],
+   "squads": [
+    378,
+    1697
+   ]
+  },
+  "279633": {
+   "teams": [
+    "SC Cambuur Leeuwarden",
+    "NEC Nijmegen"
+   ],
+   "squads": [
+    814,
+    2678
+   ]
+  },
+  "279634": {
+   "teams": [
+    "Go Ahead Eagles Deventer",
+    "FC Groningen"
+   ],
+   "squads": [
+    803,
+    807
+   ]
+  },
+  "268714": {
+   "teams": [
+    "RasenBallsport Leipzig",
+    "Hamburger SV"
+   ],
+   "squads": [
+    37,
+    40
+   ]
+  },
+  "268715": {
+   "teams": [
+    "SV 07 Elversberg",
+    "FC Bayern München"
+   ],
+   "squads": [
+    33,
+    1719
+   ]
+  },
+  "268952": {
+   "teams": [
+    "1 FC Heidenheim 1846",
+    "Holstein Kiel"
+   ],
+   "squads": [
+    432,
+    847
+   ]
+  },
+  "268953": {
+   "teams": [
+    "Karlsruher SC",
+    "FC Energie Cottbus"
+   ],
+   "squads": [
+    438,
+    858
+   ]
+  },
+  "268958": {
+   "teams": [
+    "VfL Osnabrück",
+    "Hertha BSC"
+   ],
+   "squads": [
+    28,
+    852
+   ]
+  },
+  "277594": {
+   "teams": [
+    "TSG 1899 Hoffenheim II",
+    "SC Fortuna Köln"
+   ],
+   "squads": [
+    1709,
+    4560
+   ]
+  },
+  "277595": {
+   "teams": [
+    "VfB Stuttgart II",
+    "Preußen Münster"
+   ],
+   "squads": [
+    1710,
+    4557
+   ]
+  },
+  "277597": {
+   "teams": [
+    "SV Wehen Wiesbaden",
+    "SV Waldhof Mannheim"
+   ],
+   "squads": [
+    864,
+    1915
+   ]
+  },
+  "279627": {
+   "teams": [
+    "PSV Eindhoven",
+    "Sparta Rotterdam"
+   ],
+   "squads": [
+    229,
+    805
+   ]
+  },
+  "279629": {
+   "teams": [
+    "Excelsior Rotterdam",
+    "FC Utrecht"
+   ],
+   "squads": [
+    812,
+    815
+   ]
+  },
+  "279630": {
+   "teams": [
+    "SC Heerenveen",
+    "SC Telstar"
+   ],
+   "squads": [
+    813,
+    2685
+   ]
+  },
+  "279631": {
+   "teams": [
+    "PEC Zwolle",
+    "Feyenoord Rotterdam"
+   ],
+   "squads": [
+    405,
+    806
+   ]
+  },
+  "277601": {
+   "teams": [
+    "SG Sonnenhof Großaspach",
+    "SC Verl"
+   ],
+   "squads": [
+    1711,
+    1926
+   ]
+  },
+  "277603": {
+   "teams": [
+    "SV Meppen",
+    "FC Viktoria Köln"
+   ],
+   "squads": [
+    426,
+    1708
+   ]
+  },
+  "277606": {
+   "teams": [
+    "MSV Duisburg",
+    "TSV Havelse"
+   ],
+   "squads": [
+    455,
+    2422
+   ]
+  },
+  "277607": {
+   "teams": [
+    "Würzburger Kickers",
+    "Alemannia Aachen"
+   ],
+   "squads": [
+    447,
+    1927
+   ]
+  },
+  "277609": {
+   "teams": [
+    "SSV Jahn Regensburg",
+    "Fortuna Düsseldorf"
+   ],
+   "squads": [
+    424,
+    445
+   ]
+  },
+  "279607": {
+   "teams": [
+    "Ajax Amsterdam",
+    "Willem II Tilburg"
+   ],
+   "squads": [
+    378,
+    804
+   ]
+  },
+  "277600": {
+   "teams": [
+    "SV Waldhof Mannheim",
+    "Rot-Weiss Essen"
+   ],
+   "squads": [
+    415,
+    1915
+   ]
+  },
+  "277602": {
+   "teams": [
+    "FC Ingolstadt 04",
+    "TSG 1899 Hoffenheim II"
+   ],
+   "squads": [
+    43,
+    4560
+   ]
+  },
+  "277604": {
+   "teams": [
+    "SC Fortuna Köln",
+    "SV Wehen Wiesbaden"
+   ],
+   "squads": [
+    864,
+    1709
+   ]
+  },
+  "277605": {
+   "teams": [
+    "FC Hansa Rostock",
+    "VfB Stuttgart II"
+   ],
+   "squads": [
+    429,
+    4557
+   ]
+  },
+  "277608": {
+   "teams": [
+    "Preußen Münster",
+    "1 FC Saarbrücken"
+   ],
+   "squads": [
+    851,
+    1710
+   ]
+  },
+  "268719": {
+   "teams": [
+    "FC Bayern München",
+    "1 FC Union Berlin"
+   ],
+   "squads": [
+    33,
+    446
+   ]
+  },
+  "268961": {
+   "teams": [
+    "VfL Wolfsburg",
+    "SV Darmstadt 98"
+   ],
+   "squads": [
+    30,
+    36
+   ]
+  },
+  "268964": {
+   "teams": [
+    "SpVgg Greuther Fürth",
+    "1 FC Magdeburg"
+   ],
+   "squads": [
+    440,
+    452
+   ]
+  },
+  "277612": {
+   "teams": [
+    "SC Verl",
+    "Würzburger Kickers"
+   ],
+   "squads": [
+    447,
+    1926
+   ]
+  },
+  "279639": {
+   "teams": [
+    "FC Groningen",
+    "PEC Zwolle"
+   ],
+   "squads": [
+    803,
+    806
+   ]
+  },
+  "268718": {
+   "teams": [
+    "VfB Stuttgart",
+    "Borussia Dortmund"
+   ],
+   "squads": [
+    29,
+    46
+   ]
+  },
+  "268721": {
+   "teams": [
+    "Hamburger SV",
+    "1 FC Köln"
+   ],
+   "squads": [
+    27,
+    40
+   ]
+  },
+  "268723": {
+   "teams": [
+    "SV Werder Bremen",
+    "FC Augsburg"
+   ],
+   "squads": [
+    38,
+    39
+   ]
+  },
+  "268725": {
+   "teams": [
+    "Borussia Mönchengladbach",
+    "1 FSV Mainz 05"
+   ],
+   "squads": [
+    32,
+    42
+   ]
+  },
+  "268726": {
+   "teams": [
+    "Eintracht Frankfurt",
+    "SC Freiburg"
+   ],
+   "squads": [
+    34,
+    35
+   ]
+  },
+  "268962": {
+   "teams": [
+    "Holstein Kiel",
+    "VfL Osnabrück"
+   ],
+   "squads": [
+    847,
+    852
+   ]
+  },
+  "268963": {
+   "teams": [
+    "Karlsruher SC",
+    "1 FC Nürnberg"
+   ],
+   "squads": [
+    438,
+    453
+   ]
+  },
+  "268966": {
+   "teams": [
+    "SG Dynamo Dresden",
+    "Hertha BSC"
+   ],
+   "squads": [
+    28,
+    423
+   ]
+  },
+  "268967": {
+   "teams": [
+    "1 FC Kaiserslautern",
+    "Eintracht Braunschweig"
+   ],
+   "squads": [
+    412,
+    451
+   ]
+  },
+  "277610": {
+   "teams": [
+    "1 FC Saarbrücken",
+    "SG Sonnenhof Großaspach"
+   ],
+   "squads": [
+    851,
+    1711
+   ]
+  },
+  "277611": {
+   "teams": [
+    "Alemannia Aachen",
+    "Fortuna Düsseldorf"
+   ],
+   "squads": [
+    445,
+    1927
+   ]
+  },
+  "277617": {
+   "teams": [
+    "FC Viktoria Köln",
+    "FC Ingolstadt 04"
+   ],
+   "squads": [
+    43,
+    426
+   ]
+  },
+  "277618": {
+   "teams": [
+    "VfB Stuttgart II",
+    "SSV Jahn Regensburg"
+   ],
+   "squads": [
+    424,
+    4557
+   ]
+  },
+  "277619": {
+   "teams": [
+    "TSG 1899 Hoffenheim II",
+    "SV Meppen"
+   ],
+   "squads": [
+    1708,
+    4560
+   ]
+  },
+  "279641": {
+   "teams": [
+    "Ajax Amsterdam",
+    "Excelsior Rotterdam"
+   ],
+   "squads": [
+    378,
+    815
+   ]
+  },
+  "268720": {
+   "teams": [
+    "FC Schalke 04",
+    "SV 07 Elversberg"
+   ],
+   "squads": [
+    44,
+    1719
+   ]
+  },
+  "268722": {
+   "teams": [
+    "SC Paderborn 07",
+    "TSG 1899 Hoffenheim"
+   ],
+   "squads": [
+    31,
+    420
+   ]
+  },
+  "268724": {
+   "teams": [
+    "Bayer 04 Leverkusen",
+    "RasenBallsport Leipzig"
+   ],
+   "squads": [
+    37,
+    41
+   ]
+  },
+  "268965": {
+   "teams": [
+    "Hannover 96",
+    "VfL Bochum"
+   ],
+   "squads": [
+    45,
+    416
+   ]
+  },
+  "268968": {
+   "teams": [
+    "Arminia Bielefeld",
+    "1 FC Heidenheim 1846"
+   ],
+   "squads": [
+    417,
+    432
+   ]
+  },
+  "268969": {
+   "teams": [
+    "FC Energie Cottbus",
+    "FC St Pauli"
+   ],
+   "squads": [
+    439,
+    858
+   ]
+  },
+  "277614": {
+   "teams": [
+    "SV Waldhof Mannheim",
+    "Preußen Münster"
+   ],
+   "squads": [
+    1710,
+    1915
+   ]
+  },
+  "277615": {
+   "teams": [
+    "SV Wehen Wiesbaden",
+    "MSV Duisburg"
+   ],
+   "squads": [
+    455,
+    864
+   ]
+  },
+  "277616": {
+   "teams": [
+    "Rot-Weiss Essen",
+    "FC Hansa Rostock"
+   ],
+   "squads": [
+    415,
+    429
+   ]
+  },
+  "277613": {
+   "teams": [
+    "TSV Havelse",
+    "SC Fortuna Köln"
+   ],
+   "squads": [
+    1709,
+    2422
+   ]
+  }
+ }
+}
