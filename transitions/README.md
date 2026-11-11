@@ -81,3 +81,30 @@ These all avoid both xT and predictive models:
 8. **Lane-switch and width usage:** `lanes_used`, plus the side the ball is released to compared with the side it was won on.
 9. **Game-state splits:** the same profiles split by score state and minute bands, to see whether teams counter more when leading.
 10. **Opposition-specific matchups:** each team's transition profile against the defensive profile of the opponent it faces next (scouting reports).
+
+## Transition pass networks
+
+```bash
+python3 transitions/pass_networks.py
+```
+
+This builds pass networks from transition passes only. It uses the same transitions as the model above.
+
+- **Nodes:** each player's average location while acting in transitions. Size = number of actions.
+- **Edges:** completed passes from passer to receiver. Line weight = number of passes; the arrow shows direction.
+- **Outlet view:** only the first completed pass after each regain (regainer → outlet player). This shows who each team looks for first.
+- **Team summary:**
+  - completed passes per game and per transition
+  - completion rate
+  - share of passes gaining 5 m or more
+  - main outlet, and the share of first passes going to the top one and top two outlets
+  - the hub (the player involved in the most passes)
+  - the strongest passing link
+
+Outputs:
+- `output/pass_network_nodes.csv`
+- `output/pass_network_edges.csv`
+- `output/pass_network_teams.csv`
+- `output/pass_networks.html`: an interactive page you can choose a team on.
+
+The page shows each team's 14 most-involved players. Players that sit too close together are spread apart for display only; their real average positions are in the tables.

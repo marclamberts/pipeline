@@ -1,0 +1,281 @@
+<title>Transition Pass Networks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: control row on top, pitch network left with a stat rail right, tables below. Pitch drawn in metres (105 x 68). */
+:root {
+  --bg: #f6f7f5;
+  --surface: #ffffff;
+  --ink: #0f1411;
+  --ink-2: #4a524c;
+  --ink-3: #78807a;
+  --line: #dfe3df;
+  --pitch: #eef2ee;
+  --pitch-line: #b9c2bb;
+  --series: #2a78d6;
+  --series-strong: #184f95;
+  --focus: #2a78d6;
+  --font-display: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121513; --surface: #1a1d1b; --ink: #eef1ee; --ink-2: #b9c0ba; --ink-3: #8b938d;
+    --line: #2c312d; --pitch: #1f2420; --pitch-line: #3f4741; --series: #3987e5; --series-strong: #86b6ef;
+    --focus: #86b6ef; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121513; --surface: #1a1d1b; --ink: #eef1ee; --ink-2: #b9c0ba; --ink-3: #8b938d;
+  --line: #2c312d; --pitch: #1f2420; --pitch-line: #3f4741; --series: #3987e5; --series-strong: #86b6ef;
+  --focus: #86b6ef; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 14px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 48px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 20px; }
+header h1 { font-family: var(--font-display); font-weight: 700; font-size: 2.4rem; line-height: 1; margin: 0; letter-spacing: .01em; text-wrap: balance; }
+header p { margin: 6px 0 0; color: var(--ink-2); max-width: 68ch; }
+.meta { font-size: 12px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; }
+.ctl { display: grid; gap: 4px; min-width: 0; }
+.ctl > span { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+select, .seg button { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; }
+select { min-width: 230px; max-width: 100%; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.seg button { border: 0; border-radius: 0; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--series); color: #fff; }
+input[type=range] { width: 160px; accent-color: var(--series); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
+@media (max-width: 860px) { .main { grid-template-columns: minmax(0, 1fr); } }
+.pitch-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px; min-width: 0; position: relative; }
+svg { display: block; width: 100%; height: auto; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; color: var(--ink-2); padding: 8px 4px 0; }
+.legend i { display: inline-block; vertical-align: middle; margin-right: 6px; background: var(--series); }
+.rail { display: grid; gap: 14px; min-width: 0; }
+.rail h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.5rem; margin: 0; line-height: 1.1; }
+dl { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 6px 12px; font-variant-numeric: tabular-nums; }
+dt { color: var(--ink-2); }
+dd { margin: 0; text-align: right; font-weight: 600; }
+dd small { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px; }
+.note { font-size: 12px; color: var(--ink-3); }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgb(0 0 0 / .12); max-width: 240px; font-variant-numeric: tabular-nums; }
+.tip b { display: block; font-size: 13px; }
+.tables { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
+@media (max-width: 860px) { .tables { grid-template-columns: minmax(0, 1fr); } }
+.tables h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.25rem; margin: 0 0 6px; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: 13px; }
+th, td { padding: 5px 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+th { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); font-weight: 500; }
+th:first-child, td:first-child, th.l, td.l { text-align: left; }
+tbody tr { cursor: pointer; }
+tbody tr:hover, tbody tr.sel { background: color-mix(in srgb, var(--series) 10%, transparent); }
+.pitch-lines { fill: none; stroke: var(--pitch-line); stroke-width: .35; }
+.node circle { fill: var(--series); stroke: var(--surface); stroke-width: .5; cursor: pointer; }
+.node text { fill: var(--ink); font-family: var(--font-body); font-size: 2.3px; font-weight: 600; text-anchor: middle; paint-order: stroke; stroke: var(--pitch); stroke-width: .7px; pointer-events: none; }
+.edge { stroke: var(--series); fill: none; stroke-linecap: round; }
+.edge-hit { stroke: transparent; fill: none; stroke-width: 2.4; cursor: pointer; }
+.dim { opacity: .12; }
+@media (prefers-reduced-motion: no-preference) { .edge, .node { transition: opacity .15s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="meta" id="meta"></div>
+    <h1>Transition Pass Networks</h1>
+    <p>Who passes to whom once the ball is won back. Built only from attacking transitions: no expected-threat values and no predictions, just completed passes and where players were when they played them.</p>
+  </header>
+
+  <div class="controls">
+    <label class="ctl"><span>Team</span><select id="team"></select></label>
+    <div class="ctl"><span>Passes shown</span>
+      <div class="seg" role="group" aria-label="Passes shown">
+        <button id="m-all" aria-pressed="true">All transition passes</button>
+        <button id="m-out" aria-pressed="false">First pass after regain</button>
+      </div>
+    </div>
+    <label class="ctl"><span>Minimum passes per link: <b id="minv">3</b></span><input id="min" type="range" min="1" max="12" value="3"></label>
+  </div>
+
+  <div class="main">
+    <div class="pitch-card" id="card">
+      <svg id="pitch" viewBox="-55 -37 110 78" role="img" aria-label="Pass network on a pitch, attacking left to right"></svg>
+      <div class="legend">
+        <span><i style="width:10px;height:10px;border-radius:50%"></i>Size: <span id="lg-size">actions in transitions</span></span>
+        <span><i style="width:22px;height:3px;border-radius:2px"></i>Line weight: passes between the pair (arrow = direction)</span>
+        <span>Position: average location in transitions</span>
+      </div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <aside class="rail">
+      <h2 id="t-name"></h2>
+      <dl id="t-stats"></dl>
+      <p class="note">Click a player on the pitch or in the table to isolate their links. Click again to clear.</p>
+    </aside>
+  </div>
+
+  <div class="tables">
+    <div>
+      <h3>Players in transition</h3>
+      <div class="scroll"><table id="ptable"></table></div>
+    </div>
+    <div>
+      <h3>Strongest links</h3>
+      <div class="scroll"><table id="etable"></table></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const NS = "http://www.w3.org/2000/svg";
+const MAX_NODES = 14;
+let state = { team: null, mode: "all", min: 3, focus: null };
+try { const s = JSON.parse(localStorage.getItem("tpn") || "{}"); Object.assign(state, s, { focus: null }); } catch (e) {}
+
+const $ = id => document.getElementById(id);
+const pct = v => v == null ? "–" : Math.round(v * 100) + "%";
+const el = (tag, attrs = {}, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+
+$("meta").textContent = `${DATA.league} · ${DATA.matches} matches · ${DATA.dates[0]} to ${DATA.dates[1]}`;
+const teams = Object.keys(DATA.teams).sort();
+if (!teams.includes(state.team)) state.team = teams[0];
+teams.forEach(t => { const o = document.createElement("option"); o.value = t; o.textContent = t; $("team").appendChild(o); });
+
+function save() { try { localStorage.setItem("tpn", JSON.stringify({ team: state.team, mode: state.mode, min: state.min })); } catch (e) {} }
+
+function drawPitch(svg) {
+  el("rect", { x: -55, y: -37, width: 110, height: 78, fill: "var(--pitch)" }, svg);
+  const g = el("g", { class: "pitch-lines" }, svg);
+  el("rect", { x: -52.5, y: -34, width: 105, height: 68 }, g);
+  el("line", { x1: 0, y1: -34, x2: 0, y2: 34 }, g);
+  el("circle", { cx: 0, cy: 0, r: 9.15 }, g);
+  for (const s of [-1, 1]) {
+    el("rect", { x: s < 0 ? -52.5 : 52.5 - 16.5, y: -20.16, width: 16.5, height: 40.32 }, g);
+    el("rect", { x: s < 0 ? -52.5 : 52.5 - 5.5, y: -9.16, width: 5.5, height: 18.32 }, g);
+    el("rect", { x: s < 0 ? -54 : 52.5, y: -3.66, width: 1.5, height: 7.32 }, g);
+    el("circle", { cx: s * 41.5, cy: 0, r: .35, fill: "var(--pitch-line)" }, g);
+  }
+  const t = el("text", { x: 0, y: 39.4, "text-anchor": "middle", "font-size": 2.4, fill: "var(--ink-3)", "font-family": "var(--font-body)" }, svg);
+  t.textContent = "Attacking direction →";
+}
+
+function render() {
+  const T = DATA.teams[state.team];
+  const svg = $("pitch"); svg.replaceChildren(); drawPitch(svg);
+  const outlet = state.mode === "out";
+  const w = e => outlet ? e.outlet_passes : e.passes;
+  const size = n => outlet ? n.regains + n.outlet_received : n.involvements;
+  $("lg-size").textContent = outlet ? "regains + first passes received" : "actions in transitions";
+
+  const nodes = [...T.nodes].sort((a, b) => b.involvements - a.involvements).slice(0, MAX_NODES);
+  const ids = new Set(nodes.map(n => n.player_id));
+  const byId = Object.fromEntries(nodes.map(n => [n.player_id, n]));
+  const edges = T.edges.filter(e => ids.has(e.from_id) && ids.has(e.to_id) && w(e) >= state.min);
+  const maxW = Math.max(1, ...edges.map(w));
+  const maxS = Math.max(1, ...nodes.map(size));
+  const rad = n => 1.0 + 1.9 * Math.sqrt(size(n) / maxS);
+  // Display positions: nudge overlapping players apart (true averages stay in the tooltip/table).
+  const P = Object.fromEntries(nodes.map(n => [n.player_id, { x: n.x, y: -n.y }]));
+  for (let it = 0; it < 60; it++) {
+    for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+      const a = P[nodes[i].player_id], b = P[nodes[j].player_id];
+      let dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy);
+      const need = rad(nodes[i]) + rad(nodes[j]) + 4.2;
+      if (d < need) { if (d < .01) { dx = 1; dy = 0; d = 1; } const m = (need - d) / 2 / d; a.x -= dx * m; a.y -= dy * m; b.x += dx * m; b.y += dy * m; }
+    }
+    for (const id in P) { P[id].x = Math.max(-50, Math.min(50, P[id].x)); P[id].y = Math.max(-31, Math.min(31, P[id].y)); }
+  }
+
+  const defs = el("defs", {}, svg);
+  const mk = el("marker", { id: "arr", viewBox: "0 0 10 10", refX: 8, refY: 5, markerWidth: 2.2, markerHeight: 2.2, orient: "auto-start-reverse", markerUnits: "strokeWidth" }, defs);
+  el("path", { d: "M0,1 L9,5 L0,9 z", fill: "var(--series)" }, mk);
+
+  const eg = el("g", {}, svg), ng = el("g", {}, svg);
+  const touches = id => state.focus == null || id === state.focus;
+  edges.sort((a, b) => w(a) - w(b)).forEach(e => {
+    const a = byId[e.from_id], b = byId[e.to_id];
+    const x1 = P[a.player_id].x, y1 = P[a.player_id].y, x2 = P[b.player_id].x, y2 = P[b.player_id].y;
+    const dx = x2 - x1, dy = y2 - y1, L = Math.hypot(dx, dy) || 1;
+    const ux = dx / L, uy = dy / L, ox = -uy * .9, oy = ux * .9;
+    const r = w(e) / maxW;
+    const sw = .25 + 1.5 * r;
+    const sx = x1 + ux * (rad(a) + .4) + ox, sy = y1 + uy * (rad(a) + .4) + oy;
+    const ex = x2 - ux * (rad(b) + .4 + sw * 1.6) + ox, ey = y2 - uy * (rad(b) + .4 + sw * 1.6) + oy;
+    if ((ex - sx) * ux + (ey - sy) * uy <= 0) return;
+    const on = state.focus == null || e.from_id === state.focus || e.to_id === state.focus;
+    const line = el("line", { x1: sx, y1: sy, x2: ex, y2: ey, class: "edge" + (on ? "" : " dim"), "stroke-width": sw, "stroke-opacity": .3 + .65 * r, "marker-end": "url(#arr)" }, eg);
+    const hit = el("line", { x1: sx, y1: sy, x2: ex, y2: ey, class: "edge-hit" }, eg);
+    hit.addEventListener("mousemove", ev => tip(ev, `<b>${a.player} → ${b.player}</b>${e.passes} completed passes in transition<br>${e.outlet_passes} as first pass after a regain<br>${e.avg_fwd_m > 0 ? "+" : ""}${e.avg_fwd_m} m forward on average · ${pct(e.pct_forward)} gain 5 m+`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+  nodes.forEach(n => {
+    const g = el("g", { class: "node" + (touches(n.player_id) || edges.some(e => (e.from_id === state.focus && e.to_id === n.player_id) || (e.to_id === state.focus && e.from_id === n.player_id)) ? "" : " dim"), tabindex: 0, role: "button", "aria-label": n.player }, ng);
+    const r = rad(n);
+    el("circle", { cx: P[n.player_id].x, cy: P[n.player_id].y, r }, g);
+    const t = el("text", { x: P[n.player_id].x, y: P[n.player_id].y + r + 2.4 }, g); t.textContent = n.short;
+    const toggle = () => { state.focus = state.focus === n.player_id ? null : n.player_id; render(); };
+    g.addEventListener("click", toggle);
+    g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); toggle(); } });
+    g.addEventListener("mousemove", ev => tip(ev, `<b>${n.player}</b>${(n.position || "").replaceAll("_", " ").toLowerCase()}<br>${n.involvements} actions · ${n.regains} regains<br>${n.passes_completed} passes · ${n.passes_received} received<br>${n.outlet_received} first passes received after a regain`));
+    g.addEventListener("mouseleave", hideTip);
+  });
+
+  const s = T.summary;
+  $("t-name").textContent = state.team;
+  $("t-stats").innerHTML = `
+    <dt>Transitions</dt><dd>${s.transitions}<small>${s.games} games</small></dd>
+    <dt>Completed passes per game</dt><dd>${s.passes_pg}</dd>
+    <dt>Passes per transition</dt><dd>${s.passes_per_transition}</dd>
+    <dt>Pass completion</dt><dd>${pct(s.completion)}</dd>
+    <dt>Passes gaining 5 m+</dt><dd>${pct(s.pct_forward)}</dd>
+    <dt>Main outlet</dt><dd>${s.top_outlet}<small>${pct(s.top_outlet_share)} of first passes</small></dd>
+    <dt>Top-2 outlet share</dt><dd>${pct(s.top2_outlet_share)}</dd>
+    <dt>Hub</dt><dd>${s.hub}<small>in ${pct(s.hub_share)} of passes</small></dd>
+    <dt>Strongest link</dt><dd>${s.top_pair}<small>${s.top_pair_passes} passes</small></dd>`;
+
+  const prow = [...T.nodes].sort((a, b) => outlet ? (b.outlet_received - a.outlet_received) : (b.involvements - a.involvements)).slice(0, 22);
+  $("ptable").innerHTML = `<thead><tr><th>Player</th><th>Actions</th><th>Regains</th><th>Passes</th><th>Received</th><th>1st pass recv.</th><th>Fwd m</th></tr></thead><tbody>` +
+    prow.map(n => `<tr data-id="${n.player_id}" class="${n.player_id === state.focus ? "sel" : ""}"><td>${n.player}</td><td>${n.involvements}</td><td>${n.regains}</td><td>${n.passes_completed}</td><td>${n.passes_received}</td><td>${n.outlet_received}</td><td>${Math.round(n.fwd_metres_passing)}</td></tr>`).join("") + "</tbody>";
+  $("ptable").querySelectorAll("tbody tr").forEach(tr => tr.addEventListener("click", () => { const id = +tr.dataset.id; state.focus = state.focus === id ? null : id; render(); }));
+
+  const nameOf = Object.fromEntries(T.nodes.map(n => [n.player_id, n.player]));
+  const top = [...T.edges].filter(e => w(e) > 0 && (state.focus == null || e.from_id === state.focus || e.to_id === state.focus)).sort((a, b) => w(b) - w(a)).slice(0, 12);
+  $("etable").innerHTML = `<thead><tr><th>From → to</th><th>${outlet ? "First passes" : "Passes"}</th><th>Avg fwd m</th></tr></thead><tbody>` +
+    top.map(e => `<tr><td>${nameOf[e.from_id]} → ${nameOf[e.to_id]}</td><td>${w(e)}</td><td>${e.avg_fwd_m}</td></tr>`).join("") + "</tbody>";
+}
+
+function tip(ev, html) {
+  const t = $("tip"), card = $("card").getBoundingClientRect();
+  t.innerHTML = html; t.hidden = false;
+  let x = ev.clientX - card.left + 14, y = ev.clientY - card.top + 14;
+  if (x + t.offsetWidth > card.width) x = ev.clientX - card.left - t.offsetWidth - 14;
+  if (y + t.offsetHeight > card.height) y = ev.clientY - card.top - t.offsetHeight - 14;
+  t.style.left = Math.max(4, x) + "px"; t.style.top = Math.max(4, y) + "px";
+}
+function hideTip() { $("tip").hidden = true; }
+
+function setMode(m) {
+  state.mode = m;
+  $("m-all").setAttribute("aria-pressed", m === "all");
+  $("m-out").setAttribute("aria-pressed", m === "out");
+  if (m === "out" && state.min > 2) { state.min = 1; $("min").value = 1; $("minv").textContent = 1; }
+  save(); render();
+}
+$("team").value = state.team;
+$("min").value = state.min; $("minv").textContent = state.min;
+$("m-all").setAttribute("aria-pressed", state.mode === "all");
+$("m-out").setAttribute("aria-pressed", state.mode === "out");
+$("team").addEventListener("change", e => { state.team = e.target.value; state.focus = null; save(); render(); });
+$("min").addEventListener("input", e => { state.min = +e.target.value; $("minv").textContent = state.min; save(); render(); });
+$("m-all").addEventListener("click", () => setMode("all"));
+$("m-out").addEventListener("click", () => setMode("out"));
+render();
+</script>

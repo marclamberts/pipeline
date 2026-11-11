@@ -1,0 +1,439 @@
+team,player_id,player,short,position,x,y,involvements,regains,passes_completed,pass_attempts,passes_received,outlet_received,outlet_given,fwd_metres_passing
+1. FC Saarbrücken,15602,Patrick Sontheimer,Sontheimer,DEFENSE_MIDFIELD,-6.6,3.8,296,57,85,106,67,40,39,458.0
+1. FC Saarbrücken,23088,Florian Pick,Pick,LEFT_WINGER,11.0,-7.8,213,22,36,65,51,27,14,95.0
+1. FC Saarbrücken,63742,Niko Bretschneider,Bretschneider,LEFT_WINGBACK_DEFENDER,-11.5,21.0,201,39,54,72,52,24,20,499.0
+1. FC Saarbrücken,103967,Matteo Bignetti,Bignetti,GOALKEEPER,-40.8,1.1,187,61,40,50,45,34,31,437.0
+1. FC Saarbrücken,104974,Daniel Gleiber,Gleiber,DEFENSE_MIDFIELD,-6.0,0.7,182,40,55,65,38,19,30,311.0
+1. FC Saarbrücken,84067,Mladen Cvjetinovic,Cvjetinovic,CENTRAL_DEFENDER,-17.3,-6.6,179,54,54,63,43,23,37,317.0
+1. FC Saarbrücken,6127,Siemen Voet,Voet,CENTRAL_DEFENDER,-18.9,9.8,172,52,48,51,51,28,31,325.0
+1. FC Saarbrücken,103441,Philip Fahrner,Fahrner,RIGHT_WINGBACK_DEFENDER,-16.1,-18.1,168,36,42,54,34,17,24,233.0
+1. FC Saarbrücken,49836,Christian Kühlwetter,Kühlwetter,CENTER_FORWARD,9.8,-2.4,123,10,26,42,26,11,9,95.0
+1. FC Saarbrücken,118129,Alexander Staff,Staff,CENTER_FORWARD,6.6,11.8,80,4,15,26,25,13,3,66.0
+1. FC Saarbrücken,109338,Kelsey Owusu,Owusu,RIGHT_WINGER,10.5,-4.5,78,9,11,19,19,8,5,20.0
+1. FC Saarbrücken,49860,Kai Brünker,Brünker,CENTER_FORWARD,8.7,-0.3,76,7,12,18,19,7,5,52.0
+1. FC Saarbrücken,10530,Calogero Rizzuto,Rizzuto,LEFT_WINGBACK_DEFENDER,-8.0,-4.0,55,12,13,19,20,10,9,66.0
+1. FC Saarbrücken,173204,Zac Shuaib,Shuaib,DEFENSE_MIDFIELD,-5.4,7.2,46,7,15,17,9,3,7,91.0
+1. FC Saarbrücken,956,Maurice Multhaup,Multhaup,RIGHT_WINGER,6.2,-8.2,37,5,11,12,9,3,4,61.0
+1. FC Saarbrücken,162458,Seung-joon Lee,Lee,LEFT_WINGER,15.5,24.3,34,1,3,7,12,8,1,0.0
+1. FC Saarbrücken,63568,Abdenego Nankishi,Nankishi,LEFT_WINGER,1.4,18.2,32,7,4,9,6,1,2,8.0
+1. FC Saarbrücken,53174,Abdoulaye Kamara,Kamara,DEFENSE_MIDFIELD,-8.8,0.6,20,5,7,7,4,1,5,13.0
+1. FC Saarbrücken,45034,Sebastian Vasiliadis,Vasiliadis,DEFENSE_MIDFIELD,2.0,7.9,17,5,3,5,1,1,3,40.0
+1. FC Saarbrücken,106430,Gökdeniz Gürpüz,Gürpüz,CENTER_FORWARD,-0.8,12.2,13,1,1,4,3,0,0,9.0
+1. FC Saarbrücken,67420,Kaan Caliskaner,Caliskaner,CENTER_FORWARD,-3.4,-9.6,8,0,2,3,2,1,1,29.0
+1. FC Saarbrücken,104919,Anton Bäuerle,Bäuerle,LEFT_WINGBACK_DEFENDER,-37.1,26.5,5,1,2,2,3,2,1,4.0
+Alemannia Aachen,107991,Joel da Silva Kiala,Kiala,CENTRAL_DEFENDER,-12.4,-14.3,271,78,77,96,52,28,54,425.0
+Alemannia Aachen,53771,Lukas Scepanik,Scepanik,RIGHT_WINGBACK_DEFENDER,0.9,-2.9,262,41,54,89,70,30,23,351.0
+Alemannia Aachen,103968,Mehdi Loune,Loune,DEFENSE_MIDFIELD,5.8,-0.2,244,33,57,81,63,27,22,385.0
+Alemannia Aachen,88579,Petros Bagkalianis,Bagkalianis,CENTRAL_DEFENDER,-14.8,8.7,213,57,57,70,60,31,33,503.0
+Alemannia Aachen,44972,Danilo Wiebe,Wiebe,DEFENSE_MIDFIELD,3.2,0.3,208,27,53,76,57,30,18,384.0
+Alemannia Aachen,105021,Mika Schroers,Schroers,ATTACKING_MIDFIELD,13.3,-1.8,183,11,30,59,54,20,10,91.0
+Alemannia Aachen,107880,Louis Köster,Köster,ATTACKING_MIDFIELD,6.1,-0.1,183,20,40,58,47,19,14,282.0
+Alemannia Aachen,118306,Matti Wagner,Wagner,LEFT_WINGBACK_DEFENDER,-2.2,19.2,181,27,43,62,44,18,17,226.0
+Alemannia Aachen,107807,Jonas Oehmichen,Oehmichen,DEFENSE_MIDFIELD,3.3,2.8,177,19,44,59,41,22,18,404.0
+Alemannia Aachen,28179,Stefan Bajic,Bajic,GOALKEEPER,-40.8,-0.0,157,44,35,43,30,21,20,374.0
+Alemannia Aachen,118284,Georg Ermolaev,Ermolaev,ATTACKING_MIDFIELD,5.0,-0.7,144,15,34,50,32,22,13,98.0
+Alemannia Aachen,1184,Gideon Jung,Jung,CENTRAL_DEFENDER,-16.3,-5.8,121,37,37,44,19,14,27,253.0
+Alemannia Aachen,103925,Daniel Starodid,Starodid,CENTER_FORWARD,14.1,-1.5,100,7,19,29,26,14,5,45.0
+Alemannia Aachen,172792,Faton Ademi,Ademi,DEFENSE_MIDFIELD,0.4,-6.4,82,12,24,30,16,7,13,97.0
+Alemannia Aachen,174260,Kacper Koscierski,Koscierski,RIGHT_WINGBACK_DEFENDER,-10.6,-22.2,66,13,14,23,12,4,7,43.0
+Alemannia Aachen,106530,Meiko Wäschenbach,Wäschenbach,DEFENSE_MIDFIELD,-5.6,-4.1,48,5,15,19,12,6,5,113.0
+Alemannia Aachen,228879,Dylan Leonard,Leonard,CENTRAL_DEFENDER,-2.9,-5.8,48,13,13,19,6,3,10,54.0
+Alemannia Aachen,6586,Mika Hanraths,Hanraths,CENTRAL_DEFENDER,-16.1,-3.2,47,15,15,18,8,3,13,108.0
+Alemannia Aachen,83266,Nathan Bitumazala,Bitumazala,ATTACKING_MIDFIELD,12.6,9.4,41,5,9,14,13,5,3,24.0
+Alemannia Aachen,104512,Fabio Torsiello,Torsiello,RIGHT_WINGBACK_DEFENDER,-3.7,-20.5,40,9,13,15,10,4,9,52.0
+Alemannia Aachen,126401,Justin von der Hitz,Hitz,ATTACKING_MIDFIELD,2.7,-4.0,32,3,5,10,10,5,2,20.0
+Alemannia Aachen,9586,Manuel Riemann,Riemann,GOALKEEPER,-39.8,-3.9,31,8,4,9,10,6,2,100.0
+Alemannia Aachen,119208,Ken Izekor,Izekor,DEFENSE_MIDFIELD,16.1,10.5,15,1,3,5,3,0,1,15.0
+FC Hansa Rostock,3277,Florian Bohnert,Bohnert,RIGHT_WINGBACK_DEFENDER,-6.5,-19.9,242,56,63,85,45,15,39,495.0
+FC Hansa Rostock,45448,Florian Carstens,Carstens,CENTRAL_DEFENDER,-14.7,-2.6,236,63,68,86,51,20,41,582.0
+FC Hansa Rostock,29315,Kenan Fatkic,Fatkic,DEFENSE_MIDFIELD,-6.2,-4.6,193,38,53,66,32,17,32,264.0
+FC Hansa Rostock,116116,Niklas Kölle,Kölle,LEFT_WINGBACK_DEFENDER,-6.3,22.8,182,37,46,63,34,13,29,339.0
+FC Hansa Rostock,1323,Marco Schuster,Schuster,DEFENSE_MIDFIELD,-9.3,-1.0,167,36,49,60,34,21,25,208.0
+FC Hansa Rostock,49830,Maximilian Krauß,Krauß,LEFT_WINGER,6.7,-3.0,164,16,32,51,44,27,8,146.0
+FC Hansa Rostock,28186,Leon Dajaku,Dajaku,LEFT_WINGER,2.2,19.7,155,14,25,43,46,23,8,206.0
+FC Hansa Rostock,2416,David Kopacz,Kopacz,RIGHT_WINGER,5.4,-1.9,153,9,35,51,46,28,10,120.0
+FC Hansa Rostock,246675,Bernie Lennemann,Lennemann,RIGHT_WINGER,7.2,-9.1,138,8,21,36,36,23,4,107.0
+FC Hansa Rostock,63419,Jonas Dirkner,Dirkner,DEFENSE_MIDFIELD,7.3,-5.4,131,18,39,46,32,10,17,364.0
+FC Hansa Rostock,5674,Luca Unbehaun,Unbehaun,GOALKEEPER,-40.2,-0.9,130,43,20,29,35,19,13,347.0
+FC Hansa Rostock,30980,Lukas Wallner,Wallner,CENTRAL_DEFENDER,-16.2,10.8,119,31,33,44,28,15,19,194.0
+FC Hansa Rostock,9790,Andreas Voglsammer,Voglsammer,CENTER_FORWARD,6.4,-5.1,116,12,21,35,29,15,9,164.0
+FC Hansa Rostock,109744,Yannick Michaelis,Michaelis,RIGHT_WINGER,-5.7,-15.3,92,12,17,29,22,13,10,106.0
+FC Hansa Rostock,107773,Benno Dietze,Dietze,ATTACKING_MIDFIELD,-3.4,1.7,62,7,14,20,19,9,3,123.0
+FC Hansa Rostock,108029,Milosz Brzozowski,Brzozowski,ATTACKING_MIDFIELD,15.6,-10.7,46,6,11,13,11,6,5,26.0
+FC Hansa Rostock,45770,Ahmet Gürleyen,Gürleyen,CENTRAL_DEFENDER,-21.6,-5.9,46,15,8,12,6,3,6,76.0
+FC Hansa Rostock,104975,Ouassim Karada,Karada,RIGHT_WINGBACK_DEFENDER,10.3,-6.2,44,5,10,14,11,4,2,53.0
+FC Hansa Rostock,116084,Peter Kiedl,Kiedl,CENTER_FORWARD,4.1,5.1,31,3,5,7,9,2,2,15.0
+FC Hansa Rostock,99366,David Hummel,Hummel,CENTER_FORWARD,15.9,9.1,13,3,2,3,2,1,2,0.0
+FC Ingolstadt 04,46962,Vinko Sapina,Sapina,DEFENSE_MIDFIELD,-1.4,-1.5,290,39,78,109,68,34,36,453.0
+FC Ingolstadt 04,166604,Fredrik Carlsen,Carlsen,DEFENSE_MIDFIELD,2.3,0.5,263,36,59,94,55,31,25,312.0
+FC Ingolstadt 04,49850,Jonas Scholz,Scholz,CENTRAL_DEFENDER,-15.1,12.7,210,60,60,73,39,25,39,335.0
+FC Ingolstadt 04,104664,Emre Gül,Gül,ATTACKING_MIDFIELD,4.1,-16.3,202,31,47,68,49,22,19,212.0
+FC Ingolstadt 04,44311,Georgios Antzoulas,Antzoulas,CENTRAL_DEFENDER,-16.1,-13.2,192,63,57,71,37,19,44,364.0
+FC Ingolstadt 04,161668,David Klein,Klein,GOALKEEPER,-41.6,-0.8,163,47,27,40,53,41,15,382.0
+FC Ingolstadt 04,112509,Nishan Velupillay,Velupillay,ATTACKING_MIDFIELD,5.3,4.8,155,13,31,45,42,22,10,178.0
+FC Ingolstadt 04,23320,Lars Lokotsch,Lokotsch,CENTER_FORWARD,12.4,-1.0,151,4,31,47,47,23,7,97.0
+FC Ingolstadt 04,6307,Keanan Bennetts,Bennetts,RIGHT_WINGBACK_DEFENDER,5.6,15.9,145,23,33,43,34,17,11,143.0
+FC Ingolstadt 04,41323,Simon Lorenz,Lorenz,CENTRAL_DEFENDER,-17.3,-0.5,134,42,38,47,15,8,30,264.0
+FC Ingolstadt 04,104253,Davide-Danilo Sekulovic,Sekulovic,RIGHT_WINGBACK_DEFENDER,3.8,-22.8,130,25,27,48,32,16,15,150.0
+FC Ingolstadt 04,62492,Yannick Deichmann,Deichmann,RIGHT_WINGBACK_DEFENDER,-4.5,-17.8,99,21,21,35,23,11,11,114.0
+FC Ingolstadt 04,1124,Lukas Fröde,Fröde,CENTRAL_DEFENDER,-17.6,-2.2,97,40,27,35,10,3,24,198.0
+FC Ingolstadt 04,219247,Obed Chidindu Ugondu,Ugondu,ATTACKING_MIDFIELD,23.2,15.5,94,9,11,23,22,9,4,6.0
+FC Ingolstadt 04,70472,Linus Rosenlöcher,Rosenlöcher,LEFT_WINGBACK_DEFENDER,-3.8,18.1,94,20,19,36,24,12,15,114.0
+FC Ingolstadt 04,104545,Max Plath,Plath,RIGHT_WINGBACK_DEFENDER,-12.0,-6.3,81,11,17,28,24,15,7,160.0
+FC Ingolstadt 04,67817,Joseph Ganda,Ganda,ATTACKING_MIDFIELD,7.0,-11.4,54,6,12,18,13,6,4,6.0
+FC Ingolstadt 04,78696,Benjamin Kanuric,Kanuric,DEFENSE_MIDFIELD,4.8,-3.6,20,0,3,6,8,3,0,26.0
+FC Ingolstadt 04,169192,Sejdo Durakov,Durakov,RIGHT_WINGBACK_DEFENDER,-8.6,-7.1,18,1,5,6,6,2,2,35.0
+FC Ingolstadt 04,112588,Elias Decker,Decker,CENTRAL_DEFENDER,-23.5,-18.8,13,4,4,5,2,1,4,34.0
+FC Ingolstadt 04,104859,Ognjen Drakulic,Drakulic,ATTACKING_MIDFIELD,10.4,-4.3,10,0,0,1,4,2,0,0.0
+FC Ingolstadt 04,332769,Tomislav Bagarić,Bagarić,CENTRAL_DEFENDER,-42.4,-14.8,5,2,0,1,0,0,0,0.0
+FC Viktoria Köln,132329,Niklas Swider,Swider,DEFENSE_MIDFIELD,-5.9,4.8,323,46,103,125,95,39,37,445.0
+FC Viktoria Köln,10666,Taylan Duman,Duman,DEFENSE_MIDFIELD,0.6,-3.8,245,33,81,92,68,30,30,349.0
+FC Viktoria Köln,62505,Tobias Eisenhuth,Eisenhuth,CENTRAL_DEFENDER,-16.8,-2.3,236,70,71,83,69,28,47,279.0
+FC Viktoria Köln,117811,Tim Kloss,Kloss,CENTRAL_DEFENDER,-13.4,10.2,218,53,71,82,67,30,42,306.0
+FC Viktoria Köln,63518,Lucas Wolf,Wolf,LEFT_WINGER,-2.8,13.0,198,14,58,69,58,30,16,271.0
+FC Viktoria Köln,116150,Meiko Sponsel,Sponsel,RIGHT_WINGBACK_DEFENDER,-8.3,-18.6,184,43,53,67,40,19,27,257.0
+FC Viktoria Köln,83018,Arne Schulz,Schulz,GOALKEEPER,-41.4,0.4,170,40,33,42,65,42,11,432.0
+FC Viktoria Köln,31189,David Otto,Otto,CENTER_FORWARD,8.8,-0.8,166,17,31,47,41,19,13,107.0
+FC Viktoria Köln,165840,Niklas Castelle,Castelle,CENTER_FORWARD,12.3,2.8,125,13,20,37,33,11,6,101.0
+FC Viktoria Köln,13822,Kilian Jakob,Jakob,LEFT_WINGBACK_DEFENDER,-8.4,20.4,122,26,33,47,29,7,18,175.0
+FC Viktoria Köln,107894,Yannick Tonye,Tonye,LEFT_WINGBACK_DEFENDER,-10.8,-3.6,111,19,31,36,23,11,16,86.0
+FC Viktoria Köln,30962,Pascal Fallmann,Fallmann,RIGHT_WINGER,9.8,-18.2,91,13,22,34,19,10,11,108.0
+FC Viktoria Köln,70520,Alexander Prokopenko,Prokopenko,RIGHT_WINGER,3.5,-13.1,70,7,16,26,19,10,6,69.0
+FC Viktoria Köln,277769,Noah Maboulou,Maboulou,CENTER_FORWARD,5.9,-0.7,66,7,14,18,17,5,6,78.0
+FC Viktoria Köln,104092,Niklas Jahn,Jahn,CENTRAL_MIDFIELD,3.7,-0.1,59,12,15,19,11,8,9,31.0
+FC Viktoria Köln,71040,Verthomy Boboy,Boboy,LEFT_WINGBACK_DEFENDER,-10.7,14.3,55,9,14,19,13,5,5,26.0
+FC Viktoria Köln,89947,Marco Pledl,Pledl,RIGHT_WINGBACK_DEFENDER,5.0,5.6,47,8,11,16,9,2,5,64.0
+FC Viktoria Köln,112378,Eric Gueye,Gueye,LEFT_WINGER,21.7,-16.2,24,4,4,7,5,3,3,0.0
+FC Viktoria Köln,104976,Jason Amann,Amann,CENTRAL_DEFENDER,-18.1,15.2,4,1,2,2,2,0,1,22.0
+Fortuna Düsseldorf,153209,Anas Slimani,Slimani,CENTRAL_MIDFIELD,9.6,13.0,256,20,55,80,62,25,19,154.0
+Fortuna Düsseldorf,103138,Tim Oberdorf,Oberdorf,CENTRAL_DEFENDER,-17.5,-6.2,249,58,62,83,62,26,33,222.0
+Fortuna Düsseldorf,67536,Andreas Müller,Müller,DEFENSE_MIDFIELD,-6.5,1.7,236,37,65,84,58,30,25,298.0
+Fortuna Düsseldorf,149003,Yassine Bouchama,Bouchama,CENTRAL_MIDFIELD,5.6,-3.8,210,23,53,65,49,29,21,251.0
+Fortuna Düsseldorf,1531,Matthias Zimmermann,Zimmermann,RIGHT_WINGBACK_DEFENDER,-0.9,-20.4,180,43,49,63,40,12,33,284.0
+Fortuna Düsseldorf,143106,Elias Egouli,Egouli,CENTRAL_DEFENDER,-24.1,14.2,150,42,43,55,45,11,28,164.0
+Fortuna Düsseldorf,5147,Jorrit Hendrix,Hendrix,LEFT_WINGBACK_DEFENDER,-2.8,13.9,149,27,38,50,29,11,19,217.0
+Fortuna Düsseldorf,30251,Steven van der Sloot,Sloot,RIGHT_WINGBACK_DEFENDER,3.8,-16.2,141,20,30,45,41,25,14,224.0
+Fortuna Düsseldorf,15621,Philipp Förster,Förster,ATTACKING_MIDFIELD,3.3,-1.6,138,16,36,48,35,16,12,191.0
+Fortuna Düsseldorf,10067,Fabian Schleusener,Schleusener,CENTER_FORWARD,8.1,9.1,134,13,31,43,42,23,11,62.0
+Fortuna Düsseldorf,30052,Jomaine Consbruch,Consbruch,CENTRAL_MIDFIELD,4.4,1.6,128,15,33,46,31,19,12,172.0
+Fortuna Düsseldorf,10015,Erik Wekesser,Wekesser,LEFT_WINGBACK_DEFENDER,-13.9,21.8,125,17,34,44,34,13,10,257.0
+Fortuna Düsseldorf,169620,Louis Lord,Lord,GOALKEEPER,-41.5,1.5,124,27,27,36,42,25,13,298.0
+Fortuna Düsseldorf,30252,Eric Hottmann,Hottmann,CENTER_FORWARD,12.2,-2.6,121,20,23,35,23,10,13,83.0
+Fortuna Düsseldorf,94858,Sascha Risch,Risch,LEFT_WINGBACK_DEFENDER,-14.3,15.9,72,15,24,28,21,11,11,120.0
+Fortuna Düsseldorf,6210,Marcel Benger,Benger,DEFENSE_MIDFIELD,-10.3,2.8,71,11,21,26,19,7,10,63.0
+Fortuna Düsseldorf,220114,Elias Arden,Arden,DEFENSE_MIDFIELD,-10.8,-4.6,67,15,20,22,15,7,11,151.0
+Fortuna Düsseldorf,103299,Lasse Rieß,Rieß,GOALKEEPER,-43.8,1.0,64,18,13,17,16,10,5,192.0
+Fortuna Düsseldorf,120156,Felix Meiser,Meiser,CENTRAL_DEFENDER,-16.9,12.9,39,8,12,15,15,7,6,48.0
+Fortuna Düsseldorf,1083,Dominique Heintz,Heintz,CENTRAL_DEFENDER,-20.7,6.2,23,9,7,9,4,0,6,17.0
+Fortuna Düsseldorf,122375,Jordi Paulina,Paulina,ATTACKING_MIDFIELD,14.2,-6.4,20,4,6,7,4,1,4,1.0
+Fortuna Düsseldorf,153646,Lukas Eixler,Eixler,CENTER_FORWARD,20.6,2.9,19,2,5,5,6,6,2,18.0
+Fortuna Düsseldorf,109793,Lukas Bornschein,Bornschein,CENTRAL_DEFENDER,-18.5,5.0,17,7,6,7,1,0,5,3.0
+Fortuna Düsseldorf,117977,Kaden Amaniampong,Amaniampong,LEFT_WINGBACK_DEFENDER,-4.6,23.7,16,2,6,6,5,2,3,19.0
+MSV Duisburg,56400,Can Coskun,Coskun,LEFT_WINGBACK_DEFENDER,-2.6,21.0,233,40,55,80,56,30,23,371.0
+MSV Duisburg,107554,Maximilian Braune,Braune,GOALKEEPER,-37.3,-2.3,217,81,35,46,46,31,25,406.0
+MSV Duisburg,51632,Aljaz Casar,Casar,ATTACKING_MIDFIELD,-3.7,-2.3,192,33,52,64,40,22,22,244.0
+MSV Duisburg,58102,Rasim Bulic,Bulic,DEFENSE_MIDFIELD,-8.4,3.0,185,48,47,62,41,18,27,223.0
+MSV Duisburg,52424,Tobias Fleckstein,Fleckstein,CENTRAL_DEFENDER,-14.7,1.9,165,51,54,59,29,12,39,334.0
+MSV Duisburg,118373,Jan-Simon Symalla,Symalla,RIGHT_WINGER,10.6,-14.8,145,11,27,41,40,18,5,225.0
+MSV Duisburg,1261,Joshua Bitter,Bitter,RIGHT_WINGBACK_DEFENDER,-1.2,-21.2,129,26,24,42,32,20,12,142.0
+MSV Duisburg,48076,Christian Viet,Viet,CENTRAL_MIDFIELD,0.4,3.4,124,24,37,45,24,13,24,193.0
+MSV Duisburg,53177,Conor Noß,Noß,ATTACKING_MIDFIELD,6.9,-11.6,110,11,23,36,28,17,12,109.0
+MSV Duisburg,112385,Niklas Jessen,Jessen,RIGHT_WINGBACK_DEFENDER,2.3,-17.2,108,22,25,38,22,11,12,91.0
+MSV Duisburg,15741,Patrick Sussek,Sussek,LEFT_WINGER,10.6,17.6,101,7,17,31,32,13,5,89.0
+MSV Duisburg,51799,Dominik Kother,Kother,ATTACKING_MIDFIELD,3.2,8.1,100,16,22,30,18,11,11,140.0
+MSV Duisburg,104811,Ben Schlicke,Schlicke,CENTRAL_DEFENDER,-12.1,10.5,98,18,33,39,42,20,13,168.0
+MSV Duisburg,168443,Martin Ens,Ens,CENTRAL_DEFENDER,-22.2,-8.9,88,32,25,30,17,5,20,126.0
+MSV Duisburg,47211,Florian Krüger,Krüger,ATTACKING_MIDFIELD,1.9,-2.6,61,5,14,20,14,6,4,57.0
+MSV Duisburg,174800,Peter Remmert,Remmert,CENTER_FORWARD,3.2,-4.2,59,5,15,17,16,8,5,104.0
+MSV Duisburg,123555,Ramien Safi,Safi,CENTER_FORWARD,11.0,-8.0,58,10,11,16,11,3,5,126.0
+MSV Duisburg,116155,Jakob Bookjans,Bookjans,ATTACKING_MIDFIELD,9.5,-5.2,50,5,12,15,11,7,5,18.0
+MSV Duisburg,15199,Max Besuschkow,Besuschkow,DEFENSE_MIDFIELD,2.5,-1.1,47,6,15,19,12,5,5,38.0
+MSV Duisburg,78900,Lex Tyger Lobinger,Lobinger,CENTER_FORWARD,11.2,-0.9,40,2,4,10,11,5,1,58.0
+MSV Duisburg,31923,Frederik Christensen,Christensen,LEFT_WINGBACK_DEFENDER,0.1,18.6,31,3,6,12,10,4,4,48.0
+MSV Duisburg,26962,Dennis Borkowski,Borkowski,CENTER_FORWARD,40.4,17.5,6,0,1,1,2,0,0,7.0
+Preußen Münster,44878,Rico Preißinger,Preißinger,DEFENSE_MIDFIELD,-3.0,7.0,231,39,56,83,53,26,21,191.0
+Preußen Münster,53182,Charalambos Makridis,Makridis,LEFT_WINGBACK_DEFENDER,2.2,17.1,222,19,43,73,69,36,12,195.0
+Preußen Münster,106818,Antonio Tikvic,Tikvic,CENTRAL_DEFENDER,-14.5,14.2,205,43,60,74,61,28,27,366.0
+Preußen Münster,49157,Morten Behrens,Behrens,GOALKEEPER,-40.0,1.0,189,55,43,49,48,29,24,535.0
+Preußen Münster,116043,Lucas Zeller,Zeller,CENTRAL_DEFENDER,-20.8,-2.7,161,55,38,59,32,12,28,230.0
+Preußen Münster,109627,Montell Ndikom,Ndikom,RIGHT_WINGER,11.3,-13.1,157,17,21,40,36,14,10,145.0
+Preußen Münster,62472,Felix Higl,Higl,CENTER_FORWARD,11.6,7.8,156,19,40,48,32,16,16,114.0
+Preußen Münster,45360,Torge Paetow,Paetow,CENTRAL_DEFENDER,-10.8,-12.2,155,47,45,57,25,12,34,228.0
+Preußen Münster,152951,Niklas Varelmann,Varelmann,LEFT_WINGBACK_DEFENDER,-1.6,21.4,151,29,43,51,34,15,24,102.0
+Preußen Münster,104340,Louis Kolbe,Kolbe,RIGHT_WINGBACK_DEFENDER,-4.9,-19.5,143,18,35,52,36,21,16,308.0
+Preußen Münster,32155,Ryan Johansson,Johansson,LEFT_WINGER,4.1,3.1,138,13,34,46,42,17,14,162.0
+Preußen Münster,63740,Niko Koulis,Koulis,CENTRAL_DEFENDER,-19.5,2.5,122,40,38,43,21,8,27,201.0
+Preußen Münster,70564,Philipp Maier,Maier,DEFENSE_MIDFIELD,-2.3,0.3,102,17,33,38,25,17,15,201.0
+Preußen Münster,158838,Marvin Schulz,Schulz,CENTER_FORWARD,13.1,-10.6,100,9,14,30,24,12,5,25.0
+Preußen Münster,152843,Wesley Adeh,Adeh,DEFENSE_MIDFIELD,-5.4,-3.2,86,11,22,32,20,12,8,130.0
+Preußen Münster,118190,Samuel Althaus,Althaus,DEFENSE_MIDFIELD,-1.7,-4.2,78,11,14,24,18,5,4,91.0
+Preußen Münster,118013,Leon Tasov,Tasov,RIGHT_WINGBACK_DEFENDER,-3.2,-16.3,65,7,14,20,16,10,4,91.0
+Preußen Münster,63556,Tim Dietrich,Dietrich,CENTRAL_DEFENDER,-18.8,11.7,40,10,10,14,12,5,7,116.0
+Preußen Münster,22940,Joshua Mees,Mees,ATTACKING_MIDFIELD,7.4,20.8,5,1,2,2,1,1,1,0.0
+Preußen Münster,31293,Romario Rösch,Rösch,CENTRAL_MIDFIELD,-19.3,11.8,2,0,1,1,1,1,0,0.0
+Rot-Weiss Essen,63610,Janne Sietan,Sietan,DEFENSE_MIDFIELD,-2.1,-0.3,284,51,80,101,65,29,40,462.0
+Rot-Weiss Essen,153531,Franci Bouebari,Bouebari,LEFT_WINGBACK_DEFENDER,-5.8,19.9,265,52,71,92,53,28,44,312.0
+Rot-Weiss Essen,89939,Semir Telalovic,Telalovic,ATTACKING_MIDFIELD,17.6,-2.0,229,24,47,68,48,23,22,191.0
+Rot-Weiss Essen,89898,Jannik Hofmann,Hofmann,RIGHT_WINGBACK_DEFENDER,-0.6,-18.1,186,35,39,63,47,23,19,257.0
+Rot-Weiss Essen,106637,Noah Pesch,Pesch,DEFENSE_MIDFIELD,5.5,14.6,186,22,39,61,56,34,13,210.0
+Rot-Weiss Essen,118407,Ben Hüning,Hüning,CENTRAL_DEFENDER,-17.0,-5.3,184,55,50,66,44,17,31,287.0
+Rot-Weiss Essen,30519,Marvin Obuz,Obuz,RIGHT_WINGER,19.2,-18.4,177,16,39,57,49,28,12,163.0
+Rot-Weiss Essen,67487,Dickson Abiama,Abiama,RIGHT_WINGER,10.1,-14.1,142,13,22,42,32,13,6,79.0
+Rot-Weiss Essen,70556,Jakob Golz,Golz,GOALKEEPER,-40.5,-0.2,127,45,24,25,23,14,13,210.0
+Rot-Weiss Essen,107976,Tony Menzel,Menzel,DEFENSE_MIDFIELD,2.8,2.1,113,20,28,38,22,9,13,72.0
+Rot-Weiss Essen,2309,José-Enrique Ríos Alonso,Alonso,CENTRAL_DEFENDER,-11.9,11.3,111,32,31,35,25,7,19,123.0
+Rot-Weiss Essen,46354,Max Geschwill,Geschwill,CENTRAL_DEFENDER,-8.5,7.4,107,32,23,36,21,6,15,134.0
+Rot-Weiss Essen,47066,Lucas Brumme,Brumme,LEFT_WINGER,6.7,20.3,100,17,19,34,21,13,8,77.0
+Rot-Weiss Essen,84047,Marek Janssen,Janssen,CENTER_FORWARD,19.8,1.0,71,11,14,18,17,7,4,46.0
+Rot-Weiss Essen,83103,Michael Kostka,Kostka,RIGHT_WINGER,0.9,-15.4,60,12,17,21,16,9,5,178.0
+Rot-Weiss Essen,101635,Ruben Reisig,Reisig,DEFENSE_MIDFIELD,6.8,4.0,55,6,14,18,15,4,6,35.0
+Rot-Weiss Essen,104844,Aiman Dardari,Dardari,LEFT_WINGER,13.9,20.8,45,5,8,12,9,5,5,15.0
+Rot-Weiss Essen,118309,Jaka Cuber Potocnik,Potocnik,CENTER_FORWARD,12.6,1.7,43,5,9,14,11,7,3,53.0
+Rot-Weiss Essen,30378,Nick Bätzner,Bätzner,DEFENSE_MIDFIELD,-1.8,2.1,31,3,7,10,10,5,2,54.0
+Rot-Weiss Essen,103730,Luca Bazzoli,Bazzoli,DEFENSE_MIDFIELD,-26.7,20.3,9,2,3,3,1,1,1,5.0
+Rot-Weiss Essen,56432,Ekin Celebi,Celebi,LEFT_WINGBACK_DEFENDER,-31.7,27.8,2,1,1,1,0,0,1,1.0
+SC Fortuna Köln,3413,Adrian Stanilewicz,Stanilewicz,CENTRAL_MIDFIELD,0.6,7.5,229,41,40,81,47,28,24,406.0
+SC Fortuna Köln,81125,Maximilian Fischer,Fischer,LEFT_WINGBACK_DEFENDER,-15.1,13.2,197,56,52,69,37,18,33,359.0
+SC Fortuna Köln,118920,Georg Strauch,Strauch,DEFENSE_MIDFIELD,-5.9,-2.1,190,49,52,64,29,14,35,231.0
+SC Fortuna Köln,109742,Bennit Bröger,Bröger,ATTACKING_MIDFIELD,6.6,-4.9,180,20,32,54,46,23,14,261.0
+SC Fortuna Köln,23155,David Kamm Al-Azzawe,Al-Azzawe,CENTRAL_DEFENDER,-24.9,-9.7,167,55,42,62,28,18,30,408.0
+SC Fortuna Köln,135581,Lennart Winkler,Winkler,GOALKEEPER,-40.2,-1.1,158,64,25,32,27,20,16,396.0
+SC Fortuna Köln,117988,Romeo Aigbekaen,Aigbekaen,CENTER_FORWARD,16.2,9.9,134,14,16,35,31,19,7,29.0
+SC Fortuna Köln,115770,Tom Geerkens,Geerkens,CENTRAL_MIDFIELD,-6.0,-10.4,130,18,26,41,27,16,9,106.0
+SC Fortuna Köln,8238,Robin Afamefuna,Afamefuna,LEFT_WINGBACK_DEFENDER,-16.2,20.5,130,31,28,42,22,15,20,316.0
+SC Fortuna Köln,118308,Neo Telle,Telle,CENTRAL_DEFENDER,-7.5,-21.1,104,20,18,35,25,15,11,113.0
+SC Fortuna Köln,216667,Nico Thier,Thier,CENTER_FORWARD,15.6,0.8,101,8,19,27,22,10,10,51.0
+SC Fortuna Köln,9893,Florian Heister,Heister,RIGHT_WINGBACK_DEFENDER,-11.1,-17.1,92,18,23,32,19,9,14,235.0
+SC Fortuna Köln,83980,Enzo Wirtz,Wirtz,CENTER_FORWARD,24.0,-1.6,57,4,9,15,13,8,4,33.0
+SC Fortuna Köln,6512,Cedric Harenbrock,Harenbrock,ATTACKING_MIDFIELD,2.1,-0.6,50,3,17,20,17,8,4,125.0
+SC Fortuna Köln,52580,Seymour Fünger,Fünger,CENTRAL_DEFENDER,-22.2,10.9,46,18,12,14,6,2,10,98.0
+SC Fortuna Köln,4204,Hamadi Al Ghaddioui,Ghaddioui,CENTER_FORWARD,10.2,-4.4,45,4,11,16,13,6,4,32.0
+SC Fortuna Köln,165800,Kevin Brechmann,Brechmann,RIGHT_WINGBACK_DEFENDER,-5.4,-24.2,39,4,11,13,15,11,4,103.0
+SC Fortuna Köln,83979,Jannik Mause,Mause,CENTER_FORWARD,15.6,4.8,33,2,6,7,9,5,0,14.0
+SC Fortuna Köln,94849,Timo Bornemann,Bornemann,RIGHT_WINGBACK_DEFENDER,3.4,3.5,23,2,5,8,6,3,2,1.0
+SC Fortuna Köln,118294,Kevin Krumme,Krumme,CENTRAL_DEFENDER,0.2,6.2,23,4,8,9,7,4,5,38.0
+SC Fortuna Köln,168462,Luca Majetic,Majetic,CENTRAL_MIDFIELD,-2.6,-10.5,22,2,4,7,7,4,2,10.0
+SC Fortuna Köln,51557,Rafael García,García,ATTACKING_MIDFIELD,9.1,-10.8,12,3,2,4,4,3,2,0.0
+SC Fortuna Köln,32473,Jonas Michelbrink,Michelbrink,CENTRAL_MIDFIELD,-12.4,27.9,3,0,0,1,1,1,0,0.0
+SC Verl,9960,Niko Kijewski,Kijewski,LEFT_WINGBACK_DEFENDER,-9.2,20.9,245,43,69,92,71,36,32,350.0
+SC Verl,172008,Mika Clausen,Clausen,CENTRAL_MIDFIELD,5.2,2.4,236,23,49,70,57,25,19,223.0
+SC Verl,89775,André Leipold,Leipold,LEFT_WINGER,10.2,6.7,236,19,49,70,64,28,15,153.0
+SC Verl,106083,Timo Schlieck,Schlieck,GOALKEEPER,-40.7,-0.2,199,69,33,42,48,35,19,401.0
+SC Verl,47222,Dennis Waidner,Waidner,DEFENSE_MIDFIELD,-1.3,2.0,183,35,58,69,42,15,27,227.0
+SC Verl,277344,Felix Vogler,Vogler,RIGHT_WINGBACK_DEFENDER,-8.5,-14.1,167,43,42,57,32,17,26,265.0
+SC Verl,105524,Nick Seidel,Seidel,CENTRAL_DEFENDER,-17.2,6.7,162,49,50,59,33,14,41,427.0
+SC Verl,82660,Fabian Wessig,Wessig,CENTRAL_MIDFIELD,1.7,-0.1,159,23,43,53,40,19,14,310.0
+SC Verl,103921,Almin Mesanovic,Mesanovic,DEFENSE_MIDFIELD,-0.1,-5.2,157,23,35,52,35,16,15,192.0
+SC Verl,104929,Janne Berner,Berner,RIGHT_WINGBACK_DEFENDER,-5.0,-19.5,150,24,39,53,43,23,14,183.0
+SC Verl,111250,Tim Heike,Heike,CENTER_FORWARD,11.2,2.2,132,9,22,41,37,18,9,69.0
+SC Verl,116117,Paul Lehmann,Lehmann,CENTRAL_DEFENDER,-20.7,3.7,130,40,31,49,19,8,23,231.0
+SC Verl,103212,Amin Farouk,Farouk,LEFT_WINGER,15.0,7.9,121,11,19,32,28,13,6,150.0
+SC Verl,167594,Moritz Kaube,Kaube,RIGHT_WINGER,7.4,-15.1,110,14,24,39,29,11,8,99.0
+SC Verl,30071,Yari Otto,Otto,DEFENSE_MIDFIELD,2.8,-5.1,87,15,22,33,21,10,10,83.0
+SC Verl,103816,Joshua Eze,Eze,DEFENSE_MIDFIELD,2.5,5.4,66,12,23,26,15,6,9,82.0
+SC Verl,103780,Noah König,König,CENTRAL_DEFENDER,-20.2,-10.7,55,17,14,18,11,1,9,80.0
+SC Verl,109638,Bilal Yalcinkaya,Yalcinkaya,LEFT_WINGER,6.2,2.1,39,4,10,15,9,3,2,17.0
+SC Verl,104343,Antonio Foti,Foti,LEFT_WINGER,2.6,4.9,35,5,7,11,6,4,2,26.0
+SC Verl,103915,Alem Japaur,Japaur,CENTER_FORWARD,-1.3,3.2,5,1,2,2,0,0,1,0.0
+SC Verl,168885,Raphael Araoye,Araoye,CENTRAL_DEFENDER,-30.8,23.2,3,1,1,1,2,0,1,0.0
+SG Sonnenhof Großaspach,123613,Loris Maier,Maier,RIGHT_WINGER,6.3,-8.8,392,41,106,133,107,53,33,483.0
+SG Sonnenhof Großaspach,277686,Marius Kunde,Kunde,DEFENSE_MIDFIELD,4.5,1.3,339,45,91,120,91,43,31,523.0
+SG Sonnenhof Großaspach,277688,Volkan Celiktas,Celiktas,DEFENSE_MIDFIELD,-0.5,2.1,307,57,91,110,74,26,46,592.0
+SG Sonnenhof Großaspach,277698,Luca Molinari,Molinari,LEFT_WINGBACK_DEFENDER,-0.5,23.0,294,50,75,103,81,32,41,495.0
+SG Sonnenhof Großaspach,239075,Elias Rahn,Rahn,RIGHT_WINGBACK_DEFENDER,2.4,-21.6,245,28,70,89,67,25,25,309.0
+SG Sonnenhof Großaspach,32474,Antonis Aidonis,Aidonis,CENTRAL_DEFENDER,-11.9,-8.8,237,72,61,88,42,22,48,473.0
+SG Sonnenhof Großaspach,279452,Niklas Pollex,Pollex,CENTER_FORWARD,11.6,-5.5,236,26,50,78,56,27,17,400.0
+SG Sonnenhof Großaspach,104062,Tim Rossmann,Rossmann,CENTER_FORWARD,12.2,-3.7,212,9,37,59,65,26,7,143.0
+SG Sonnenhof Großaspach,277703,Lukas Stoppel,Stoppel,LEFT_WINGER,11.5,1.6,168,16,35,54,38,21,13,207.0
+SG Sonnenhof Großaspach,277699,Arbnor Nuraj,Nuraj,CENTRAL_DEFENDER,-18.6,11.6,165,51,48,58,29,10,31,277.0
+SG Sonnenhof Großaspach,58098,Fabian Eisele,Eisele,CENTER_FORWARD,17.0,-3.7,142,10,29,41,45,16,9,106.0
+SG Sonnenhof Großaspach,44898,Maximilian Reule,Reule,GOALKEEPER,-43.1,-2.0,141,50,20,27,37,24,11,355.0
+SG Sonnenhof Großaspach,165706,Christian Mistl,Mistl,DEFENSE_MIDFIELD,4.7,-4.7,105,23,31,38,18,6,18,139.0
+SG Sonnenhof Großaspach,118259,Marlon Faß,Faß,CENTER_FORWARD,8.2,5.1,60,7,16,18,14,6,7,77.0
+SG Sonnenhof Großaspach,49069,Nikos Zografakis,Zografakis,LEFT_WINGER,9.7,7.9,58,5,12,21,16,8,4,47.0
+SG Sonnenhof Großaspach,168817,Leon Maier,Maier,CENTRAL_DEFENDER,-8.0,-1.7,57,17,16,19,9,4,10,104.0
+SG Sonnenhof Großaspach,118212,Franz Xaver Bleicher,Bleicher,CENTER_FORWARD,6.9,5.0,24,3,9,9,6,3,3,35.0
+SG Sonnenhof Großaspach,217532,Deli Hajdini,Hajdini,LEFT_WINGER,-15.9,30.6,3,0,1,1,1,1,0,0.0
+SSV Jahn Regensburg,6339,Adrian Fein,Fein,DEFENSE_MIDFIELD,2.3,0.7,404,54,97,136,101,40,39,698.0
+SSV Jahn Regensburg,32338,Oscar Schönfelder,Schönfelder,LEFT_WINGBACK_DEFENDER,-2.9,17.5,302,52,63,96,62,34,28,246.0
+SSV Jahn Regensburg,47141,Nassim Boujellab,Boujellab,CENTRAL_MIDFIELD,7.5,4.3,264,24,50,78,68,37,19,198.0
+SSV Jahn Regensburg,118908,Leopold Wurm,Wurm,CENTRAL_DEFENDER,-20.3,1.6,244,78,74,92,41,22,58,552.0
+SSV Jahn Regensburg,89896,Sascha Hingerl,Hingerl,ATTACKING_MIDFIELD,-2.1,-4.3,229,46,59,81,40,24,32,213.0
+SSV Jahn Regensburg,123657,Lucas Hermes,Hermes,CENTER_FORWARD,14.1,-0.8,200,14,40,59,53,29,15,120.0
+SSV Jahn Regensburg,3005,Erik Majetschak,Majetschak,DEFENSE_MIDFIELD,-8.7,-0.2,197,49,57,68,44,22,31,240.0
+SSV Jahn Regensburg,28277,Felix Strauss,Strauss,CENTRAL_DEFENDER,-10.0,-14.2,171,39,43,57,52,24,23,200.0
+SSV Jahn Regensburg,82645,Benedikt Bauer,Bauer,RIGHT_WINGBACK_DEFENDER,-6.0,-16.7,152,25,29,48,43,16,10,209.0
+SSV Jahn Regensburg,109780,Hannes Hermann,Hermann,GOALKEEPER,-42.1,-0.6,148,39,30,42,44,25,17,381.0
+SSV Jahn Regensburg,30457,David Philipp,Philipp,RIGHT_WINGBACK_DEFENDER,5.5,-9.7,145,13,30,41,34,19,17,184.0
+SSV Jahn Regensburg,23317,Malte Karbstein,Karbstein,CENTRAL_DEFENDER,-4.3,16.7,84,20,23,32,17,6,13,121.0
+SSV Jahn Regensburg,109365,Nicolas Oliveira,Oliveira,RIGHT_WINGBACK_DEFENDER,-8.2,-18.8,81,14,19,27,19,10,8,85.0
+SSV Jahn Regensburg,118899,Jakob Seibold,Seibold,ATTACKING_MIDFIELD,0.1,-5.8,62,11,17,23,15,9,8,73.0
+SSV Jahn Regensburg,51633,Leo Mätzler,Mätzler,CENTRAL_DEFENDER,-14.9,-8.5,46,12,12,18,7,1,8,48.0
+SSV Jahn Regensburg,62496,Patrick Hobsch,Hobsch,RIGHT_WINGER,2.8,2.4,42,5,10,15,10,5,4,31.0
+SSV Jahn Regensburg,217931,Arian Dizdarevic,Dizdarevic,LEFT_WINGER,3.7,7.5,29,3,9,9,9,7,1,25.0
+SSV Jahn Regensburg,108151,John Posselt,Posselt,CENTER_FORWARD,2.7,0.6,17,1,4,5,5,1,1,0.0
+SSV Jahn Regensburg,107653,Zeteny Jano,Jano,CENTRAL_MIDFIELD,-13.2,-18.6,9,3,2,3,1,0,2,6.0
+SSV Jahn Regensburg,10665,Benedikt Saller,Saller,RIGHT_WINGBACK_DEFENDER,-28.4,-27.4,7,1,0,3,3,3,0,0.0
+SSV Jahn Regensburg,1212,Robin Ziegele,Ziegele,RIGHT_WINGBACK_DEFENDER,-24.5,-29.6,6,1,1,3,1,1,1,0.0
+SV Meppen,103719,Dominique Domröse,Domröse,RIGHT_WINGBACK_DEFENDER,-1.5,-22.5,365,47,90,124,95,32,36,487.0
+SV Meppen,44896,Thorben Deters,Deters,CENTRAL_MIDFIELD,3.6,-4.3,305,25,72,104,79,43,21,600.0
+SV Meppen,84075,Oliver Schmitt,Schmitt,LEFT_WINGER,10.3,17.3,286,21,56,93,69,26,19,169.0
+SV Meppen,149158,Niclas Nadj,Nadj,CENTRAL_MIDFIELD,0.1,-2.7,286,39,75,90,67,26,29,628.0
+SV Meppen,118484,Luca Prasse,Prasse,LEFT_WINGER,8.7,-17.1,251,31,48,79,58,25,25,262.0
+SV Meppen,45447,Ersin Zehir,Zehir,DEFENSE_MIDFIELD,-4.9,-2.7,224,37,63,84,53,27,28,413.0
+SV Meppen,77582,Luis Sprekelmeyer,Sprekelmeyer,CENTRAL_DEFENDER,-17.9,-6.8,199,61,52,72,33,12,37,488.0
+SV Meppen,26967,Tobias Mißner,Mißner,LEFT_WINGBACK_DEFENDER,-10.8,21.4,195,48,41,65,37,18,26,342.0
+SV Meppen,30802,Stefan Rankic,Rankic,CENTRAL_DEFENDER,-19.8,5.4,192,61,46,66,30,20,34,296.0
+SV Meppen,107694,Julius Pünt,Pünt,GOALKEEPER,-42.4,1.8,130,44,19,26,33,20,11,324.0
+SV Meppen,108071,Jannic Ehlers,Ehlers,RIGHT_WINGER,9.8,-10.2,82,7,17,29,22,14,4,84.0
+SV Meppen,108047,Richard Meier,Meier,RIGHT_WINGER,19.2,-5.5,74,9,14,25,18,11,8,43.0
+SV Meppen,44953,Cyrill Akono,Akono,CENTER_FORWARD,10.9,1.5,68,8,18,21,17,13,6,83.0
+SV Meppen,83016,Nikell Touglo,Touglo,CENTRAL_DEFENDER,-12.2,-10.3,63,21,15,22,16,9,10,168.0
+SV Meppen,104225,Florian Bähr,Bähr,LEFT_WINGBACK_DEFENDER,-9.7,17.1,59,15,9,17,11,6,5,93.0
+SV Meppen,109645,Jona Borsum,Borsum,CENTRAL_MIDFIELD,-0.5,-0.7,54,11,15,20,7,3,10,56.0
+SV Meppen,10161,Erik Zenga,Zenga,DEFENSE_MIDFIELD,-6.4,-0.2,31,6,9,12,7,4,6,67.0
+SV Meppen,46964,Simon Engelmann,Engelmann,CENTRAL_MIDFIELD,15.3,6.7,25,4,5,8,6,3,3,36.0
+SV Meppen,47014,Kasra Ghawilu,Ghawilu,RIGHT_WINGER,5.6,-7.7,24,0,5,6,9,4,0,11.0
+SV Meppen,118483,Niclas Wessels,Wessels,CENTRAL_MIDFIELD,30.6,-18.6,5,0,0,2,1,1,0,0.0
+SV Meppen,90027,Jonas Fedl,Fedl,CENTRAL_DEFENDER,-46.5,0.1,2,0,0,1,1,1,0,0.0
+SV Waldhof Mannheim,31548,Julian Rieckmann,Rieckmann,DEFENSE_MIDFIELD,-2.8,4.1,248,31,56,79,59,33,20,383.0
+SV Waldhof Mannheim,15925,Maximilian Thalhammer,Thalhammer,ATTACKING_MIDFIELD,-8.5,5.1,212,56,56,74,26,5,40,377.0
+SV Waldhof Mannheim,132334,Darnell Keumo,Keumo,LEFT_WINGBACK_DEFENDER,-2.8,20.8,211,32,45,71,54,20,23,209.0
+SV Waldhof Mannheim,206161,Jid Okeke,Okeke,RIGHT_WINGBACK_DEFENDER,-5.6,-23.0,203,33,53,71,55,22,24,361.0
+SV Waldhof Mannheim,104977,Lovis Bierschenk,Bierschenk,RIGHT_WINGER,10.4,2.9,197,20,38,60,49,20,11,117.0
+SV Waldhof Mannheim,172065,Julian Ulbricht,Ulbricht,CENTER_FORWARD,7.9,3.2,174,20,42,62,44,26,15,128.0
+SV Waldhof Mannheim,1089,Lukas Klünter,Klünter,CENTRAL_DEFENDER,-9.7,-12.8,163,42,43,58,34,12,26,345.0
+SV Waldhof Mannheim,1579,Vincent Thill,Thill,ATTACKING_MIDFIELD,-1.1,-1.5,162,19,41,53,47,24,14,237.0
+SV Waldhof Mannheim,94866,Claudio Kammerknecht,Kammerknecht,CENTRAL_DEFENDER,-17.7,10.5,149,46,45,52,33,15,36,268.0
+SV Waldhof Mannheim,158330,Joey Müller,Müller,DEFENSE_MIDFIELD,2.1,-6.7,147,24,42,53,33,14,18,120.0
+SV Waldhof Mannheim,21340,Thijmen Nijhuis,Nijhuis,GOALKEEPER,-41.3,-0.3,130,54,18,25,21,13,12,289.0
+SV Waldhof Mannheim,54654,Diego Michel,Michel,LEFT_WINGER,-3.3,3.9,119,9,38,44,38,22,10,164.0
+SV Waldhof Mannheim,153907,Gonçalo Gregório,Gregório,CENTER_FORWARD,8.2,1.0,111,8,24,32,29,17,6,74.0
+SV Waldhof Mannheim,133041,Moritz Polte,Polte,CENTRAL_DEFENDER,-19.1,1.6,99,34,29,35,16,9,20,290.0
+SV Waldhof Mannheim,107949,Kushtrim Asallari,Asallari,RIGHT_WINGER,4.3,-10.5,89,4,17,29,29,13,4,106.0
+SV Waldhof Mannheim,234153,Djayson Mendes,Mendes,LEFT_WINGBACK_DEFENDER,-0.5,18.5,43,7,6,8,12,8,3,19.0
+SV Waldhof Mannheim,51532,Leroy Mickels,Mickels,LEFT_WINGER,3.3,21.0,43,1,7,13,12,6,2,16.0
+SV Waldhof Mannheim,132851,Oluwaseun Ogbemudia,Ogbemudia,CENTRAL_DEFENDER,-17.3,10.0,39,15,8,9,4,1,6,52.0
+SV Waldhof Mannheim,109388,Arlind Rexhepi,Rexhepi,LEFT_WINGER,2.6,16.7,33,1,6,10,9,4,1,25.0
+SV Waldhof Mannheim,109277,Jan Niemann,Niemann,GOALKEEPER,-45.1,0.3,30,11,3,6,4,2,2,130.0
+SV Waldhof Mannheim,1421,Noah Sarenren Bazee,Bazee,RIGHT_WINGER,8.3,-4.7,25,3,4,7,6,5,1,10.0
+SV Waldhof Mannheim,159647,Masca,Masca,CENTER_FORWARD,12.3,8.8,22,0,2,3,8,4,0,28.0
+SV Waldhof Mannheim,934,Terrence Boyd,Boyd,CENTER_FORWARD,0.3,-8.8,21,3,4,8,4,1,2,21.0
+SV Waldhof Mannheim,319257,Nolan Muteba N'Tumba,N'Tumba,RIGHT_WINGER,4.8,-17.7,5,0,1,1,2,0,0,0.0
+SV Wehen Wiesbaden,46888,Tarik Gözüsirin,Gözüsirin,DEFENSE_MIDFIELD,-2.5,1.8,226,31,63,83,61,27,30,434.0
+SV Wehen Wiesbaden,32491,Jordy Gillekens,Gillekens,CENTRAL_DEFENDER,-18.3,-11.7,214,64,62,76,52,21,42,341.0
+SV Wehen Wiesbaden,32340,Max Brandt,Brandt,DEFENSE_MIDFIELD,-4.5,2.8,212,32,60,74,51,26,23,444.0
+SV Wehen Wiesbaden,51527,Fabian Greilinger,Greilinger,LEFT_WINGBACK_DEFENDER,-9.1,17.8,186,38,48,62,35,19,26,227.0
+SV Wehen Wiesbaden,187045,Ben Nink,Nink,RIGHT_WINGBACK_DEFENDER,-3.8,-18.8,186,39,50,60,36,13,27,222.0
+SV Wehen Wiesbaden,90009,Justin Janitzek,Janitzek,CENTRAL_DEFENDER,-18.3,11.3,184,51,55,63,50,22,33,306.0
+SV Wehen Wiesbaden,165852,Moritz Flotho,Flotho,CENTER_FORWARD,15.3,-1.1,153,13,34,54,46,24,9,93.0
+SV Wehen Wiesbaden,33056,Roberto Massimo,Massimo,CENTRAL_MIDFIELD,14.7,-10.1,139,11,37,44,36,11,10,88.0
+SV Wehen Wiesbaden,16097,Gino Fechner,Fechner,DEFENSE_MIDFIELD,-6.0,-2.9,129,19,39,46,36,20,13,212.0
+SV Wehen Wiesbaden,10433,Florian Stritzel,Stritzel,GOALKEEPER,-42.4,-0.4,110,42,16,23,24,18,9,103.0
+SV Wehen Wiesbaden,104040,Raul Paula,Paula,LEFT_WINGER,9.3,15.8,95,9,24,34,25,11,7,127.0
+SV Wehen Wiesbaden,82595,Marcus Müller,Müller,CENTER_FORWARD,12.3,0.9,94,8,20,26,23,8,8,101.0
+SV Wehen Wiesbaden,67662,Niklas May,May,LEFT_WINGBACK_DEFENDER,-0.5,19.7,89,10,20,30,26,11,7,181.0
+SV Wehen Wiesbaden,217327,Ibrahim Ati Allah,Allah,LEFT_WINGER,2.6,-5.6,88,8,13,28,23,9,8,108.0
+SV Wehen Wiesbaden,53175,Lukas Schleimer,Schleimer,CENTRAL_MIDFIELD,6.2,-3.3,85,11,18,27,20,12,8,111.0
+SV Wehen Wiesbaden,66337,Robin Kalem,Kalem,CENTRAL_MIDFIELD,1.3,13.8,66,11,11,22,17,7,6,126.0
+SV Wehen Wiesbaden,118117,Ayoub Chaikhoun,Chaikhoun,ATTACKING_MIDFIELD,8.8,4.6,60,5,16,22,15,6,6,80.0
+SV Wehen Wiesbaden,197120,David Suárez,Suárez,DEFENSE_MIDFIELD,-2.3,-0.6,52,11,14,17,7,2,9,12.0
+SV Wehen Wiesbaden,10180,Philipp Hercher,Hercher,RIGHT_WINGBACK_DEFENDER,13.0,-23.2,44,6,11,14,12,6,3,32.0
+SV Wehen Wiesbaden,56660,Simon Stehle,Stehle,CENTER_FORWARD,0.4,-13.3,43,6,8,13,11,5,4,10.0
+SV Wehen Wiesbaden,45007,Sinan Karweina,Karweina,ATTACKING_MIDFIELD,11.8,8.5,39,4,6,12,10,5,1,14.0
+SV Wehen Wiesbaden,84069,Jakob Lewald,Lewald,CENTRAL_DEFENDER,-23.2,-1.1,33,9,8,11,14,8,5,92.0
+SV Wehen Wiesbaden,75752,Nikolas Agrafiotis,Agrafiotis,CENTER_FORWARD,19.5,6.6,20,1,5,5,5,2,1,8.0
+SV Wehen Wiesbaden,10059,Florian Hübner,Hübner,CENTRAL_DEFENDER,3.9,-11.2,2,1,1,1,0,0,1,0.0
+TSG 1899 Hoffenheim II,10528,Klaus Gjasula,Gjasula,DEFENSE_MIDFIELD,-5.7,-0.3,280,68,86,100,50,22,46,549.0
+TSG 1899 Hoffenheim II,104012,Valentin Lässig,Lässig,CENTRAL_DEFENDER,-15.0,9.5,268,72,60,89,63,21,39,467.0
+TSG 1899 Hoffenheim II,104700,Florian Micheler,Micheler,ATTACKING_MIDFIELD,4.6,1.0,261,35,62,87,60,25,23,300.0
+TSG 1899 Hoffenheim II,118241,Tiago Poller,Poller,ATTACKING_MIDFIELD,7.2,-5.8,222,23,51,74,59,31,16,379.0
+TSG 1899 Hoffenheim II,132991,Tristan Spranger,Spranger,LEFT_WINGBACK_DEFENDER,-5.1,19.8,221,27,48,74,56,36,11,266.0
+TSG 1899 Hoffenheim II,104829,Yasin Zor,Zor,LEFT_WINGER,11.3,7.9,216,22,37,63,53,26,13,140.0
+TSG 1899 Hoffenheim II,104570,Sean Dulic,Dulic,CENTRAL_DEFENDER,-15.0,-7.5,211,62,68,78,56,22,46,310.0
+TSG 1899 Hoffenheim II,104763,Blessing Makanda,Makanda,RIGHT_WINGER,11.2,-20.4,206,19,39,68,59,27,14,176.0
+TSG 1899 Hoffenheim II,104373,Lúkas Petersson,Petersson,GOALKEEPER,-41.6,-0.7,188,60,38,43,44,20,22,502.0
+TSG 1899 Hoffenheim II,169164,Natnael Abraha,Abraha,RIGHT_WINGBACK_DEFENDER,-4.5,-19.0,173,37,46,59,35,19,26,284.0
+TSG 1899 Hoffenheim II,159942,Matthew Moore,Moore,RIGHT_WINGBACK_DEFENDER,-2.9,-20.0,172,21,49,61,46,17,18,364.0
+TSG 1899 Hoffenheim II,159951,Luis Engelns,Engelns,DEFENSE_MIDFIELD,-4.2,2.5,153,24,43,52,36,17,18,269.0
+TSG 1899 Hoffenheim II,310405,Jakov Dedic,Dedic,CENTER_FORWARD,13.1,1.3,112,5,21,35,32,16,5,18.0
+TSG 1899 Hoffenheim II,118827,Alex Honajzer,Honajzer,LEFT_WINGER,5.3,16.2,59,4,14,21,18,9,5,36.0
+TSG 1899 Hoffenheim II,104533,Diren Dağdeviren,Dağdeviren,DEFENSE_MIDFIELD,-3.2,1.0,58,15,20,21,9,3,13,95.0
+TSG 1899 Hoffenheim II,158306,Jykese Fields,Fields,CENTER_FORWARD,14.6,2.1,51,3,13,20,13,9,4,10.0
+TSG 1899 Hoffenheim II,218381,Maximilian Theuer,Theuer,LEFT_WINGBACK_DEFENDER,2.6,22.4,48,5,9,17,15,5,3,74.0
+TSG 1899 Hoffenheim II,15952,Koki Machida,Machida,CENTRAL_DEFENDER,-12.0,6.3,37,11,12,13,7,2,8,101.0
+TSG 1899 Hoffenheim II,152825,Nico Biedermann,Biedermann,GOALKEEPER,-44.6,4.5,22,3,4,7,8,5,1,33.0
+TSG 1899 Hoffenheim II,169259,Lion Wagenbach,Wagenbach,LEFT_WINGER,23.2,6.1,13,2,5,5,3,0,2,0.0
+TSG 1899 Hoffenheim II,28598,Alexander Prass,Prass,RIGHT_WINGER,12.6,-18.3,12,0,1,3,4,2,0,2.0
+TSG 1899 Hoffenheim II,205291,Konstantin Aleksa,Aleksa,RIGHT_WINGER,36.2,-23.6,10,2,2,4,1,0,1,0.0
+TSG 1899 Hoffenheim II,106531,Ben Opoku Labes,Labes,CENTER_FORWARD,31.2,-3.3,6,0,1,1,2,0,0,0.0
+TSG 1899 Hoffenheim II,153178,Maxime Ndong-Penda,Ndong-Penda,CENTRAL_DEFENDER,-12.0,-15.4,5,1,1,2,1,0,0,7.0
+TSV Havelse,67777,Jesse Tugbenyo,Tugbenyo,DEFENSE_MIDFIELD,-5.9,-3.0,332,59,88,118,58,29,47,544.0
+TSV Havelse,49831,Johann Berger,Berger,DEFENSE_MIDFIELD,-7.6,4.8,285,38,74,102,78,36,29,463.0
+TSV Havelse,46977,Semi Belkahia,Belkahia,CENTRAL_DEFENDER,-23.6,3.4,268,87,67,93,44,24,48,459.0
+TSV Havelse,65877,Eric Voufack,Voufack,RIGHT_WINGBACK_DEFENDER,1.4,-18.4,240,24,49,84,64,26,17,286.0
+TSV Havelse,10190,Kevin Schumacher,Schumacher,LEFT_WINGBACK_DEFENDER,-4.5,18.5,231,30,49,80,66,38,16,130.0
+TSV Havelse,109406,Dennis Duah,Duah,CENTRAL_DEFENDER,-24.7,-12.7,163,47,48,62,32,19,34,301.0
+TSV Havelse,217722,Alexander Guiddir,Guiddir,CENTER_FORWARD,17.0,2.8,134,8,23,37,41,24,6,46.0
+TSV Havelse,65770,Omer Hanin,Hanin,GOALKEEPER,-43.4,0.4,130,48,16,27,28,18,15,119.0
+TSV Havelse,63501,Leon Sommer-Deiss,Sommer-Deiss,LEFT_WINGBACK_DEFENDER,-3.3,-18.0,113,21,33,40,26,14,16,326.0
+TSV Havelse,27892,Kwasi Wriedt,Wriedt,CENTER_FORWARD,12.5,1.3,106,9,20,30,27,16,8,93.0
+TSV Havelse,109831,Yannick Mausehund,Mausehund,LEFT_WINGBACK_DEFENDER,-15.8,15.3,94,21,20,34,21,9,10,50.0
+TSV Havelse,83676,Max Lamby,Lamby,LEFT_WINGBACK_DEFENDER,-10.5,22.4,80,15,22,31,17,3,12,147.0
+TSV Havelse,30481,Robin Velasco,Velasco,ATTACKING_MIDFIELD,-1.3,-6.0,75,9,13,23,19,12,6,70.0
+TSV Havelse,109508,Eryk Grzywacz,Grzywacz,ATTACKING_MIDFIELD,-3.2,1.0,54,9,13,18,11,4,9,110.0
+TSV Havelse,67493,Niklas Tauer,Tauer,DEFENSE_MIDFIELD,-7.7,4.8,50,8,11,16,12,5,4,50.0
+TSV Havelse,216828,Lorenzo Paldino,Paldino,ATTACKING_MIDFIELD,6.5,-5.3,43,3,11,15,11,6,3,60.0
+TSV Havelse,165702,Marc Richter,Richter,ATTACKING_MIDFIELD,0.5,-10.4,38,5,7,14,9,3,4,64.0
+TSV Havelse,104180,Donald Nduka,Nduka,CENTRAL_DEFENDER,-16.7,9.9,36,12,8,9,7,3,5,24.0
+TSV Havelse,172014,Tom Opitz,Opitz,GOALKEEPER,-40.5,3.2,32,10,9,9,8,5,7,93.0
+TSV Havelse,172111,Finn Kiszka,Kiszka,RIGHT_WINGER,0.6,-17.4,3,1,0,1,0,0,0,0.0
+TSV Havelse,10346,Jannik Oltrogge,Oltrogge,DEFENSE_MIDFIELD,-9.7,15.2,3,0,0,1,1,1,0,0.0
+TSV Havelse,63941,Robin Müller,Müller,CENTER_FORWARD,26.0,20.1,3,0,0,1,1,1,0,0.0
+VfB Stuttgart II,39396,Alexander Groiß,Groiß,CENTRAL_DEFENDER,-14.0,-6.8,245,68,70,91,60,28,45,513.0
+VfB Stuttgart II,107856,Veit Stange,Stange,DEFENSE_MIDFIELD,-1.1,4.1,243,40,70,91,63,26,31,456.0
+VfB Stuttgart II,26468,Nicolas Sessa,Sessa,ATTACKING_MIDFIELD,7.2,-5.8,241,26,60,81,63,25,21,310.0
+VfB Stuttgart II,118078,Lauri Penna,Penna,DEFENSE_MIDFIELD,6.0,0.7,212,27,46,76,55,26,20,350.0
+VfB Stuttgart II,103884,Jerik von der Felsen,Felsen,GOALKEEPER,-42.4,-0.2,190,60,42,48,28,20,27,682.0
+VfB Stuttgart II,118082,Jarzinho Malanga,Malanga,ATTACKING_MIDFIELD,3.6,-1.7,175,17,39,54,45,23,13,168.0
+VfB Stuttgart II,109374,David Preu,Preu,RIGHT_WINGBACK_DEFENDER,-1.9,-7.8,169,29,45,56,44,21,18,238.0
+VfB Stuttgart II,141301,Joyeux Masanka Bungi,Bungi,CENTRAL_DEFENDER,-6.4,6.5,161,29,37,54,39,23,17,181.0
+VfB Stuttgart II,118090,Julian Lüers,Lüers,CENTRAL_MIDFIELD,1.4,-1.6,153,21,33,48,37,16,14,201.0
+VfB Stuttgart II,109454,Oliver Rölke,Rölke,CENTER_FORWARD,13.6,2.7,148,11,27,40,40,17,10,65.0
+VfB Stuttgart II,118077,Maximilian Herwerth,Herwerth,CENTRAL_DEFENDER,-18.9,4.9,145,37,44,55,33,16,27,254.0
+VfB Stuttgart II,9648,Dominik Nothnagel,Nothnagel,CENTRAL_DEFENDER,-7.0,16.8,130,37,39,48,32,10,26,251.0
+VfB Stuttgart II,220919,Ertugrul Yigit,Yigit,CENTRAL_MIDFIELD,1.7,-2.9,129,13,37,45,36,12,9,173.0
+VfB Stuttgart II,153637,Jordan Majchrzak,Majchrzak,ATTACKING_MIDFIELD,-0.6,8.5,95,5,22,32,29,17,7,50.0
+VfB Stuttgart II,169421,Antonijo Janjic,Janjic,RIGHT_WINGBACK_DEFENDER,2.6,-14.1,89,16,27,33,28,10,15,91.0
+VfB Stuttgart II,205779,Tim van der Leij,Leij,CENTER_FORWARD,11.2,2.7,68,4,12,19,19,13,2,19.0
+VfB Stuttgart II,220915,Enis Redzepi,Redzepi,CENTER_FORWARD,18.1,-3.5,67,4,14,20,19,7,4,6.0
+VfB Stuttgart II,181636,Yanik Spalt,Spalt,DEFENSE_MIDFIELD,-9.4,11.6,64,9,19,25,18,6,10,91.0
+VfB Stuttgart II,220920,Collin Schramm,Schramm,LEFT_WINGBACK_DEFENDER,-7.3,19.4,62,9,17,24,18,10,7,113.0
+VfB Stuttgart II,161749,Mirza Catovic,Catovic,DEFENSE_MIDFIELD,-0.6,4.1,53,5,18,20,12,5,7,45.0
+VfB Stuttgart II,109617,Tim Köhler,Köhler,CENTRAL_DEFENDER,-19.1,5.1,37,13,13,15,11,6,9,58.0
+VfB Stuttgart II,282318,Luca Berreth,Berreth,RIGHT_WINGBACK_DEFENDER,-12.1,-19.8,24,5,6,7,6,3,3,45.0
+VfB Stuttgart II,246752,Brayann Kenmoe,Kenmoe,LEFT_WINGBACK_DEFENDER,22.5,19.3,14,1,1,4,4,3,0,16.0
+VfB Stuttgart II,161748,Matheos Tsigkas,Tsigkas,ATTACKING_MIDFIELD,-4.9,9.2,10,2,2,3,2,0,0,35.0
+VfB Stuttgart II,222808,Kian Speidel,Speidel,ATTACKING_MIDFIELD,-15.7,-24.3,3,1,1,1,0,0,1,16.0
+Würzburger Kickers,167578,Liam Omore,Omore,RIGHT_WINGBACK_DEFENDER,-0.4,-21.2,253,41,50,83,54,29,33,327.0
+Würzburger Kickers,7994,Tarsis Bonga,Bonga,CENTER_FORWARD,15.6,-4.7,233,24,54,77,62,27,19,226.0
+Würzburger Kickers,23368,Ivan Franjic,Franjic,LEFT_WINGER,1.6,2.0,214,22,44,68,51,26,17,247.0
+Würzburger Kickers,1534,David Kinsombi,Kinsombi,DEFENSE_MIDFIELD,1.8,-5.5,197,20,47,63,45,25,21,227.0
+Würzburger Kickers,45428,Daniel Hägele,Hägele,CENTRAL_DEFENDER,-20.9,-5.2,171,46,51,57,30,16,35,300.0
+Würzburger Kickers,172002,Ebrahim Farahnak,Farahnak,CENTRAL_DEFENDER,-19.3,9.3,164,46,49,59,30,17,30,268.0
+Würzburger Kickers,170515,Namrud Embaye,Embaye,DEFENSE_MIDFIELD,-5.7,1.7,128,36,32,42,18,10,19,150.0
+Würzburger Kickers,23477,Johann Hipper,Hipper,GOALKEEPER,-40.5,0.0,119,33,20,30,29,21,9,320.0
+Würzburger Kickers,83831,Tim Kraus,Kraus,LEFT_WINGER,7.8,3.6,115,11,17,37,29,19,7,157.0
+Würzburger Kickers,7723,Nathan de Medina,Medina,RIGHT_WINGBACK_DEFENDER,-15.5,-19.7,102,29,23,32,25,9,14,205.0
+Würzburger Kickers,104956,Leo Eberle,Eberle,CENTRAL_DEFENDER,-19.5,-14.9,102,28,27,36,29,13,19,91.0
+Würzburger Kickers,104636,Xaver Kiefersauer,Kiefersauer,DEFENSE_MIDFIELD,-0.1,-4.6,93,11,23,30,25,12,9,126.0
+Würzburger Kickers,5934,Franck Evina,Evina,LEFT_WINGER,-1.3,13.7,86,13,19,27,20,12,7,81.0
+Würzburger Kickers,139169,David Abrangao,Abrangao,LEFT_WINGBACK_DEFENDER,8.1,20.0,84,15,14,28,22,8,7,89.0
+Würzburger Kickers,1295,Philipp Ochs,Ochs,DEFENSE_MIDFIELD,-6.0,-2.4,84,17,26,30,17,9,15,188.0
+Würzburger Kickers,61576,Marko Rajkovacic,Rajkovacic,GOALKEEPER,-43.0,-1.0,73,24,9,17,17,11,7,158.0
+Würzburger Kickers,104101,Eliot Muteba,Muteba,RIGHT_WINGER,7.7,21.4,52,5,13,15,13,7,3,74.0
+Würzburger Kickers,49865,Dominik Meisel,Meisel,LEFT_WINGBACK_DEFENDER,-10.0,19.9,50,11,13,17,13,8,5,72.0
+Würzburger Kickers,83629,Louis Breunig,Breunig,LEFT_WINGBACK_DEFENDER,-18.4,17.0,44,14,12,17,9,2,8,86.0
+Würzburger Kickers,104318,Thomas Kastanaras,Kastanaras,CENTER_FORWARD,4.3,-3.7,36,2,6,11,9,6,3,18.0
+Würzburger Kickers,109340,Jermain Nischalke,Nischalke,CENTER_FORWARD,21.8,-0.1,27,1,4,6,7,2,1,9.0
+Würzburger Kickers,7499,Luke Hemmerich,Hemmerich,LEFT_WINGBACK_DEFENDER,-22.3,27.4,2,1,1,1,0,0,1,0.0
