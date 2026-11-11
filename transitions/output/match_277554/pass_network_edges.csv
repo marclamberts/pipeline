@@ -1,0 +1,150 @@
+team,from_id,to_id,passes,outlet_passes,avg_fwd_m,pct_forward,from,to
+Alemannia Aachen,103925,44972,5,1,-3.4,0.0,Daniel Starodid,Danilo Wiebe
+Alemannia Aachen,104512,107991,5,5,-2.7,0.0,Fabio Torsiello,Joel da Silva Kiala
+Alemannia Aachen,107991,104512,4,3,6.8,0.75,Joel da Silva Kiala,Fabio Torsiello
+Alemannia Aachen,172792,105021,3,2,3.5,0.333,Faton Ademi,Mika Schroers
+Alemannia Aachen,172792,6586,2,0,-5.2,0.0,Faton Ademi,Mika Hanraths
+Alemannia Aachen,6586,53771,2,1,0.5,0.0,Mika Hanraths,Lukas Scepanik
+Alemannia Aachen,53771,107991,2,0,-3.4,0.0,Lukas Scepanik,Joel da Silva Kiala
+Alemannia Aachen,103968,103925,2,2,12.9,1.0,Mehdi Loune,Daniel Starodid
+Alemannia Aachen,44972,28179,2,2,-31.4,0.0,Danilo Wiebe,Stefan Bajic
+Alemannia Aachen,104512,105021,2,0,10.0,1.0,Fabio Torsiello,Mika Schroers
+Alemannia Aachen,107991,44972,2,1,-4.2,0.5,Joel da Silva Kiala,Danilo Wiebe
+Alemannia Aachen,103968,105021,2,0,22.8,1.0,Mehdi Loune,Mika Schroers
+Alemannia Aachen,105021,88579,2,2,-7.3,0.0,Mika Schroers,Petros Bagkalianis
+Alemannia Aachen,172792,107991,2,1,-0.8,0.5,Faton Ademi,Joel da Silva Kiala
+Alemannia Aachen,107991,103968,2,0,9.2,0.5,Joel da Silva Kiala,Mehdi Loune
+Alemannia Aachen,105021,103925,2,0,3.6,0.5,Mika Schroers,Daniel Starodid
+Alemannia Aachen,44972,104512,2,0,6.6,0.5,Danilo Wiebe,Fabio Torsiello
+Alemannia Aachen,88579,105021,2,0,4.0,0.5,Petros Bagkalianis,Mika Schroers
+Alemannia Aachen,53771,103925,2,2,9.5,1.0,Lukas Scepanik,Daniel Starodid
+Alemannia Aachen,88579,53771,2,1,7.1,0.5,Petros Bagkalianis,Lukas Scepanik
+Alemannia Aachen,105021,172792,2,0,-2.8,0.0,Mika Schroers,Faton Ademi
+Alemannia Aachen,172792,53771,2,1,-0.5,0.0,Faton Ademi,Lukas Scepanik
+Alemannia Aachen,107991,118284,2,2,9.1,1.0,Joel da Silva Kiala,Georg Ermolaev
+Alemannia Aachen,103968,172792,1,1,-3.3,0.0,Mehdi Loune,Faton Ademi
+Alemannia Aachen,6586,103925,1,1,15.7,1.0,Mika Hanraths,Daniel Starodid
+Alemannia Aachen,28179,6586,1,1,10.6,1.0,Stefan Bajic,Mika Hanraths
+Alemannia Aachen,118306,44972,1,1,33.9,1.0,Matti Wagner,Danilo Wiebe
+Alemannia Aachen,107991,53771,1,1,6.3,1.0,Joel da Silva Kiala,Lukas Scepanik
+Alemannia Aachen,172792,28179,1,1,-12.8,0.0,Faton Ademi,Stefan Bajic
+Alemannia Aachen,28179,88579,1,0,10.2,1.0,Stefan Bajic,Petros Bagkalianis
+Alemannia Aachen,172792,103925,1,1,3.2,0.0,Faton Ademi,Daniel Starodid
+Alemannia Aachen,6586,28179,1,1,-31.9,0.0,Mika Hanraths,Stefan Bajic
+Alemannia Aachen,105021,104512,1,0,14.4,1.0,Mika Schroers,Fabio Torsiello
+Alemannia Aachen,104512,103968,1,1,8.8,1.0,Fabio Torsiello,Mehdi Loune
+Alemannia Aachen,88579,103968,1,1,6.2,1.0,Petros Bagkalianis,Mehdi Loune
+Alemannia Aachen,172792,44972,1,1,4.1,0.0,Faton Ademi,Danilo Wiebe
+Alemannia Aachen,44972,105021,1,0,15.3,1.0,Danilo Wiebe,Mika Schroers
+Alemannia Aachen,107991,28179,1,1,-29.2,0.0,Joel da Silva Kiala,Stefan Bajic
+Alemannia Aachen,28179,172792,1,0,19.5,1.0,Stefan Bajic,Faton Ademi
+Alemannia Aachen,103968,107991,1,0,13.4,1.0,Mehdi Loune,Joel da Silva Kiala
+Alemannia Aachen,6586,107991,1,1,2.7,0.0,Mika Hanraths,Joel da Silva Kiala
+Alemannia Aachen,28179,104512,1,1,16.8,1.0,Stefan Bajic,Fabio Torsiello
+Alemannia Aachen,107991,105021,1,1,9.1,1.0,Joel da Silva Kiala,Mika Schroers
+Alemannia Aachen,104512,6586,1,1,-10.8,0.0,Fabio Torsiello,Mika Hanraths
+Alemannia Aachen,6586,44972,1,0,12.8,1.0,Mika Hanraths,Danilo Wiebe
+Alemannia Aachen,107991,88579,1,1,-11.2,0.0,Joel da Silva Kiala,Petros Bagkalianis
+Alemannia Aachen,88579,103925,1,0,19.9,1.0,Petros Bagkalianis,Daniel Starodid
+Alemannia Aachen,6586,88579,1,1,12.5,1.0,Mika Hanraths,Petros Bagkalianis
+Alemannia Aachen,6586,172792,1,1,16.5,1.0,Mika Hanraths,Faton Ademi
+Alemannia Aachen,44972,88579,1,0,-3.3,0.0,Danilo Wiebe,Petros Bagkalianis
+Alemannia Aachen,53771,105021,1,0,10.9,1.0,Lukas Scepanik,Mika Schroers
+Alemannia Aachen,107991,6586,1,1,-31.4,0.0,Joel da Silva Kiala,Mika Hanraths
+Alemannia Aachen,104512,172792,1,1,11.7,1.0,Fabio Torsiello,Faton Ademi
+Alemannia Aachen,172792,103968,1,1,0.9,0.0,Faton Ademi,Mehdi Loune
+Alemannia Aachen,6586,103968,1,1,10.7,1.0,Mika Hanraths,Mehdi Loune
+Alemannia Aachen,103968,88579,1,0,-11.6,0.0,Mehdi Loune,Petros Bagkalianis
+Alemannia Aachen,104512,44972,1,1,10.1,1.0,Fabio Torsiello,Danilo Wiebe
+Alemannia Aachen,44972,6586,1,0,-14.4,0.0,Danilo Wiebe,Mika Hanraths
+Alemannia Aachen,107880,53771,1,1,5.4,1.0,Louis Köster,Lukas Scepanik
+Alemannia Aachen,53771,44972,1,0,32.8,1.0,Lukas Scepanik,Danilo Wiebe
+Alemannia Aachen,44972,53771,1,0,6.8,1.0,Danilo Wiebe,Lukas Scepanik
+Alemannia Aachen,53771,28179,1,1,-17.7,0.0,Lukas Scepanik,Stefan Bajic
+Alemannia Aachen,53771,172792,1,0,5.9,1.0,Lukas Scepanik,Faton Ademi
+Alemannia Aachen,53771,107880,1,0,7.7,1.0,Lukas Scepanik,Louis Köster
+Alemannia Aachen,103925,53771,1,0,-26.9,0.0,Daniel Starodid,Lukas Scepanik
+Alemannia Aachen,103925,107880,1,0,-4.4,0.0,Daniel Starodid,Louis Köster
+Alemannia Aachen,107880,103925,1,0,6.0,1.0,Louis Köster,Daniel Starodid
+Alemannia Aachen,103925,104512,1,0,-12.1,0.0,Daniel Starodid,Fabio Torsiello
+Alemannia Aachen,104512,28179,1,0,-16.8,0.0,Fabio Torsiello,Stefan Bajic
+Alemannia Aachen,118284,53771,1,1,-3.5,0.0,Georg Ermolaev,Lukas Scepanik
+Alemannia Aachen,53771,88579,1,0,-13.0,0.0,Lukas Scepanik,Petros Bagkalianis
+Alemannia Aachen,88579,104512,1,0,47.5,1.0,Petros Bagkalianis,Fabio Torsiello
+Alemannia Aachen,104512,103925,1,0,-5.3,0.0,Fabio Torsiello,Daniel Starodid
+Alemannia Aachen,118284,107880,1,0,3.5,0.0,Georg Ermolaev,Louis Köster
+Alemannia Aachen,107880,1184,1,0,-6.3,0.0,Louis Köster,Gideon Jung
+Alemannia Aachen,1184,106530,1,0,2.1,0.0,Gideon Jung,Meiko Wäschenbach
+Alemannia Aachen,106530,6586,1,0,-14.1,0.0,Meiko Wäschenbach,Mika Hanraths
+Alemannia Aachen,118284,103925,1,1,19.0,1.0,Georg Ermolaev,Daniel Starodid
+Alemannia Aachen,53771,106530,1,1,-0.4,0.0,Lukas Scepanik,Meiko Wäschenbach
+Alemannia Aachen,106530,88579,1,0,-13.0,0.0,Meiko Wäschenbach,Petros Bagkalianis
+Alemannia Aachen,88579,28179,1,0,-28.0,0.0,Petros Bagkalianis,Stefan Bajic
+Alemannia Aachen,53771,118284,1,1,11.8,1.0,Lukas Scepanik,Georg Ermolaev
+Alemannia Aachen,6586,106530,1,1,5.8,1.0,Mika Hanraths,Meiko Wäschenbach
+Alemannia Aachen,106530,107880,1,0,33.7,1.0,Meiko Wäschenbach,Louis Köster
+Alemannia Aachen,107880,118284,1,0,5.3,1.0,Louis Köster,Georg Ermolaev
+SC Verl,116117,9960,4,3,3.6,0.5,Paul Lehmann,Niko Kijewski
+SC Verl,47222,9960,4,3,-0.8,0.25,Dennis Waidner,Niko Kijewski
+SC Verl,277344,106083,3,2,-20.1,0.0,Felix Vogler,Timo Schlieck
+SC Verl,104929,103921,3,1,2.4,0.333,Janne Berner,Almin Mesanovic
+SC Verl,109638,9960,3,1,-5.9,0.0,Bilal Yalcinkaya,Niko Kijewski
+SC Verl,104343,104929,2,1,-11.4,0.0,Antonio Foti,Janne Berner
+SC Verl,104929,106083,2,1,-28.8,0.0,Janne Berner,Timo Schlieck
+SC Verl,47222,103921,2,1,-0.6,0.0,Dennis Waidner,Almin Mesanovic
+SC Verl,116117,111250,2,1,27.2,1.0,Paul Lehmann,Tim Heike
+SC Verl,9960,106083,2,2,-5.5,0.0,Niko Kijewski,Timo Schlieck
+SC Verl,9960,47222,2,0,-4.0,0.0,Niko Kijewski,Dennis Waidner
+SC Verl,116117,277344,2,2,-3.5,0.0,Paul Lehmann,Felix Vogler
+SC Verl,47222,104929,2,1,-3.3,0.0,Dennis Waidner,Janne Berner
+SC Verl,103921,111250,2,2,17.0,1.0,Almin Mesanovic,Tim Heike
+SC Verl,103816,9960,2,0,-3.4,0.0,Joshua Eze,Niko Kijewski
+SC Verl,103816,106083,2,2,-9.0,0.0,Joshua Eze,Timo Schlieck
+SC Verl,172008,109638,2,0,1.0,0.5,Mika Clausen,Bilal Yalcinkaya
+SC Verl,9960,103212,2,0,11.8,1.0,Niko Kijewski,Amin Farouk
+SC Verl,103212,172008,2,0,23.8,1.0,Amin Farouk,Mika Clausen
+SC Verl,30071,277344,1,1,2.7,0.0,Yari Otto,Felix Vogler
+SC Verl,277344,104343,1,0,-1.4,0.0,Felix Vogler,Antonio Foti
+SC Verl,277344,30071,1,1,-4.2,0.0,Felix Vogler,Yari Otto
+SC Verl,103921,104929,1,0,-7.0,0.0,Almin Mesanovic,Janne Berner
+SC Verl,116117,109638,1,1,0.5,0.0,Paul Lehmann,Bilal Yalcinkaya
+SC Verl,109638,103921,1,0,7.5,1.0,Bilal Yalcinkaya,Almin Mesanovic
+SC Verl,47222,106083,1,1,-25.8,0.0,Dennis Waidner,Timo Schlieck
+SC Verl,106083,116117,1,0,0.6,0.0,Timo Schlieck,Paul Lehmann
+SC Verl,104343,9960,1,0,-6.8,0.0,Antonio Foti,Niko Kijewski
+SC Verl,47222,116117,1,0,-13.2,0.0,Dennis Waidner,Paul Lehmann
+SC Verl,109638,116117,1,0,-8.4,0.0,Bilal Yalcinkaya,Paul Lehmann
+SC Verl,104343,111250,1,1,6.2,1.0,Antonio Foti,Tim Heike
+SC Verl,111250,30071,1,0,5.9,1.0,Tim Heike,Yari Otto
+SC Verl,111250,9960,1,1,1.9,0.0,Tim Heike,Niko Kijewski
+SC Verl,104929,30071,1,1,10.1,1.0,Janne Berner,Yari Otto
+SC Verl,9960,104929,1,1,5.0,0.0,Niko Kijewski,Janne Berner
+SC Verl,277344,47222,1,1,9.4,1.0,Felix Vogler,Dennis Waidner
+SC Verl,9960,103921,1,0,15.8,1.0,Niko Kijewski,Almin Mesanovic
+SC Verl,103921,47222,1,0,1.3,0.0,Almin Mesanovic,Dennis Waidner
+SC Verl,106083,30071,1,0,12.1,1.0,Timo Schlieck,Yari Otto
+SC Verl,30071,106083,1,0,-19.9,0.0,Yari Otto,Timo Schlieck
+SC Verl,277344,104929,1,1,7.4,1.0,Felix Vogler,Janne Berner
+SC Verl,104929,111250,1,1,5.9,1.0,Janne Berner,Tim Heike
+SC Verl,116117,104929,1,1,3.4,0.0,Paul Lehmann,Janne Berner
+SC Verl,103816,111250,1,1,1.7,0.0,Joshua Eze,Tim Heike
+SC Verl,277344,103816,1,1,1.5,0.0,Felix Vogler,Joshua Eze
+SC Verl,106083,277344,1,1,-3.3,0.0,Timo Schlieck,Felix Vogler
+SC Verl,106083,103816,1,0,-1.1,0.0,Timo Schlieck,Joshua Eze
+SC Verl,103212,47222,1,1,-1.0,0.0,Amin Farouk,Dennis Waidner
+SC Verl,104929,172008,1,1,9.0,1.0,Janne Berner,Mika Clausen
+SC Verl,116117,47222,1,1,8.7,1.0,Paul Lehmann,Dennis Waidner
+SC Verl,47222,172008,1,0,6.1,1.0,Dennis Waidner,Mika Clausen
+SC Verl,103816,104929,1,1,7.9,1.0,Joshua Eze,Janne Berner
+SC Verl,89775,103212,1,1,18.4,1.0,André Leipold,Amin Farouk
+SC Verl,9960,116117,1,1,-8.2,0.0,Niko Kijewski,Paul Lehmann
+SC Verl,106083,9960,1,1,14.9,1.0,Timo Schlieck,Niko Kijewski
+SC Verl,9960,103816,1,0,10.6,1.0,Niko Kijewski,Joshua Eze
+SC Verl,277344,116117,1,1,7.1,1.0,Felix Vogler,Paul Lehmann
+SC Verl,103915,9960,1,1,-11.0,0.0,Alem Japaur,Niko Kijewski
+SC Verl,172008,103212,1,0,-4.8,0.0,Mika Clausen,Amin Farouk
+SC Verl,172008,104929,1,1,1.3,0.0,Mika Clausen,Janne Berner
+SC Verl,172008,89775,1,1,8.1,1.0,Mika Clausen,André Leipold
+SC Verl,103915,172008,1,0,-0.3,0.0,Alem Japaur,Mika Clausen
+SC Verl,172008,47222,1,0,-6.1,0.0,Mika Clausen,Dennis Waidner
+SC Verl,47222,103212,1,0,5.4,1.0,Dennis Waidner,Amin Farouk

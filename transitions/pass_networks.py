@@ -10,7 +10,7 @@ are counts, metres and shares of what happened.
   Outlet - the first completed pass after a regain (regainer -> outlet player)
 
 Usage:
-    python3 transitions/pass_networks.py ["3. Liga 2026-2027"]
+    python3 transitions/pass_networks.py ["3. Liga 2026-2027"] [--match 277554]
 Outputs in transitions/output/:
     pass_network_nodes.csv, pass_network_edges.csv, pass_network_teams.csv,
     pass_networks.html (interactive, self-contained)
@@ -18,7 +18,16 @@ Outputs in transitions/output/:
 
 import json
 import os
+import sys
 from collections import defaultdict
+
+# Optional single-match mode: --match <impect match id>. Stripped before
+# transition_model reads sys.argv for the league folder.
+MATCH_ID = None
+if "--match" in sys.argv:
+    i = sys.argv.index("--match")
+    MATCH_ID = int(sys.argv[i + 1])
+    del sys.argv[i:i + 2]
 
 import numpy as np
 import pandas as pd
@@ -177,25 +186,35 @@ def to_builtin(o):
 
 def main():
     matches = tm.load_matches()
-    names = tm.squad_names(matches)
+    names = tm.squad_names(matches)  # resolve ids on the full season first
+    out_dir = tm.OUT_DIR
+    if MATCH_ID is not None:
+        matches = [(f, ev) for f, ev in matches if tm.parse_filename(f)[3] == MATCH_ID]
+        if not matches:
+            sys.exit(f"match {MATCH_ID} not found or has no data")
+        out_dir = os.path.join(tm.OUT_DIR, f"match_{MATCH_ID}")
     nodes, edges, team_games, team_tr, info = collect(matches, names)
     ndf, edf, tdf = build_tables(nodes, edges, team_games, team_tr, info)
 
-    os.makedirs(tm.OUT_DIR, exist_ok=True)
+    os.makedirs(out_dir, exist_ok=True)
     ndf.sort_values(["team", "involvements"], ascending=[True, False]) \
-        .to_csv(os.path.join(tm.OUT_DIR, "pass_network_nodes.csv"), index=False)
+        .to_csv(os.path.join(out_dir, "pass_network_nodes.csv"), index=False)
     edf.sort_values(["team", "passes"], ascending=[True, False]) \
-        .to_csv(os.path.join(tm.OUT_DIR, "pass_network_edges.csv"), index=False)
-    tdf.to_csv(os.path.join(tm.OUT_DIR, "pass_network_teams.csv"), index=False)
+        .to_csv(os.path.join(out_dir, "pass_network_edges.csv"), index=False)
+    tdf.to_csv(os.path.join(out_dir, "pass_network_teams.csv"), index=False)
 
     dates = sorted(tm.parse_filename(f)[0] for f, _ in matches)
-    payload = page_payload(ndf, edf, tdf, os.path.basename(tm.LEAGUE_DIR), len(matches),
-                           [dates[0], dates[-1]])
+    league = os.path.basename(tm.LEAGUE_DIR)
+    if MATCH_ID is not None:
+        _, home, away, _ = tm.parse_filename(matches[0][0])
+        league = f"{league} · {home} vs {away}"
+    payload = page_payload(ndf, edf, tdf, league, len(matches), [dates[0], dates[-1]])
+    payload["min_default"] = 1 if MATCH_ID is not None else 3
     tpl_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pass_networks_template.html")
     with open(tpl_path) as fh:
         html = fh.read()
     html = html.replace("/*__DATA__*/null", json.dumps(payload, default=to_builtin, ensure_ascii=False))
-    with open(os.path.join(tm.OUT_DIR, "pass_networks.html"), "w") as fh:
+    with open(os.path.join(out_dir, "pass_networks.html"), "w") as fh:
         fh.write(html)
     print(tdf.to_string(index=False))
 

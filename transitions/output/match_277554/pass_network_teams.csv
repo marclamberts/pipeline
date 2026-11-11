@@ -1,0 +1,3 @@
+team,games,transitions,transition_passes,passes_pg,completion,passes_per_transition,pct_forward,outlets,top_outlet,top_outlet_share,top2_outlet_share,hub,hub_share,top_pair,top_pair_passes
+Alemannia Aachen,1,81,117,117.0,0.775,1.44,0.462,57,Daniel Starodid,0.123,0.246,Joel da Silva Kiala,0.111,Daniel Starodid → Danilo Wiebe,5
+SC Verl,1,90,90,90.0,0.638,1.0,0.356,49,Niko Kijewski,0.204,0.367,Niko Kijewski,0.15,Dennis Waidner → Niko Kijewski,4

@@ -1,0 +1,33 @@
+team,player_id,player,short,position,x,y,involvements,regains,passes_completed,pass_attempts,passes_received,outlet_received,outlet_given,fwd_metres_passing
+Alemannia Aachen,107991,Joel da Silva Kiala,Kiala,CENTRAL_DEFENDER,-6.5,-18.9,51,14,15,19,11,7,11,85.0
+Alemannia Aachen,53771,Lukas Scepanik,Scepanik,LEFT_WINGBACK_DEFENDER,-7.1,13.7,47,9,12,15,11,6,5,88.0
+Alemannia Aachen,103925,Daniel Starodid,Starodid,CENTER_FORWARD,18.9,5.2,46,3,8,10,12,7,1,0.0
+Alemannia Aachen,172792,Faton Ademi,Ademi,DEFENSE_MIDFIELD,-0.8,-3.0,41,9,13,16,7,3,8,27.0
+Alemannia Aachen,105021,Mika Schroers,Schroers,CENTER_FORWARD,16.7,4.0,41,3,7,12,12,3,2,22.0
+Alemannia Aachen,104512,Fabio Torsiello,Torsiello,RIGHT_WINGBACK_DEFENDER,-3.7,-20.5,40,9,13,15,10,4,9,52.0
+Alemannia Aachen,44972,Danilo Wiebe,Wiebe,DEFENSE_MIDFIELD,8.8,4.7,38,4,8,14,12,5,2,37.0
+Alemannia Aachen,6586,Mika Hanraths,Hanraths,CENTRAL_DEFENDER,-12.4,-4.3,31,9,10,11,7,3,8,81.0
+Alemannia Aachen,88579,Petros Bagkalianis,Bagkalianis,CENTRAL_DEFENDER,-3.4,19.2,26,5,8,9,9,4,2,96.0
+Alemannia Aachen,103968,Mehdi Loune,Loune,ATTACKING_MIDFIELD,12.4,-0.8,23,3,7,8,6,4,3,85.0
+Alemannia Aachen,28179,Stefan Bajic,Bajic,GOALKEEPER,-41.5,0.4,22,7,4,5,8,6,2,57.0
+Alemannia Aachen,107880,Louis Köster,Köster,ATTACKING_MIDFIELD,0.4,5.1,21,3,4,7,4,0,1,17.0
+Alemannia Aachen,118284,Georg Ermolaev,Ermolaev,CENTER_FORWARD,7.1,-0.3,17,2,3,5,4,3,2,22.0
+Alemannia Aachen,106530,Meiko Wäschenbach,Wäschenbach,DEFENSE_MIDFIELD,-10.4,6.4,7,0,3,3,3,2,0,34.0
+Alemannia Aachen,118306,Matti Wagner,Wagner,LEFT_WINGBACK_DEFENDER,-37.9,21.2,3,1,1,1,0,0,1,34.0
+Alemannia Aachen,1184,Gideon Jung,Jung,DEFENSE_MIDFIELD,-11.7,-5.5,2,0,1,1,1,0,0,2.0
+SC Verl,116117,Paul Lehmann,Lehmann,CENTRAL_DEFENDER,-17.8,6.6,54,16,11,21,5,2,9,86.0
+SC Verl,9960,Niko Kijewski,Kijewski,LEFT_WINGBACK_DEFENDER,-17.0,18.6,45,7,10,16,17,10,4,58.0
+SC Verl,106083,Timo Schlieck,Schlieck,GOALKEEPER,-39.2,0.7,44,14,5,9,11,8,2,28.0
+SC Verl,277344,Felix Vogler,Vogler,CENTRAL_DEFENDER,-11.8,-9.2,41,14,9,15,4,4,7,25.0
+SC Verl,47222,Dennis Waidner,Waidner,DEFENSE_MIDFIELD,-2.1,4.0,31,6,12,13,7,3,6,25.0
+SC Verl,103921,Almin Mesanovic,Mesanovic,RIGHT_WINGER,-1.3,-14.6,29,7,4,8,7,2,2,35.0
+SC Verl,104929,Janne Berner,Berner,RIGHT_WINGBACK_DEFENDER,-10.5,-18.2,25,6,8,11,10,7,5,42.0
+SC Verl,111250,Tim Heike,Heike,CENTER_FORWARD,9.1,4.9,22,1,2,6,7,6,1,8.0
+SC Verl,103816,Joshua Eze,Eze,DEFENSE_MIDFIELD,-6.4,1.2,21,7,6,8,3,1,4,10.0
+SC Verl,172008,Mika Clausen,Clausen,CENTER_FORWARD,18.4,1.9,20,2,6,6,5,1,2,16.0
+SC Verl,109638,Bilal Yalcinkaya,Yalcinkaya,RIGHT_WINGER,3.9,-4.9,19,2,5,8,3,1,1,8.0
+SC Verl,103212,Amin Farouk,Farouk,LEFT_WINGER,19.8,25.6,19,2,3,6,5,1,1,48.0
+SC Verl,104343,Antonio Foti,Foti,RIGHT_WINGER,-1.0,-2.0,18,3,4,6,1,0,2,6.0
+SC Verl,30071,Yari Otto,Otto,DEFENSE_MIDFIELD,-5.3,15.3,10,1,2,4,4,2,1,3.0
+SC Verl,89775,André Leipold,Leipold,RIGHT_WINGER,2.8,-31.4,6,1,1,2,1,1,1,18.0
+SC Verl,103915,Alem Japaur,Japaur,CENTER_FORWARD,-1.3,3.2,5,1,2,2,0,0,1,0.0

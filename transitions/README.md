@@ -85,7 +85,8 @@ These all avoid both xT and predictive models:
 ## Transition pass networks
 
 ```bash
-python3 transitions/pass_networks.py
+python3 transitions/pass_networks.py                    # whole season
+python3 transitions/pass_networks.py --match 277554     # one game -> output/match_277554/
 ```
 
 This builds pass networks from transition passes only. It uses the same transitions as the model above.

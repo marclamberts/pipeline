@@ -137,14 +137,14 @@ tbody tr:hover, tbody tr.sel { background: color-mix(in srgb, var(--series) 10%,
 const DATA = /*__DATA__*/null;
 const NS = "http://www.w3.org/2000/svg";
 const MAX_NODES = 14;
-let state = { team: null, mode: "all", min: 3, focus: null };
-try { const s = JSON.parse(localStorage.getItem("tpn") || "{}"); Object.assign(state, s, { focus: null }); } catch (e) {}
+let state = { team: null, mode: "all", min: DATA.min_default || 3, focus: null };
+if (DATA.matches > 1) { try { const s = JSON.parse(localStorage.getItem("tpn") || "{}"); Object.assign(state, s, { focus: null }); } catch (e) {} }
 
 const $ = id => document.getElementById(id);
 const pct = v => v == null ? "–" : Math.round(v * 100) + "%";
 const el = (tag, attrs = {}, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
 
-$("meta").textContent = `${DATA.league} · ${DATA.matches} matches · ${DATA.dates[0]} to ${DATA.dates[1]}`;
+$("meta").textContent = DATA.matches > 1 ? `${DATA.league} · ${DATA.matches} matches · ${DATA.dates[0]} to ${DATA.dates[1]}` : `${DATA.league} · ${DATA.dates[0]}`;
 const teams = Object.keys(DATA.teams).sort();
 if (!teams.includes(state.team)) state.team = teams[0];
 teams.forEach(t => { const o = document.createElement("option"); o.value = t; o.textContent = t; $("team").appendChild(o); });
@@ -266,7 +266,7 @@ function setMode(m) {
   state.mode = m;
   $("m-all").setAttribute("aria-pressed", m === "all");
   $("m-out").setAttribute("aria-pressed", m === "out");
-  if (m === "out" && state.min > 2) { state.min = 1; $("min").value = 1; $("minv").textContent = 1; }
+  if (m === "out" && state.min > 1) { state.min = 1; $("min").value = 1; $("minv").textContent = 1; }
   save(); render();
 }
 $("team").value = state.team;

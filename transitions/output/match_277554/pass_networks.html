@@ -1,0 +1,281 @@
+<title>Transition Pass Networks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: control row on top, pitch network left with a stat rail right, tables below. Pitch drawn in metres (105 x 68). */
+:root {
+  --bg: #f6f7f5;
+  --surface: #ffffff;
+  --ink: #0f1411;
+  --ink-2: #4a524c;
+  --ink-3: #78807a;
+  --line: #dfe3df;
+  --pitch: #eef2ee;
+  --pitch-line: #b9c2bb;
+  --series: #2a78d6;
+  --series-strong: #184f95;
+  --focus: #2a78d6;
+  --font-display: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121513; --surface: #1a1d1b; --ink: #eef1ee; --ink-2: #b9c0ba; --ink-3: #8b938d;
+    --line: #2c312d; --pitch: #1f2420; --pitch-line: #3f4741; --series: #3987e5; --series-strong: #86b6ef;
+    --focus: #86b6ef; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121513; --surface: #1a1d1b; --ink: #eef1ee; --ink-2: #b9c0ba; --ink-3: #8b938d;
+  --line: #2c312d; --pitch: #1f2420; --pitch-line: #3f4741; --series: #3987e5; --series-strong: #86b6ef;
+  --focus: #86b6ef; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 14px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 48px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 20px; }
+header h1 { font-family: var(--font-display); font-weight: 700; font-size: 2.4rem; line-height: 1; margin: 0; letter-spacing: .01em; text-wrap: balance; }
+header p { margin: 6px 0 0; color: var(--ink-2); max-width: 68ch; }
+.meta { font-size: 12px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; }
+.ctl { display: grid; gap: 4px; min-width: 0; }
+.ctl > span { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+select, .seg button { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; }
+select { min-width: 230px; max-width: 100%; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.seg button { border: 0; border-radius: 0; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--series); color: #fff; }
+input[type=range] { width: 160px; accent-color: var(--series); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
+@media (max-width: 860px) { .main { grid-template-columns: minmax(0, 1fr); } }
+.pitch-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px; min-width: 0; position: relative; }
+svg { display: block; width: 100%; height: auto; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; color: var(--ink-2); padding: 8px 4px 0; }
+.legend i { display: inline-block; vertical-align: middle; margin-right: 6px; background: var(--series); }
+.rail { display: grid; gap: 14px; min-width: 0; }
+.rail h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.5rem; margin: 0; line-height: 1.1; }
+dl { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 6px 12px; font-variant-numeric: tabular-nums; }
+dt { color: var(--ink-2); }
+dd { margin: 0; text-align: right; font-weight: 600; }
+dd small { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px; }
+.note { font-size: 12px; color: var(--ink-3); }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgb(0 0 0 / .12); max-width: 240px; font-variant-numeric: tabular-nums; }
+.tip b { display: block; font-size: 13px; }
+.tables { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
+@media (max-width: 860px) { .tables { grid-template-columns: minmax(0, 1fr); } }
+.tables h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.25rem; margin: 0 0 6px; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: 13px; }
+th, td { padding: 5px 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+th { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); font-weight: 500; }
+th:first-child, td:first-child, th.l, td.l { text-align: left; }
+tbody tr { cursor: pointer; }
+tbody tr:hover, tbody tr.sel { background: color-mix(in srgb, var(--series) 10%, transparent); }
+.pitch-lines { fill: none; stroke: var(--pitch-line); stroke-width: .35; }
+.node circle { fill: var(--series); stroke: var(--surface); stroke-width: .5; cursor: pointer; }
+.node text { fill: var(--ink); font-family: var(--font-body); font-size: 2.3px; font-weight: 600; text-anchor: middle; paint-order: stroke; stroke: var(--pitch); stroke-width: .7px; pointer-events: none; }
+.edge { stroke: var(--series); fill: none; stroke-linecap: round; }
+.edge-hit { stroke: transparent; fill: none; stroke-width: 2.4; cursor: pointer; }
+.dim { opacity: .12; }
+@media (prefers-reduced-motion: no-preference) { .edge, .node { transition: opacity .15s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="meta" id="meta"></div>
+    <h1>Transition Pass Networks</h1>
+    <p>Who passes to whom once the ball is won back. Built only from attacking transitions: no expected-threat values and no predictions, just completed passes and where players were when they played them.</p>
+  </header>
+
+  <div class="controls">
+    <label class="ctl"><span>Team</span><select id="team"></select></label>
+    <div class="ctl"><span>Passes shown</span>
+      <div class="seg" role="group" aria-label="Passes shown">
+        <button id="m-all" aria-pressed="true">All transition passes</button>
+        <button id="m-out" aria-pressed="false">First pass after regain</button>
+      </div>
+    </div>
+    <label class="ctl"><span>Minimum passes per link: <b id="minv">3</b></span><input id="min" type="range" min="1" max="12" value="3"></label>
+  </div>
+
+  <div class="main">
+    <div class="pitch-card" id="card">
+      <svg id="pitch" viewBox="-55 -37 110 78" role="img" aria-label="Pass network on a pitch, attacking left to right"></svg>
+      <div class="legend">
+        <span><i style="width:10px;height:10px;border-radius:50%"></i>Size: <span id="lg-size">actions in transitions</span></span>
+        <span><i style="width:22px;height:3px;border-radius:2px"></i>Line weight: passes between the pair (arrow = direction)</span>
+        <span>Position: average location in transitions</span>
+      </div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <aside class="rail">
+      <h2 id="t-name"></h2>
+      <dl id="t-stats"></dl>
+      <p class="note">Click a player on the pitch or in the table to isolate their links. Click again to clear.</p>
+    </aside>
+  </div>
+
+  <div class="tables">
+    <div>
+      <h3>Players in transition</h3>
+      <div class="scroll"><table id="ptable"></table></div>
+    </div>
+    <div>
+      <h3>Strongest links</h3>
+      <div class="scroll"><table id="etable"></table></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA = {"league": "3. Liga 2026-2027 · Alemannia Aachen vs SC Verl", "matches": 1, "dates": ["2026-08-09", "2026-08-09"], "teams": {"Alemannia Aachen": {"summary": {"team": "Alemannia Aachen", "games": 1, "transitions": 81, "transition_passes": 117, "passes_pg": 117.0, "completion": 0.775, "passes_per_transition": 1.44, "pct_forward": 0.462, "outlets": 57, "top_outlet": "Daniel Starodid", "top_outlet_share": 0.123, "top2_outlet_share": 0.246, "hub": "Joel da Silva Kiala", "hub_share": 0.111, "top_pair": "Daniel Starodid → Danilo Wiebe", "top_pair_passes": 5}, "nodes": [{"player_id": 103968, "player": "Mehdi Loune", "short": "Loune", "position": "ATTACKING_MIDFIELD", "x": 12.4, "y": -0.8, "involvements": 23, "regains": 3, "passes_completed": 7, "passes_received": 6, "outlet_received": 4, "outlet_given": 3, "fwd_metres_passing": 85.0}, {"player_id": 172792, "player": "Faton Ademi", "short": "Ademi", "position": "DEFENSE_MIDFIELD", "x": -0.8, "y": -3.0, "involvements": 41, "regains": 9, "passes_completed": 13, "passes_received": 7, "outlet_received": 3, "outlet_given": 8, "fwd_metres_passing": 27.0}, {"player_id": 6586, "player": "Mika Hanraths", "short": "Hanraths", "position": "CENTRAL_DEFENDER", "x": -12.4, "y": -4.3, "involvements": 31, "regains": 9, "passes_completed": 10, "passes_received": 7, "outlet_received": 3, "outlet_given": 8, "fwd_metres_passing": 81.0}, {"player_id": 53771, "player": "Lukas Scepanik", "short": "Scepanik", "position": "LEFT_WINGBACK_DEFENDER", "x": -7.1, "y": 13.7, "involvements": 47, "regains": 9, "passes_completed": 12, "passes_received": 11, "outlet_received": 6, "outlet_given": 5, "fwd_metres_passing": 88.0}, {"player_id": 107991, "player": "Joel da Silva Kiala", "short": "Kiala", "position": "CENTRAL_DEFENDER", "x": -6.5, "y": -18.9, "involvements": 51, "regains": 14, "passes_completed": 15, "passes_received": 11, "outlet_received": 7, "outlet_given": 11, "fwd_metres_passing": 85.0}, {"player_id": 103925, "player": "Daniel Starodid", "short": "Starodid", "position": "CENTER_FORWARD", "x": 18.9, "y": 5.2, "involvements": 46, "regains": 3, "passes_completed": 8, "passes_received": 12, "outlet_received": 7, "outlet_given": 1, "fwd_metres_passing": 0.0}, {"player_id": 44972, "player": "Danilo Wiebe", "short": "Wiebe", "position": "DEFENSE_MIDFIELD", "x": 8.8, "y": 4.7, "involvements": 38, "regains": 4, "passes_completed": 8, "passes_received": 12, "outlet_received": 5, "outlet_given": 2, "fwd_metres_passing": 37.0}, {"player_id": 28179, "player": "Stefan Bajic", "short": "Bajic", "position": "GOALKEEPER", "x": -41.5, "y": 0.4, "involvements": 22, "regains": 7, "passes_completed": 4, "passes_received": 8, "outlet_received": 6, "outlet_given": 2, "fwd_metres_passing": 57.0}, {"player_id": 118306, "player": "Matti Wagner", "short": "Wagner", "position": "LEFT_WINGBACK_DEFENDER", "x": -37.9, "y": 21.2, "involvements": 3, "regains": 1, "passes_completed": 1, "passes_received": 0, "outlet_received": 0, "outlet_given": 1, "fwd_metres_passing": 34.0}, {"player_id": 88579, "player": "Petros Bagkalianis", "short": "Bagkalianis", "position": "CENTRAL_DEFENDER", "x": -3.4, "y": 19.2, "involvements": 26, "regains": 5, "passes_completed": 8, "passes_received": 9, "outlet_received": 4, "outlet_given": 2, "fwd_metres_passing": 96.0}, {"player_id": 104512, "player": "Fabio Torsiello", "short": "Torsiello", "position": "RIGHT_WINGBACK_DEFENDER", "x": -3.7, "y": -20.5, "involvements": 40, "regains": 9, "passes_completed": 13, "passes_received": 10, "outlet_received": 4, "outlet_given": 9, "fwd_metres_passing": 52.0}, {"player_id": 105021, "player": "Mika Schroers", "short": "Schroers", "position": "CENTER_FORWARD", "x": 16.7, "y": 4.0, "involvements": 41, "regains": 3, "passes_completed": 7, "passes_received": 12, "outlet_received": 3, "outlet_given": 2, "fwd_metres_passing": 22.0}, {"player_id": 107880, "player": "Louis Köster", "short": "Köster", "position": "ATTACKING_MIDFIELD", "x": 0.4, "y": 5.1, "involvements": 21, "regains": 3, "passes_completed": 4, "passes_received": 4, "outlet_received": 0, "outlet_given": 1, "fwd_metres_passing": 17.0}, {"player_id": 118284, "player": "Georg Ermolaev", "short": "Ermolaev", "position": "CENTER_FORWARD", "x": 7.1, "y": -0.3, "involvements": 17, "regains": 2, "passes_completed": 3, "passes_received": 4, "outlet_received": 3, "outlet_given": 2, "fwd_metres_passing": 22.0}, {"player_id": 1184, "player": "Gideon Jung", "short": "Jung", "position": "DEFENSE_MIDFIELD", "x": -11.7, "y": -5.5, "involvements": 2, "regains": 0, "passes_completed": 1, "passes_received": 1, "outlet_received": 0, "outlet_given": 0, "fwd_metres_passing": 2.0}, {"player_id": 106530, "player": "Meiko Wäschenbach", "short": "Wäschenbach", "position": "DEFENSE_MIDFIELD", "x": -10.4, "y": 6.4, "involvements": 7, "regains": 0, "passes_completed": 3, "passes_received": 3, "outlet_received": 2, "outlet_given": 0, "fwd_metres_passing": 34.0}], "edges": [{"from_id": 103968, "to_id": 172792, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -3.3, "pct_forward": 0.0}, {"from_id": 172792, "to_id": 6586, "passes": 2, "outlet_passes": 0, "avg_fwd_m": -5.2, "pct_forward": 0.0}, {"from_id": 6586, "to_id": 53771, "passes": 2, "outlet_passes": 1, "avg_fwd_m": 0.5, "pct_forward": 0.0}, {"from_id": 53771, "to_id": 107991, "passes": 2, "outlet_passes": 0, "avg_fwd_m": -3.4, "pct_forward": 0.0}, {"from_id": 103968, "to_id": 103925, "passes": 2, "outlet_passes": 2, "avg_fwd_m": 12.9, "pct_forward": 1.0}, {"from_id": 103925, "to_id": 44972, "passes": 5, "outlet_passes": 1, "avg_fwd_m": -3.4, "pct_forward": 0.0}, {"from_id": 44972, "to_id": 28179, "passes": 2, "outlet_passes": 2, "avg_fwd_m": -31.4, "pct_forward": 0.0}, {"from_id": 6586, "to_id": 103925, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 15.7, "pct_forward": 1.0}, {"from_id": 28179, "to_id": 6586, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 10.6, "pct_forward": 1.0}, {"from_id": 118306, "to_id": 44972, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 33.9, "pct_forward": 1.0}, {"from_id": 107991, "to_id": 53771, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 6.3, "pct_forward": 1.0}, {"from_id": 172792, "to_id": 28179, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -12.8, "pct_forward": 0.0}, {"from_id": 28179, "to_id": 88579, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 10.2, "pct_forward": 1.0}, {"from_id": 172792, "to_id": 103925, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 3.2, "pct_forward": 0.0}, {"from_id": 6586, "to_id": 28179, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -31.9, "pct_forward": 0.0}, {"from_id": 107991, "to_id": 104512, "passes": 4, "outlet_passes": 3, "avg_fwd_m": 6.8, "pct_forward": 0.75}, {"from_id": 104512, "to_id": 105021, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 10.0, "pct_forward": 1.0}, {"from_id": 105021, "to_id": 104512, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 14.4, "pct_forward": 1.0}, {"from_id": 107991, "to_id": 44972, "passes": 2, "outlet_passes": 1, "avg_fwd_m": -4.2, "pct_forward": 0.5}, {"from_id": 104512, "to_id": 103968, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 8.8, "pct_forward": 1.0}, {"from_id": 103968, "to_id": 105021, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 22.8, "pct_forward": 1.0}, {"from_id": 88579, "to_id": 103968, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 6.2, "pct_forward": 1.0}, {"from_id": 172792, "to_id": 44972, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 4.1, "pct_forward": 0.0}, {"from_id": 44972, "to_id": 105021, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 15.3, "pct_forward": 1.0}, {"from_id": 105021, "to_id": 88579, "passes": 2, "outlet_passes": 2, "avg_fwd_m": -7.3, "pct_forward": 0.0}, {"from_id": 107991, "to_id": 28179, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -29.2, "pct_forward": 0.0}, {"from_id": 28179, "to_id": 172792, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 19.5, "pct_forward": 1.0}, {"from_id": 172792, "to_id": 107991, "passes": 2, "outlet_passes": 1, "avg_fwd_m": -0.8, "pct_forward": 0.5}, {"from_id": 107991, "to_id": 103968, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 9.2, "pct_forward": 0.5}, {"from_id": 103968, "to_id": 107991, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 13.4, "pct_forward": 1.0}, {"from_id": 6586, "to_id": 107991, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 2.7, "pct_forward": 0.0}, {"from_id": 28179, "to_id": 104512, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 16.8, "pct_forward": 1.0}, {"from_id": 107991, "to_id": 105021, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 9.1, "pct_forward": 1.0}, {"from_id": 105021, "to_id": 103925, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 3.6, "pct_forward": 0.5}, {"from_id": 104512, "to_id": 107991, "passes": 5, "outlet_passes": 5, "avg_fwd_m": -2.7, "pct_forward": 0.0}, {"from_id": 104512, "to_id": 6586, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -10.8, "pct_forward": 0.0}, {"from_id": 6586, "to_id": 44972, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 12.8, "pct_forward": 1.0}, {"from_id": 107991, "to_id": 88579, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -11.2, "pct_forward": 0.0}, {"from_id": 88579, "to_id": 103925, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 19.9, "pct_forward": 1.0}, {"from_id": 44972, "to_id": 104512, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 6.6, "pct_forward": 0.5}, {"from_id": 88579, "to_id": 105021, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 4.0, "pct_forward": 0.5}, {"from_id": 6586, "to_id": 88579, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 12.5, "pct_forward": 1.0}, {"from_id": 6586, "to_id": 172792, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 16.5, "pct_forward": 1.0}, {"from_id": 53771, "to_id": 103925, "passes": 2, "outlet_passes": 2, "avg_fwd_m": 9.5, "pct_forward": 1.0}, {"from_id": 44972, "to_id": 88579, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -3.3, "pct_forward": 0.0}, {"from_id": 88579, "to_id": 53771, "passes": 2, "outlet_passes": 1, "avg_fwd_m": 7.1, "pct_forward": 0.5}, {"from_id": 53771, "to_id": 105021, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 10.9, "pct_forward": 1.0}, {"from_id": 107991, "to_id": 6586, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -31.4, "pct_forward": 0.0}, {"from_id": 172792, "to_id": 105021, "passes": 3, "outlet_passes": 2, "avg_fwd_m": 3.5, "pct_forward": 0.333}, {"from_id": 104512, "to_id": 172792, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 11.7, "pct_forward": 1.0}, {"from_id": 105021, "to_id": 172792, "passes": 2, "outlet_passes": 0, "avg_fwd_m": -2.8, "pct_forward": 0.0}, {"from_id": 172792, "to_id": 103968, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 0.9, "pct_forward": 0.0}, {"from_id": 6586, "to_id": 103968, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 10.7, "pct_forward": 1.0}, {"from_id": 103968, "to_id": 88579, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -11.6, "pct_forward": 0.0}, {"from_id": 104512, "to_id": 44972, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 10.1, "pct_forward": 1.0}, {"from_id": 44972, "to_id": 6586, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -14.4, "pct_forward": 0.0}, {"from_id": 107880, "to_id": 53771, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 5.4, "pct_forward": 1.0}, {"from_id": 53771, "to_id": 44972, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 32.8, "pct_forward": 1.0}, {"from_id": 44972, "to_id": 53771, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 6.8, "pct_forward": 1.0}, {"from_id": 53771, "to_id": 28179, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -17.7, "pct_forward": 0.0}, {"from_id": 172792, "to_id": 53771, "passes": 2, "outlet_passes": 1, "avg_fwd_m": -0.5, "pct_forward": 0.0}, {"from_id": 53771, "to_id": 172792, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 5.9, "pct_forward": 1.0}, {"from_id": 53771, "to_id": 107880, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 7.7, "pct_forward": 1.0}, {"from_id": 103925, "to_id": 53771, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -26.9, "pct_forward": 0.0}, {"from_id": 103925, "to_id": 107880, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -4.4, "pct_forward": 0.0}, {"from_id": 107880, "to_id": 103925, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 6.0, "pct_forward": 1.0}, {"from_id": 103925, "to_id": 104512, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -12.1, "pct_forward": 0.0}, {"from_id": 104512, "to_id": 28179, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -16.8, "pct_forward": 0.0}, {"from_id": 118284, "to_id": 53771, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -3.5, "pct_forward": 0.0}, {"from_id": 53771, "to_id": 88579, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -13.0, "pct_forward": 0.0}, {"from_id": 88579, "to_id": 104512, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 47.5, "pct_forward": 1.0}, {"from_id": 104512, "to_id": 103925, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -5.3, "pct_forward": 0.0}, {"from_id": 107991, "to_id": 118284, "passes": 2, "outlet_passes": 2, "avg_fwd_m": 9.1, "pct_forward": 1.0}, {"from_id": 118284, "to_id": 107880, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 3.5, "pct_forward": 0.0}, {"from_id": 107880, "to_id": 1184, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -6.3, "pct_forward": 0.0}, {"from_id": 1184, "to_id": 106530, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 2.1, "pct_forward": 0.0}, {"from_id": 106530, "to_id": 6586, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -14.1, "pct_forward": 0.0}, {"from_id": 118284, "to_id": 103925, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 19.0, "pct_forward": 1.0}, {"from_id": 53771, "to_id": 106530, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -0.4, "pct_forward": 0.0}, {"from_id": 106530, "to_id": 88579, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -13.0, "pct_forward": 0.0}, {"from_id": 88579, "to_id": 28179, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -28.0, "pct_forward": 0.0}, {"from_id": 53771, "to_id": 118284, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 11.8, "pct_forward": 1.0}, {"from_id": 6586, "to_id": 106530, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 5.8, "pct_forward": 1.0}, {"from_id": 106530, "to_id": 107880, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 33.7, "pct_forward": 1.0}, {"from_id": 107880, "to_id": 118284, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 5.3, "pct_forward": 1.0}]}, "SC Verl": {"summary": {"team": "SC Verl", "games": 1, "transitions": 90, "transition_passes": 90, "passes_pg": 90.0, "completion": 0.638, "passes_per_transition": 1.0, "pct_forward": 0.356, "outlets": 49, "top_outlet": "Niko Kijewski", "top_outlet_share": 0.204, "top2_outlet_share": 0.367, "hub": "Niko Kijewski", "hub_share": 0.15, "top_pair": "Dennis Waidner → Niko Kijewski", "top_pair_passes": 4}, "nodes": [{"player_id": 30071, "player": "Yari Otto", "short": "Otto", "position": "DEFENSE_MIDFIELD", "x": -5.3, "y": 15.3, "involvements": 10, "regains": 1, "passes_completed": 2, "passes_received": 4, "outlet_received": 2, "outlet_given": 1, "fwd_metres_passing": 3.0}, {"player_id": 277344, "player": "Felix Vogler", "short": "Vogler", "position": "CENTRAL_DEFENDER", "x": -11.8, "y": -9.2, "involvements": 41, "regains": 14, "passes_completed": 9, "passes_received": 4, "outlet_received": 4, "outlet_given": 7, "fwd_metres_passing": 25.0}, {"player_id": 104343, "player": "Antonio Foti", "short": "Foti", "position": "RIGHT_WINGER", "x": -1.0, "y": -2.0, "involvements": 18, "regains": 3, "passes_completed": 4, "passes_received": 1, "outlet_received": 0, "outlet_given": 2, "fwd_metres_passing": 6.0}, {"player_id": 104929, "player": "Janne Berner", "short": "Berner", "position": "RIGHT_WINGBACK_DEFENDER", "x": -10.5, "y": -18.2, "involvements": 25, "regains": 6, "passes_completed": 8, "passes_received": 10, "outlet_received": 7, "outlet_given": 5, "fwd_metres_passing": 42.0}, {"player_id": 106083, "player": "Timo Schlieck", "short": "Schlieck", "position": "GOALKEEPER", "x": -39.2, "y": 0.7, "involvements": 44, "regains": 14, "passes_completed": 5, "passes_received": 11, "outlet_received": 8, "outlet_given": 2, "fwd_metres_passing": 28.0}, {"player_id": 47222, "player": "Dennis Waidner", "short": "Waidner", "position": "DEFENSE_MIDFIELD", "x": -2.1, "y": 4.0, "involvements": 31, "regains": 6, "passes_completed": 12, "passes_received": 7, "outlet_received": 3, "outlet_given": 6, "fwd_metres_passing": 25.0}, {"player_id": 103921, "player": "Almin Mesanovic", "short": "Mesanovic", "position": "RIGHT_WINGER", "x": -1.3, "y": -14.6, "involvements": 29, "regains": 7, "passes_completed": 4, "passes_received": 7, "outlet_received": 2, "outlet_given": 2, "fwd_metres_passing": 35.0}, {"player_id": 116117, "player": "Paul Lehmann", "short": "Lehmann", "position": "CENTRAL_DEFENDER", "x": -17.8, "y": 6.6, "involvements": 54, "regains": 16, "passes_completed": 11, "passes_received": 5, "outlet_received": 2, "outlet_given": 9, "fwd_metres_passing": 86.0}, {"player_id": 109638, "player": "Bilal Yalcinkaya", "short": "Yalcinkaya", "position": "RIGHT_WINGER", "x": 3.9, "y": -4.9, "involvements": 19, "regains": 2, "passes_completed": 5, "passes_received": 3, "outlet_received": 1, "outlet_given": 1, "fwd_metres_passing": 8.0}, {"player_id": 111250, "player": "Tim Heike", "short": "Heike", "position": "CENTER_FORWARD", "x": 9.1, "y": 4.9, "involvements": 22, "regains": 1, "passes_completed": 2, "passes_received": 7, "outlet_received": 6, "outlet_given": 1, "fwd_metres_passing": 8.0}, {"player_id": 9960, "player": "Niko Kijewski", "short": "Kijewski", "position": "LEFT_WINGBACK_DEFENDER", "x": -17.0, "y": 18.6, "involvements": 45, "regains": 7, "passes_completed": 10, "passes_received": 17, "outlet_received": 10, "outlet_given": 4, "fwd_metres_passing": 58.0}, {"player_id": 103816, "player": "Joshua Eze", "short": "Eze", "position": "DEFENSE_MIDFIELD", "x": -6.4, "y": 1.2, "involvements": 21, "regains": 7, "passes_completed": 6, "passes_received": 3, "outlet_received": 1, "outlet_given": 4, "fwd_metres_passing": 10.0}, {"player_id": 103212, "player": "Amin Farouk", "short": "Farouk", "position": "LEFT_WINGER", "x": 19.8, "y": 25.6, "involvements": 19, "regains": 2, "passes_completed": 3, "passes_received": 5, "outlet_received": 1, "outlet_given": 1, "fwd_metres_passing": 48.0}, {"player_id": 172008, "player": "Mika Clausen", "short": "Clausen", "position": "CENTER_FORWARD", "x": 18.4, "y": 1.9, "involvements": 20, "regains": 2, "passes_completed": 6, "passes_received": 5, "outlet_received": 1, "outlet_given": 2, "fwd_metres_passing": 16.0}, {"player_id": 89775, "player": "André Leipold", "short": "Leipold", "position": "RIGHT_WINGER", "x": 2.8, "y": -31.4, "involvements": 6, "regains": 1, "passes_completed": 1, "passes_received": 1, "outlet_received": 1, "outlet_given": 1, "fwd_metres_passing": 18.0}, {"player_id": 103915, "player": "Alem Japaur", "short": "Japaur", "position": "CENTER_FORWARD", "x": -1.3, "y": 3.2, "involvements": 5, "regains": 1, "passes_completed": 2, "passes_received": 0, "outlet_received": 0, "outlet_given": 1, "fwd_metres_passing": 0.0}], "edges": [{"from_id": 30071, "to_id": 277344, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 2.7, "pct_forward": 0.0}, {"from_id": 277344, "to_id": 104343, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -1.4, "pct_forward": 0.0}, {"from_id": 104343, "to_id": 104929, "passes": 2, "outlet_passes": 1, "avg_fwd_m": -11.4, "pct_forward": 0.0}, {"from_id": 104929, "to_id": 106083, "passes": 2, "outlet_passes": 1, "avg_fwd_m": -28.8, "pct_forward": 0.0}, {"from_id": 277344, "to_id": 30071, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -4.2, "pct_forward": 0.0}, {"from_id": 47222, "to_id": 103921, "passes": 2, "outlet_passes": 1, "avg_fwd_m": -0.6, "pct_forward": 0.0}, {"from_id": 103921, "to_id": 104929, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -7.0, "pct_forward": 0.0}, {"from_id": 116117, "to_id": 109638, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 0.5, "pct_forward": 0.0}, {"from_id": 109638, "to_id": 103921, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 7.5, "pct_forward": 1.0}, {"from_id": 47222, "to_id": 106083, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -25.8, "pct_forward": 0.0}, {"from_id": 106083, "to_id": 116117, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 0.6, "pct_forward": 0.0}, {"from_id": 116117, "to_id": 111250, "passes": 2, "outlet_passes": 1, "avg_fwd_m": 27.2, "pct_forward": 1.0}, {"from_id": 9960, "to_id": 106083, "passes": 2, "outlet_passes": 2, "avg_fwd_m": -5.5, "pct_forward": 0.0}, {"from_id": 104343, "to_id": 9960, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -6.8, "pct_forward": 0.0}, {"from_id": 9960, "to_id": 47222, "passes": 2, "outlet_passes": 0, "avg_fwd_m": -4.0, "pct_forward": 0.0}, {"from_id": 47222, "to_id": 116117, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -13.2, "pct_forward": 0.0}, {"from_id": 116117, "to_id": 277344, "passes": 2, "outlet_passes": 2, "avg_fwd_m": -3.5, "pct_forward": 0.0}, {"from_id": 277344, "to_id": 106083, "passes": 3, "outlet_passes": 2, "avg_fwd_m": -20.1, "pct_forward": 0.0}, {"from_id": 109638, "to_id": 116117, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -8.4, "pct_forward": 0.0}, {"from_id": 116117, "to_id": 9960, "passes": 4, "outlet_passes": 3, "avg_fwd_m": 3.6, "pct_forward": 0.5}, {"from_id": 104343, "to_id": 111250, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 6.2, "pct_forward": 1.0}, {"from_id": 111250, "to_id": 30071, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 5.9, "pct_forward": 1.0}, {"from_id": 111250, "to_id": 9960, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 1.9, "pct_forward": 0.0}, {"from_id": 104929, "to_id": 30071, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 10.1, "pct_forward": 1.0}, {"from_id": 9960, "to_id": 104929, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 5.0, "pct_forward": 0.0}, {"from_id": 47222, "to_id": 9960, "passes": 4, "outlet_passes": 3, "avg_fwd_m": -0.8, "pct_forward": 0.25}, {"from_id": 277344, "to_id": 47222, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 9.4, "pct_forward": 1.0}, {"from_id": 47222, "to_id": 104929, "passes": 2, "outlet_passes": 1, "avg_fwd_m": -3.3, "pct_forward": 0.0}, {"from_id": 104929, "to_id": 103921, "passes": 3, "outlet_passes": 1, "avg_fwd_m": 2.4, "pct_forward": 0.333}, {"from_id": 109638, "to_id": 9960, "passes": 3, "outlet_passes": 1, "avg_fwd_m": -5.9, "pct_forward": 0.0}, {"from_id": 9960, "to_id": 103921, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 15.8, "pct_forward": 1.0}, {"from_id": 103921, "to_id": 47222, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 1.3, "pct_forward": 0.0}, {"from_id": 106083, "to_id": 30071, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 12.1, "pct_forward": 1.0}, {"from_id": 30071, "to_id": 106083, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -19.9, "pct_forward": 0.0}, {"from_id": 103921, "to_id": 111250, "passes": 2, "outlet_passes": 2, "avg_fwd_m": 17.0, "pct_forward": 1.0}, {"from_id": 277344, "to_id": 104929, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 7.4, "pct_forward": 1.0}, {"from_id": 104929, "to_id": 111250, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 5.9, "pct_forward": 1.0}, {"from_id": 116117, "to_id": 104929, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 3.4, "pct_forward": 0.0}, {"from_id": 103816, "to_id": 111250, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 1.7, "pct_forward": 0.0}, {"from_id": 277344, "to_id": 103816, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 1.5, "pct_forward": 0.0}, {"from_id": 103816, "to_id": 9960, "passes": 2, "outlet_passes": 0, "avg_fwd_m": -3.4, "pct_forward": 0.0}, {"from_id": 106083, "to_id": 277344, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -3.3, "pct_forward": 0.0}, {"from_id": 103816, "to_id": 106083, "passes": 2, "outlet_passes": 2, "avg_fwd_m": -9.0, "pct_forward": 0.0}, {"from_id": 106083, "to_id": 103816, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -1.1, "pct_forward": 0.0}, {"from_id": 103212, "to_id": 47222, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -1.0, "pct_forward": 0.0}, {"from_id": 104929, "to_id": 172008, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 9.0, "pct_forward": 1.0}, {"from_id": 172008, "to_id": 109638, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 1.0, "pct_forward": 0.5}, {"from_id": 9960, "to_id": 103212, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 11.8, "pct_forward": 1.0}, {"from_id": 116117, "to_id": 47222, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 8.7, "pct_forward": 1.0}, {"from_id": 47222, "to_id": 172008, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 6.1, "pct_forward": 1.0}, {"from_id": 103816, "to_id": 104929, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 7.9, "pct_forward": 1.0}, {"from_id": 89775, "to_id": 103212, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 18.4, "pct_forward": 1.0}, {"from_id": 9960, "to_id": 116117, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -8.2, "pct_forward": 0.0}, {"from_id": 106083, "to_id": 9960, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 14.9, "pct_forward": 1.0}, {"from_id": 9960, "to_id": 103816, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 10.6, "pct_forward": 1.0}, {"from_id": 277344, "to_id": 116117, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 7.1, "pct_forward": 1.0}, {"from_id": 103915, "to_id": 9960, "passes": 1, "outlet_passes": 1, "avg_fwd_m": -11.0, "pct_forward": 0.0}, {"from_id": 103212, "to_id": 172008, "passes": 2, "outlet_passes": 0, "avg_fwd_m": 23.8, "pct_forward": 1.0}, {"from_id": 172008, "to_id": 103212, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -4.8, "pct_forward": 0.0}, {"from_id": 172008, "to_id": 104929, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 1.3, "pct_forward": 0.0}, {"from_id": 172008, "to_id": 89775, "passes": 1, "outlet_passes": 1, "avg_fwd_m": 8.1, "pct_forward": 1.0}, {"from_id": 103915, "to_id": 172008, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -0.3, "pct_forward": 0.0}, {"from_id": 172008, "to_id": 47222, "passes": 1, "outlet_passes": 0, "avg_fwd_m": -6.1, "pct_forward": 0.0}, {"from_id": 47222, "to_id": 103212, "passes": 1, "outlet_passes": 0, "avg_fwd_m": 5.4, "pct_forward": 1.0}]}}, "min_default": 1};
+const NS = "http://www.w3.org/2000/svg";
+const MAX_NODES = 14;
+let state = { team: null, mode: "all", min: DATA.min_default || 3, focus: null };
+if (DATA.matches > 1) { try { const s = JSON.parse(localStorage.getItem("tpn") || "{}"); Object.assign(state, s, { focus: null }); } catch (e) {} }
+
+const $ = id => document.getElementById(id);
+const pct = v => v == null ? "–" : Math.round(v * 100) + "%";
+const el = (tag, attrs = {}, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+
+$("meta").textContent = DATA.matches > 1 ? `${DATA.league} · ${DATA.matches} matches · ${DATA.dates[0]} to ${DATA.dates[1]}` : `${DATA.league} · ${DATA.dates[0]}`;
+const teams = Object.keys(DATA.teams).sort();
+if (!teams.includes(state.team)) state.team = teams[0];
+teams.forEach(t => { const o = document.createElement("option"); o.value = t; o.textContent = t; $("team").appendChild(o); });
+
+function save() { try { localStorage.setItem("tpn", JSON.stringify({ team: state.team, mode: state.mode, min: state.min })); } catch (e) {} }
+
+function drawPitch(svg) {
+  el("rect", { x: -55, y: -37, width: 110, height: 78, fill: "var(--pitch)" }, svg);
+  const g = el("g", { class: "pitch-lines" }, svg);
+  el("rect", { x: -52.5, y: -34, width: 105, height: 68 }, g);
+  el("line", { x1: 0, y1: -34, x2: 0, y2: 34 }, g);
+  el("circle", { cx: 0, cy: 0, r: 9.15 }, g);
+  for (const s of [-1, 1]) {
+    el("rect", { x: s < 0 ? -52.5 : 52.5 - 16.5, y: -20.16, width: 16.5, height: 40.32 }, g);
+    el("rect", { x: s < 0 ? -52.5 : 52.5 - 5.5, y: -9.16, width: 5.5, height: 18.32 }, g);
+    el("rect", { x: s < 0 ? -54 : 52.5, y: -3.66, width: 1.5, height: 7.32 }, g);
+    el("circle", { cx: s * 41.5, cy: 0, r: .35, fill: "var(--pitch-line)" }, g);
+  }
+  const t = el("text", { x: 0, y: 39.4, "text-anchor": "middle", "font-size": 2.4, fill: "var(--ink-3)", "font-family": "var(--font-body)" }, svg);
+  t.textContent = "Attacking direction →";
+}
+
+function render() {
+  const T = DATA.teams[state.team];
+  const svg = $("pitch"); svg.replaceChildren(); drawPitch(svg);
+  const outlet = state.mode === "out";
+  const w = e => outlet ? e.outlet_passes : e.passes;
+  const size = n => outlet ? n.regains + n.outlet_received : n.involvements;
+  $("lg-size").textContent = outlet ? "regains + first passes received" : "actions in transitions";
+
+  const nodes = [...T.nodes].sort((a, b) => b.involvements - a.involvements).slice(0, MAX_NODES);
+  const ids = new Set(nodes.map(n => n.player_id));
+  const byId = Object.fromEntries(nodes.map(n => [n.player_id, n]));
+  const edges = T.edges.filter(e => ids.has(e.from_id) && ids.has(e.to_id) && w(e) >= state.min);
+  const maxW = Math.max(1, ...edges.map(w));
+  const maxS = Math.max(1, ...nodes.map(size));
+  const rad = n => 1.0 + 1.9 * Math.sqrt(size(n) / maxS);
+  // Display positions: nudge overlapping players apart (true averages stay in the tooltip/table).
+  const P = Object.fromEntries(nodes.map(n => [n.player_id, { x: n.x, y: -n.y }]));
+  for (let it = 0; it < 60; it++) {
+    for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+      const a = P[nodes[i].player_id], b = P[nodes[j].player_id];
+      let dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy);
+      const need = rad(nodes[i]) + rad(nodes[j]) + 4.2;
+      if (d < need) { if (d < .01) { dx = 1; dy = 0; d = 1; } const m = (need - d) / 2 / d; a.x -= dx * m; a.y -= dy * m; b.x += dx * m; b.y += dy * m; }
+    }
+    for (const id in P) { P[id].x = Math.max(-50, Math.min(50, P[id].x)); P[id].y = Math.max(-31, Math.min(31, P[id].y)); }
+  }
+
+  const defs = el("defs", {}, svg);
+  const mk = el("marker", { id: "arr", viewBox: "0 0 10 10", refX: 8, refY: 5, markerWidth: 2.2, markerHeight: 2.2, orient: "auto-start-reverse", markerUnits: "strokeWidth" }, defs);
+  el("path", { d: "M0,1 L9,5 L0,9 z", fill: "var(--series)" }, mk);
+
+  const eg = el("g", {}, svg), ng = el("g", {}, svg);
+  const touches = id => state.focus == null || id === state.focus;
+  edges.sort((a, b) => w(a) - w(b)).forEach(e => {
+    const a = byId[e.from_id], b = byId[e.to_id];
+    const x1 = P[a.player_id].x, y1 = P[a.player_id].y, x2 = P[b.player_id].x, y2 = P[b.player_id].y;
+    const dx = x2 - x1, dy = y2 - y1, L = Math.hypot(dx, dy) || 1;
+    const ux = dx / L, uy = dy / L, ox = -uy * .9, oy = ux * .9;
+    const r = w(e) / maxW;
+    const sw = .25 + 1.5 * r;
+    const sx = x1 + ux * (rad(a) + .4) + ox, sy = y1 + uy * (rad(a) + .4) + oy;
+    const ex = x2 - ux * (rad(b) + .4 + sw * 1.6) + ox, ey = y2 - uy * (rad(b) + .4 + sw * 1.6) + oy;
+    if ((ex - sx) * ux + (ey - sy) * uy <= 0) return;
+    const on = state.focus == null || e.from_id === state.focus || e.to_id === state.focus;
+    const line = el("line", { x1: sx, y1: sy, x2: ex, y2: ey, class: "edge" + (on ? "" : " dim"), "stroke-width": sw, "stroke-opacity": .3 + .65 * r, "marker-end": "url(#arr)" }, eg);
+    const hit = el("line", { x1: sx, y1: sy, x2: ex, y2: ey, class: "edge-hit" }, eg);
+    hit.addEventListener("mousemove", ev => tip(ev, `<b>${a.player} → ${b.player}</b>${e.passes} completed passes in transition<br>${e.outlet_passes} as first pass after a regain<br>${e.avg_fwd_m > 0 ? "+" : ""}${e.avg_fwd_m} m forward on average · ${pct(e.pct_forward)} gain 5 m+`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+  nodes.forEach(n => {
+    const g = el("g", { class: "node" + (touches(n.player_id) || edges.some(e => (e.from_id === state.focus && e.to_id === n.player_id) || (e.to_id === state.focus && e.from_id === n.player_id)) ? "" : " dim"), tabindex: 0, role: "button", "aria-label": n.player }, ng);
+    const r = rad(n);
+    el("circle", { cx: P[n.player_id].x, cy: P[n.player_id].y, r }, g);
+    const t = el("text", { x: P[n.player_id].x, y: P[n.player_id].y + r + 2.4 }, g); t.textContent = n.short;
+    const toggle = () => { state.focus = state.focus === n.player_id ? null : n.player_id; render(); };
+    g.addEventListener("click", toggle);
+    g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); toggle(); } });
+    g.addEventListener("mousemove", ev => tip(ev, `<b>${n.player}</b>${(n.position || "").replaceAll("_", " ").toLowerCase()}<br>${n.involvements} actions · ${n.regains} regains<br>${n.passes_completed} passes · ${n.passes_received} received<br>${n.outlet_received} first passes received after a regain`));
+    g.addEventListener("mouseleave", hideTip);
+  });
+
+  const s = T.summary;
+  $("t-name").textContent = state.team;
+  $("t-stats").innerHTML = `
+    <dt>Transitions</dt><dd>${s.transitions}<small>${s.games} games</small></dd>
+    <dt>Completed passes per game</dt><dd>${s.passes_pg}</dd>
+    <dt>Passes per transition</dt><dd>${s.passes_per_transition}</dd>
+    <dt>Pass completion</dt><dd>${pct(s.completion)}</dd>
+    <dt>Passes gaining 5 m+</dt><dd>${pct(s.pct_forward)}</dd>
+    <dt>Main outlet</dt><dd>${s.top_outlet}<small>${pct(s.top_outlet_share)} of first passes</small></dd>
+    <dt>Top-2 outlet share</dt><dd>${pct(s.top2_outlet_share)}</dd>
+    <dt>Hub</dt><dd>${s.hub}<small>in ${pct(s.hub_share)} of passes</small></dd>
+    <dt>Strongest link</dt><dd>${s.top_pair}<small>${s.top_pair_passes} passes</small></dd>`;
+
+  const prow = [...T.nodes].sort((a, b) => outlet ? (b.outlet_received - a.outlet_received) : (b.involvements - a.involvements)).slice(0, 22);
+  $("ptable").innerHTML = `<thead><tr><th>Player</th><th>Actions</th><th>Regains</th><th>Passes</th><th>Received</th><th>1st pass recv.</th><th>Fwd m</th></tr></thead><tbody>` +
+    prow.map(n => `<tr data-id="${n.player_id}" class="${n.player_id === state.focus ? "sel" : ""}"><td>${n.player}</td><td>${n.involvements}</td><td>${n.regains}</td><td>${n.passes_completed}</td><td>${n.passes_received}</td><td>${n.outlet_received}</td><td>${Math.round(n.fwd_metres_passing)}</td></tr>`).join("") + "</tbody>";
+  $("ptable").querySelectorAll("tbody tr").forEach(tr => tr.addEventListener("click", () => { const id = +tr.dataset.id; state.focus = state.focus === id ? null : id; render(); }));
+
+  const nameOf = Object.fromEntries(T.nodes.map(n => [n.player_id, n.player]));
+  const top = [...T.edges].filter(e => w(e) > 0 && (state.focus == null || e.from_id === state.focus || e.to_id === state.focus)).sort((a, b) => w(b) - w(a)).slice(0, 12);
+  $("etable").innerHTML = `<thead><tr><th>From → to</th><th>${outlet ? "First passes" : "Passes"}</th><th>Avg fwd m</th></tr></thead><tbody>` +
+    top.map(e => `<tr><td>${nameOf[e.from_id]} → ${nameOf[e.to_id]}</td><td>${w(e)}</td><td>${e.avg_fwd_m}</td></tr>`).join("") + "</tbody>";
+}
+
+function tip(ev, html) {
+  const t = $("tip"), card = $("card").getBoundingClientRect();
+  t.innerHTML = html; t.hidden = false;
+  let x = ev.clientX - card.left + 14, y = ev.clientY - card.top + 14;
+  if (x + t.offsetWidth > card.width) x = ev.clientX - card.left - t.offsetWidth - 14;
+  if (y + t.offsetHeight > card.height) y = ev.clientY - card.top - t.offsetHeight - 14;
+  t.style.left = Math.max(4, x) + "px"; t.style.top = Math.max(4, y) + "px";
+}
+function hideTip() { $("tip").hidden = true; }
+
+function setMode(m) {
+  state.mode = m;
+  $("m-all").setAttribute("aria-pressed", m === "all");
+  $("m-out").setAttribute("aria-pressed", m === "out");
+  if (m === "out" && state.min > 1) { state.min = 1; $("min").value = 1; $("minv").textContent = 1; }
+  save(); render();
+}
+$("team").value = state.team;
+$("min").value = state.min; $("minv").textContent = state.min;
+$("m-all").setAttribute("aria-pressed", state.mode === "all");
+$("m-out").setAttribute("aria-pressed", state.mode === "out");
+$("team").addEventListener("change", e => { state.team = e.target.value; state.focus = null; save(); render(); });
+$("min").addEventListener("input", e => { state.min = +e.target.value; $("minv").textContent = state.min; save(); render(); });
+$("m-all").addEventListener("click", () => setMode("all"));
+$("m-out").addEventListener("click", () => setMode("out"));
+render();
+</script>
