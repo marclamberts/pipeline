@@ -1,0 +1,439 @@
+player_id,name,team_id,bypassed,metres_gained,actions,team,regains,regains_to_box
+45448,Florian Carstens,429,153.0,634.9,236.0,FC Hansa Rostock,63.0,7.0
+39396,Alexander Groiß,4557,143.0,634.8,245.0,VfB Stuttgart II,68.0,5.0
+277698,Luca Molinari,1711,142.0,894.8,294.0,SG Sonnenhof Großaspach,50.0,6.0
+107991,Joel da Silva Kiala,1927,142.0,650.4,271.0,Alemannia Aachen,78.0,7.0
+118908,Leopold Wurm,424,137.0,548.1,244.0,SSV Jahn Regensburg,78.0,3.0
+67777,Jesse Tugbenyo,2422,133.0,935.8,332.0,TSV Havelse,59.0,8.0
+103719,Dominique Domröse,1708,129.0,1003.4,365.0,SV Meppen,47.0,5.0
+10528,Klaus Gjasula,4560,129.0,646.0,280.0,TSG 1899 Hoffenheim II,68.0,9.0
+104012,Valentin Lässig,4560,128.0,700.3,268.0,TSG 1899 Hoffenheim II,72.0,5.0
+77582,Luis Sprekelmeyer,1708,127.0,559.5,199.0,SV Meppen,61.0,7.0
+46977,Semi Belkahia,2422,127.0,616.9,268.0,TSV Havelse,87.0,4.0
+44311,Georgios Antzoulas,43,120.0,416.5,192.0,FC Ingolstadt 04,63.0,4.0
+6339,Adrian Fein,424,120.0,947.1,404.0,SSV Jahn Regensburg,54.0,10.0
+32474,Antonis Aidonis,1711,119.0,646.7,237.0,SG Sonnenhof Großaspach,72.0,4.0
+46962,Vinko Sapina,43,118.0,696.7,290.0,FC Ingolstadt 04,39.0,9.0
+88579,Petros Bagkalianis,1927,116.0,519.6,213.0,Alemannia Aachen,57.0,1.0
+63742,Niko Bretschneider,851,115.0,581.6,201.0,1. FC Saarbrücken,39.0,3.0
+153531,Franci Bouebari,415,113.0,576.4,265.0,Rot-Weiss Essen,52.0,4.0
+3277,Florian Bohnert,429,113.0,662.9,242.0,FC Hansa Rostock,56.0,4.0
+9960,Niko Kijewski,1926,111.0,583.8,245.0,SC Verl,43.0,2.0
+277688,Volkan Celiktas,1711,111.0,877.8,307.0,SG Sonnenhof Großaspach,57.0,5.0
+32338,Oscar Schönfelder,424,108.0,629.1,302.0,SSV Jahn Regensburg,52.0,6.0
+206161,Jid Okeke,1915,104.0,647.4,203.0,SV Waldhof Mannheim,33.0,3.0
+32491,Jordy Gillekens,864,102.0,378.0,214.0,SV Wehen Wiesbaden,64.0,3.0
+9648,Dominik Nothnagel,4557,99.0,305.3,130.0,VfB Stuttgart II,37.0,3.0
+105524,Nick Seidel,1926,99.0,463.8,162.0,SC Verl,49.0,4.0
+53771,Lukas Scepanik,1927,98.0,798.2,262.0,Alemannia Aachen,41.0,3.0
+30802,Stefan Rankic,1708,97.0,377.0,192.0,SV Meppen,61.0,1.0
+23155,David Kamm Al-Azzawe,1709,96.0,440.5,167.0,SC Fortuna Köln,55.0,5.0
+149158,Niclas Nadj,1708,95.0,964.2,286.0,SV Meppen,39.0,10.0
+239075,Elias Rahn,1711,93.0,660.0,245.0,SG Sonnenhof Großaspach,28.0,4.0
+44896,Thorben Deters,1708,92.0,1084.8,305.0,SV Meppen,25.0,8.0
+116116,Niklas Kölle,429,92.0,542.0,182.0,FC Hansa Rostock,37.0,4.0
+49831,Johann Berger,2422,92.0,768.7,285.0,TSV Havelse,38.0,3.0
+104570,Sean Dulic,4560,91.0,362.0,211.0,TSG 1899 Hoffenheim II,62.0,4.0
+26967,Tobias Mißner,1708,90.0,477.3,195.0,SV Meppen,48.0,1.0
+44972,Danilo Wiebe,1927,89.0,509.3,208.0,Alemannia Aachen,27.0,1.0
+81125,Maximilian Fischer,1709,89.0,424.4,197.0,SC Fortuna Köln,56.0,1.0
+32340,Max Brandt,864,88.0,604.4,212.0,SV Wehen Wiesbaden,32.0,10.0
+277686,Marius Kunde,1711,88.0,835.1,339.0,SG Sonnenhof Großaspach,45.0,7.0
+65877,Eric Voufack,2422,88.0,611.2,240.0,TSV Havelse,24.0,4.0
+84067,Mladen Cvjetinovic,851,88.0,362.3,179.0,1. FC Saarbrücken,54.0,4.0
+1089,Lukas Klünter,1915,88.0,373.3,163.0,SV Waldhof Mannheim,42.0,2.0
+277344,Felix Vogler,1926,87.0,336.6,167.0,SC Verl,43.0,5.0
+89898,Jannik Hofmann,415,87.0,489.7,186.0,Rot-Weiss Essen,35.0,6.0
+56400,Can Coskun,455,87.0,824.2,233.0,MSV Duisburg,40.0,1.0
+107856,Veit Stange,4557,87.0,539.2,243.0,VfB Stuttgart II,40.0,1.0
+15925,Maximilian Thalhammer,1915,86.0,583.7,212.0,SV Waldhof Mannheim,56.0,7.0
+123613,Loris Maier,1711,86.0,799.0,392.0,SG Sonnenhof Großaspach,41.0,10.0
+167578,Liam Omore,447,85.0,638.0,253.0,Würzburger Kickers,41.0,4.0
+8238,Robin Afamefuna,1709,84.0,353.1,130.0,SC Fortuna Köln,31.0,0.0
+187045,Ben Nink,864,84.0,541.2,186.0,SV Wehen Wiesbaden,39.0,3.0
+169164,Natnael Abraha,4560,83.0,437.8,173.0,TSG 1899 Hoffenheim II,37.0,3.0
+52424,Tobias Fleckstein,455,82.0,363.9,165.0,MSV Duisburg,51.0,9.0
+15602,Patrick Sontheimer,851,81.0,594.0,296.0,1. FC Saarbrücken,57.0,6.0
+49850,Jonas Scholz,43,80.0,406.7,210.0,FC Ingolstadt 04,60.0,1.0
+63610,Janne Sietan,415,80.0,685.5,284.0,Rot-Weiss Essen,51.0,9.0
+3413,Adrian Stanilewicz,1709,79.0,661.2,229.0,SC Fortuna Köln,41.0,3.0
+94866,Claudio Kammerknecht,1915,78.0,330.1,149.0,SV Waldhof Mannheim,46.0,4.0
+51527,Fabian Greilinger,864,78.0,369.8,186.0,SV Wehen Wiesbaden,38.0,8.0
+63501,Leon Sommer-Deiss,2422,78.0,434.6,113.0,TSV Havelse,21.0,3.0
+3005,Erik Majetschak,424,78.0,271.2,197.0,SSV Jahn Regensburg,49.0,8.0
+159942,Matthew Moore,4560,77.0,495.3,172.0,TSG 1899 Hoffenheim II,21.0,2.0
+62505,Tobias Eisenhuth,426,77.0,400.1,236.0,FC Viktoria Köln,70.0,1.0
+53182,Charalambos Makridis,1710,77.0,512.5,222.0,Preußen Münster,19.0,2.0
+82645,Benedikt Bauer,424,76.0,482.5,152.0,SSV Jahn Regensburg,25.0,1.0
+63740,Niko Koulis,1710,76.0,211.8,122.0,Preußen Münster,40.0,2.0
+279452,Niklas Pollex,1711,75.0,775.5,236.0,SG Sonnenhof Großaspach,26.0,10.0
+104700,Florian Micheler,4560,75.0,530.1,261.0,TSG 1899 Hoffenheim II,35.0,4.0
+132329,Niklas Swider,426,75.0,653.9,323.0,FC Viktoria Köln,46.0,4.0
+106818,Antonio Tikvic,1710,75.0,388.0,205.0,Preußen Münster,43.0,3.0
+133041,Moritz Polte,1915,74.0,314.0,99.0,SV Waldhof Mannheim,34.0,4.0
+1531,Matthias Zimmermann,445,74.0,310.2,180.0,Fortuna Düsseldorf,43.0,4.0
+10015,Erik Wekesser,445,73.0,354.5,125.0,Fortuna Düsseldorf,17.0,0.0
+6127,Siemen Voet,851,73.0,289.9,172.0,1. FC Saarbrücken,52.0,0.0
+45428,Daniel Hägele,447,73.0,357.7,171.0,Würzburger Kickers,46.0,2.0
+117811,Tim Kloss,426,73.0,311.8,218.0,FC Viktoria Köln,53.0,1.0
+132334,Darnell Keumo,1915,73.0,483.4,211.0,SV Waldhof Mannheim,32.0,4.0
+172002,Ebrahim Farahnak,447,72.0,302.9,164.0,Würzburger Kickers,46.0,3.0
+26468,Nicolas Sessa,4557,72.0,572.7,241.0,VfB Stuttgart II,26.0,6.0
+45360,Torge Paetow,1710,72.0,330.9,155.0,Preußen Münster,47.0,5.0
+116150,Meiko Sponsel,426,72.0,326.5,184.0,FC Viktoria Köln,43.0,4.0
+90009,Justin Janitzek,864,71.0,357.6,184.0,SV Wehen Wiesbaden,51.0,1.0
+118077,Maximilian Herwerth,4557,71.0,258.9,145.0,VfB Stuttgart II,37.0,1.0
+58102,Rasim Bulic,455,71.0,268.4,185.0,MSV Duisburg,48.0,4.0
+109406,Dennis Duah,2422,70.0,330.7,163.0,TSV Havelse,47.0,0.0
+31548,Julian Rieckmann,1915,70.0,635.2,248.0,SV Waldhof Mannheim,31.0,0.0
+118306,Matti Wagner,1927,70.0,406.0,181.0,Alemannia Aachen,27.0,3.0
+89775,André Leipold,1926,69.0,583.9,236.0,SC Verl,19.0,3.0
+143106,Elias Egouli,445,69.0,168.7,150.0,Fortuna Düsseldorf,42.0,2.0
+118407,Ben Hüning,415,69.0,260.2,184.0,Rot-Weiss Essen,55.0,4.0
+30251,Steven van der Sloot,445,69.0,275.1,141.0,Fortuna Düsseldorf,20.0,2.0
+104929,Janne Berner,1926,67.0,352.8,150.0,SC Verl,24.0,3.0
+46888,Tarik Gözüsirin,864,67.0,601.1,226.0,SV Wehen Wiesbaden,31.0,6.0
+103441,Philip Fahrner,851,67.0,405.5,168.0,1. FC Saarbrücken,36.0,0.0
+89896,Sascha Hingerl,424,66.0,378.8,229.0,SSV Jahn Regensburg,46.0,7.0
+153209,Anas Slimani,445,65.0,530.4,256.0,Fortuna Düsseldorf,20.0,4.0
+277703,Lukas Stoppel,1711,64.0,362.2,168.0,SG Sonnenhof Großaspach,16.0,1.0
+109374,David Preu,4557,64.0,316.4,169.0,VfB Stuttgart II,29.0,2.0
+103968,Mehdi Loune,1927,63.0,785.6,244.0,Alemannia Aachen,33.0,4.0
+1124,Lukas Fröde,43,63.0,206.2,97.0,FC Ingolstadt 04,40.0,4.0
+118484,Luca Prasse,1708,63.0,578.9,251.0,SV Meppen,31.0,6.0
+132991,Tristan Spranger,4560,62.0,449.9,221.0,TSG 1899 Hoffenheim II,27.0,2.0
+82660,Fabian Wessig,1926,61.0,499.9,159.0,SC Verl,23.0,5.0
+103921,Almin Mesanovic,1926,60.0,395.0,157.0,SC Verl,23.0,7.0
+141301,Joyeux Masanka Bungi,4557,58.0,373.2,161.0,VfB Stuttgart II,29.0,5.0
+109742,Bennit Bröger,1709,58.0,629.6,180.0,SC Fortuna Köln,20.0,6.0
+104340,Louis Kolbe,1710,58.0,565.7,143.0,Preußen Münster,18.0,1.0
+277699,Arbnor Nuraj,1711,57.0,268.5,165.0,SG Sonnenhof Großaspach,51.0,3.0
+63518,Lucas Wolf,426,57.0,375.7,198.0,FC Viktoria Köln,14.0,0.0
+9893,Florian Heister,1709,57.0,409.9,92.0,SC Fortuna Köln,18.0,1.0
+1184,Gideon Jung,1927,56.0,290.4,121.0,Alemannia Aachen,37.0,3.0
+41323,Simon Lorenz,43,56.0,237.9,134.0,FC Ingolstadt 04,42.0,3.0
+30980,Lukas Wallner,429,55.0,362.6,119.0,FC Hansa Rostock,31.0,4.0
+84075,Oliver Schmitt,1708,55.0,686.0,286.0,SV Meppen,21.0,5.0
+118920,Georg Strauch,1709,55.0,343.2,190.0,SC Fortuna Köln,49.0,10.0
+103884,Jerik von der Felsen,4557,55.0,403.6,190.0,VfB Stuttgart II,60.0,0.0
+13822,Kilian Jakob,426,55.0,261.2,122.0,FC Viktoria Köln,26.0,2.0
+45447,Ersin Zehir,1708,55.0,583.3,224.0,SV Meppen,37.0,7.0
+118082,Jarzinho Malanga,4557,54.0,403.7,175.0,VfB Stuttgart II,17.0,1.0
+7723,Nathan de Medina,447,54.0,265.0,102.0,Würzburger Kickers,29.0,0.0
+29315,Kenan Fatkic,429,53.0,388.0,193.0,FC Hansa Rostock,38.0,7.0
+10666,Taylan Duman,426,52.0,462.8,245.0,FC Viktoria Köln,33.0,4.0
+106637,Noah Pesch,415,52.0,335.8,186.0,Rot-Weiss Essen,22.0,6.0
+159951,Luis Engelns,4560,52.0,302.1,153.0,TSG 1899 Hoffenheim II,24.0,3.0
+44878,Rico Preißinger,1710,52.0,263.3,231.0,Preußen Münster,39.0,3.0
+83016,Nikell Touglo,1708,51.0,193.9,63.0,SV Meppen,21.0,1.0
+103138,Tim Oberdorf,445,51.0,344.5,249.0,Fortuna Düsseldorf,58.0,3.0
+149003,Yassine Bouchama,445,51.0,531.5,210.0,Fortuna Düsseldorf,23.0,3.0
+104763,Blessing Makanda,4560,50.0,623.2,206.0,TSG 1899 Hoffenheim II,19.0,3.0
+6307,Keanan Bennetts,43,49.0,394.9,145.0,FC Ingolstadt 04,23.0,2.0
+2309,José-Enrique Ríos Alonso,415,49.0,101.3,111.0,Rot-Weiss Essen,32.0,1.0
+104664,Emre Gül,43,49.0,367.3,202.0,FC Ingolstadt 04,31.0,3.0
+104545,Max Plath,43,49.0,245.3,81.0,FC Ingolstadt 04,11.0,0.0
+28186,Leon Dajaku,429,47.0,548.2,155.0,FC Hansa Rostock,14.0,2.0
+107807,Jonas Oehmichen,1927,47.0,512.1,177.0,Alemannia Aachen,19.0,4.0
+30519,Marvin Obuz,415,47.0,384.6,177.0,Rot-Weiss Essen,16.0,8.0
+118078,Lauri Penna,4557,47.0,553.1,212.0,VfB Stuttgart II,27.0,8.0
+1579,Vincent Thill,1915,46.0,321.9,162.0,SV Waldhof Mannheim,19.0,3.0
+1534,David Kinsombi,447,46.0,389.6,197.0,Würzburger Kickers,20.0,1.0
+10190,Kevin Schumacher,2422,46.0,451.7,231.0,TSV Havelse,30.0,3.0
+118241,Tiago Poller,4560,46.0,574.4,222.0,TSG 1899 Hoffenheim II,23.0,6.0
+166604,Fredrik Carlsen,43,45.0,676.5,263.0,FC Ingolstadt 04,36.0,5.0
+67536,Andreas Müller,445,45.0,426.3,236.0,Fortuna Düsseldorf,37.0,4.0
+28277,Felix Strauss,424,44.0,331.7,171.0,SSV Jahn Regensburg,39.0,3.0
+116043,Lucas Zeller,1710,44.0,250.3,161.0,Preußen Münster,55.0,2.0
+107880,Louis Köster,1927,44.0,493.8,183.0,Alemannia Aachen,20.0,5.0
+118090,Julian Lüers,4557,43.0,404.7,153.0,VfB Stuttgart II,21.0,3.0
+48076,Christian Viet,455,43.0,292.7,124.0,MSV Duisburg,24.0,5.0
+16097,Gino Fechner,864,43.0,288.3,129.0,SV Wehen Wiesbaden,19.0,3.0
+118373,Jan-Simon Symalla,455,43.0,531.7,145.0,MSV Duisburg,11.0,3.0
+23088,Florian Pick,851,43.0,602.6,213.0,1. FC Saarbrücken,22.0,7.0
+116117,Paul Lehmann,1926,42.0,341.4,130.0,SC Verl,40.0,2.0
+5147,Jorrit Hendrix,445,42.0,418.2,149.0,Fortuna Düsseldorf,27.0,2.0
+1261,Joshua Bitter,455,42.0,214.9,129.0,MSV Duisburg,26.0,2.0
+83676,Max Lamby,2422,42.0,202.5,80.0,TSV Havelse,15.0,2.0
+47066,Lucas Brumme,415,42.0,342.1,100.0,Rot-Weiss Essen,17.0,3.0
+106083,Timo Schlieck,1926,42.0,364.9,199.0,SC Verl,69.0,0.0
+83018,Arne Schulz,426,41.0,348.3,170.0,FC Viktoria Köln,40.0,1.0
+49830,Maximilian Krauß,429,41.0,331.5,164.0,FC Hansa Rostock,16.0,3.0
+63419,Jonas Dirkner,429,41.0,485.0,131.0,FC Hansa Rostock,18.0,4.0
+1323,Marco Schuster,429,41.0,229.5,167.0,FC Hansa Rostock,36.0,2.0
+67487,Dickson Abiama,415,41.0,382.2,142.0,Rot-Weiss Essen,13.0,4.0
+107894,Yannick Tonye,426,41.0,275.6,111.0,FC Viktoria Köln,19.0,0.0
+107554,Maximilian Braune,455,40.0,322.1,217.0,MSV Duisburg,81.0,1.0
+47222,Dennis Waidner,1926,40.0,365.9,183.0,SC Verl,35.0,2.0
+47141,Nassim Boujellab,424,40.0,591.8,264.0,SSV Jahn Regensburg,24.0,3.0
+21340,Thijmen Nijhuis,1915,40.0,346.2,130.0,SV Waldhof Mannheim,54.0,0.0
+63556,Tim Dietrich,1710,40.0,230.7,40.0,Preußen Münster,10.0,0.0
+30457,David Philipp,424,40.0,358.3,145.0,SSV Jahn Regensburg,13.0,2.0
+169421,Antonijo Janjic,4557,39.0,163.3,89.0,VfB Stuttgart II,16.0,0.0
+104253,Davide-Danilo Sekulovic,43,39.0,305.9,130.0,FC Ingolstadt 04,25.0,5.0
+165706,Christian Mistl,1711,38.0,151.4,105.0,SG Sonnenhof Großaspach,23.0,6.0
+70472,Linus Rosenlöcher,43,38.0,197.1,94.0,FC Ingolstadt 04,20.0,1.0
+62492,Yannick Deichmann,43,38.0,198.2,99.0,FC Ingolstadt 04,21.0,3.0
+5674,Luca Unbehaun,429,37.0,486.9,130.0,FC Hansa Rostock,43.0,0.0
+67662,Niklas May,864,37.0,246.3,89.0,SV Wehen Wiesbaden,10.0,1.0
+44898,Maximilian Reule,1711,37.0,337.6,141.0,SG Sonnenhof Großaspach,50.0,1.0
+51632,Aljaz Casar,455,36.0,306.6,192.0,MSV Duisburg,33.0,4.0
+104974,Daniel Gleiber,851,36.0,439.5,182.0,1. FC Saarbrücken,40.0,7.0
+104373,Lúkas Petersson,4560,36.0,380.7,188.0,TSG 1899 Hoffenheim II,60.0,1.0
+172008,Mika Clausen,1926,36.0,575.4,236.0,SC Verl,23.0,5.0
+168817,Leon Maier,1711,36.0,98.0,57.0,SG Sonnenhof Großaspach,17.0,2.0
+104811,Ben Schlicke,455,35.0,162.6,98.0,MSV Duisburg,18.0,2.0
+220919,Ertugrul Yigit,4557,35.0,257.4,129.0,VfB Stuttgart II,13.0,1.0
+6586,Mika Hanraths,1927,34.0,105.4,47.0,Alemannia Aachen,15.0,1.0
+104977,Lovis Bierschenk,1915,34.0,495.7,197.0,SV Waldhof Mannheim,20.0,4.0
+220114,Elias Arden,445,34.0,169.0,67.0,Fortuna Düsseldorf,15.0,2.0
+94858,Sascha Risch,445,33.0,124.2,72.0,Fortuna Düsseldorf,15.0,0.0
+135581,Lennart Winkler,1709,33.0,417.1,158.0,SC Fortuna Köln,64.0,1.0
+246675,Bernie Lennemann,429,33.0,309.4,138.0,FC Hansa Rostock,8.0,1.0
+170515,Namrud Embaye,447,32.0,181.3,128.0,Würzburger Kickers,36.0,5.0
+61576,Marko Rajkovacic,447,32.0,225.8,73.0,Würzburger Kickers,24.0,0.0
+161668,David Klein,43,32.0,457.9,163.0,FC Ingolstadt 04,47.0,0.0
+104040,Raul Paula,864,32.0,248.1,95.0,SV Wehen Wiesbaden,9.0,1.0
+1295,Philipp Ochs,447,32.0,262.6,84.0,Würzburger Kickers,17.0,1.0
+168443,Martin Ens,455,31.0,103.2,88.0,MSV Duisburg,32.0,1.0
+30962,Pascal Fallmann,426,30.0,171.1,91.0,FC Viktoria Köln,13.0,0.0
+109365,Nicolas Oliveira,424,30.0,143.4,81.0,SSV Jahn Regensburg,14.0,1.0
+172792,Faton Ademi,1927,29.0,148.9,82.0,Alemannia Aachen,12.0,3.0
+54654,Diego Michel,1915,29.0,229.0,119.0,SV Waldhof Mannheim,9.0,1.0
+104829,Yasin Zor,4560,29.0,391.7,216.0,TSG 1899 Hoffenheim II,22.0,3.0
+165840,Niklas Castelle,426,29.0,358.6,125.0,FC Viktoria Köln,13.0,3.0
+115770,Tom Geerkens,1709,29.0,186.9,130.0,SC Fortuna Köln,18.0,1.0
+7994,Tarsis Bonga,447,29.0,638.9,233.0,Würzburger Kickers,24.0,5.0
+53175,Lukas Schleimer,864,28.0,226.6,85.0,SV Wehen Wiesbaden,11.0,2.0
+107694,Julius Pünt,1708,28.0,311.3,130.0,SV Meppen,44.0,1.0
+139169,David Abrangao,447,28.0,230.7,84.0,Würzburger Kickers,15.0,3.0
+49157,Morten Behrens,1710,28.0,376.7,189.0,Preußen Münster,55.0,0.0
+181636,Yanik Spalt,4557,28.0,177.0,64.0,VfB Stuttgart II,9.0,1.0
+70564,Philipp Maier,1710,28.0,247.2,102.0,Preußen Münster,17.0,2.0
+9790,Andreas Voglsammer,429,28.0,324.8,116.0,FC Hansa Rostock,12.0,7.0
+32155,Ryan Johansson,1710,27.0,296.4,138.0,Preußen Münster,13.0,1.0
+49865,Dominik Meisel,447,27.0,83.9,50.0,Würzburger Kickers,11.0,2.0
+83103,Michael Kostka,415,27.0,186.7,60.0,Rot-Weiss Essen,12.0,0.0
+53177,Conor Noß,455,27.0,290.0,110.0,MSV Duisburg,11.0,3.0
+83629,Louis Breunig,447,27.0,116.4,44.0,Würzburger Kickers,14.0,0.0
+46354,Max Geschwill,415,27.0,170.5,107.0,Rot-Weiss Essen,32.0,3.0
+23368,Ivan Franjic,447,26.0,683.1,214.0,Würzburger Kickers,22.0,6.0
+104062,Tim Rossmann,1711,26.0,448.4,212.0,SG Sonnenhof Großaspach,9.0,2.0
+109744,Yannick Michaelis,429,26.0,201.8,92.0,FC Hansa Rostock,12.0,2.0
+112509,Nishan Velupillay,43,26.0,344.5,155.0,FC Ingolstadt 04,13.0,2.0
+109780,Hannes Hermann,424,26.0,292.6,148.0,SSV Jahn Regensburg,39.0,0.0
+83831,Tim Kraus,447,25.0,353.1,115.0,Würzburger Kickers,11.0,4.0
+5934,Franck Evina,447,25.0,192.0,86.0,Würzburger Kickers,13.0,0.0
+103299,Lasse Rieß,445,25.0,167.5,64.0,Fortuna Düsseldorf,18.0,0.0
+52580,Seymour Fünger,1709,25.0,72.2,46.0,SC Fortuna Köln,18.0,2.0
+173204,Zac Shuaib,851,25.0,98.0,46.0,1. FC Saarbrücken,7.0,1.0
+28179,Stefan Bajic,1927,25.0,270.8,157.0,Alemannia Aachen,44.0,1.0
+104101,Eliot Muteba,447,24.0,131.2,52.0,Würzburger Kickers,5.0,0.0
+89939,Semir Telalovic,415,24.0,477.2,229.0,Rot-Weiss Essen,24.0,7.0
+15621,Philipp Förster,445,24.0,360.9,138.0,Fortuna Düsseldorf,16.0,3.0
+165852,Moritz Flotho,864,24.0,186.9,153.0,SV Wehen Wiesbaden,13.0,4.0
+282318,Luca Berreth,4557,24.0,90.2,24.0,VfB Stuttgart II,5.0,1.0
+30052,Jomaine Consbruch,445,24.0,264.9,128.0,Fortuna Düsseldorf,15.0,1.0
+104956,Leo Eberle,447,24.0,113.9,102.0,Würzburger Kickers,28.0,1.0
+33056,Roberto Massimo,864,24.0,255.8,139.0,SV Wehen Wiesbaden,11.0,2.0
+132851,Oluwaseun Ogbemudia,1915,23.0,93.5,39.0,SV Waldhof Mannheim,15.0,2.0
+15741,Patrick Sussek,455,23.0,220.6,101.0,MSV Duisburg,7.0,2.0
+109831,Yannick Mausehund,2422,23.0,219.6,94.0,TSV Havelse,21.0,1.0
+30481,Robin Velasco,2422,23.0,173.9,75.0,TSV Havelse,9.0,1.0
+10530,Calogero Rizzuto,851,22.0,67.5,55.0,1. FC Saarbrücken,12.0,0.0
+23317,Malte Karbstein,424,22.0,157.2,84.0,SSV Jahn Regensburg,20.0,1.0
+165800,Kevin Brechmann,1709,22.0,186.7,39.0,SC Fortuna Köln,4.0,0.0
+51799,Dominik Kother,455,22.0,250.9,100.0,MSV Duisburg,16.0,3.0
+118308,Neo Telle,1709,22.0,249.0,104.0,SC Fortuna Köln,20.0,1.0
+118013,Leon Tasov,1710,22.0,174.2,65.0,Preußen Münster,7.0,1.0
+66337,Robin Kalem,864,21.0,245.7,66.0,SV Wehen Wiesbaden,11.0,2.0
+2416,David Kopacz,429,21.0,330.9,153.0,FC Hansa Rostock,9.0,3.0
+45770,Ahmet Gürleyen,429,21.0,83.2,46.0,FC Hansa Rostock,15.0,0.0
+118899,Jakob Seibold,424,21.0,99.7,62.0,SSV Jahn Regensburg,11.0,3.0
+15952,Koki Machida,4560,21.0,99.1,37.0,TSG 1899 Hoffenheim II,11.0,0.0
+109627,Montell Ndikom,1710,21.0,397.2,157.0,Preußen Münster,17.0,5.0
+109454,Oliver Rölke,4557,21.0,159.0,148.0,VfB Stuttgart II,11.0,2.0
+104636,Xaver Kiefersauer,447,21.0,229.9,93.0,Würzburger Kickers,11.0,1.0
+118284,Georg Ermolaev,1927,20.0,238.0,144.0,Alemannia Aachen,15.0,4.0
+152951,Niklas Varelmann,1710,20.0,211.2,151.0,Preußen Münster,29.0,0.0
+112385,Niklas Jessen,455,20.0,200.8,108.0,MSV Duisburg,22.0,2.0
+23477,Johann Hipper,447,20.0,340.7,119.0,Würzburger Kickers,33.0,1.0
+84069,Jakob Lewald,864,20.0,162.3,33.0,SV Wehen Wiesbaden,9.0,1.0
+104225,Florian Bähr,1708,20.0,122.9,59.0,SV Meppen,15.0,2.0
+169620,Louis Lord,445,20.0,366.8,124.0,Fortuna Düsseldorf,27.0,0.0
+117988,Romeo Aigbekaen,1709,19.0,297.8,134.0,SC Fortuna Köln,14.0,5.0
+62472,Felix Higl,1710,19.0,181.5,156.0,Preußen Münster,19.0,8.0
+27892,Kwasi Wriedt,2422,19.0,143.9,106.0,TSV Havelse,9.0,3.0
+103967,Matteo Bignetti,851,19.0,387.0,187.0,1. FC Saarbrücken,61.0,3.0
+158330,Joey Müller,1915,19.0,215.4,147.0,SV Waldhof Mannheim,24.0,3.0
+49836,Christian Kühlwetter,851,19.0,189.7,123.0,1. FC Saarbrücken,10.0,3.0
+174260,Kacper Koscierski,1927,19.0,76.1,66.0,Alemannia Aachen,13.0,1.0
+105021,Mika Schroers,1927,19.0,352.8,183.0,Alemannia Aachen,11.0,3.0
+220920,Collin Schramm,4557,19.0,122.9,62.0,VfB Stuttgart II,9.0,1.0
+107773,Benno Dietze,429,19.0,159.4,62.0,FC Hansa Rostock,7.0,0.0
+107949,Kushtrim Asallari,1915,19.0,202.4,89.0,SV Waldhof Mannheim,4.0,0.0
+956,Maurice Multhaup,851,19.0,86.9,37.0,1. FC Saarbrücken,5.0,2.0
+167594,Moritz Kaube,1926,19.0,173.2,110.0,SC Verl,14.0,0.0
+10433,Florian Stritzel,864,18.0,101.8,110.0,SV Wehen Wiesbaden,42.0,0.0
+65770,Omer Hanin,2422,18.0,173.7,130.0,TSV Havelse,48.0,0.0
+82595,Marcus Müller,864,18.0,289.1,94.0,SV Wehen Wiesbaden,8.0,4.0
+104512,Fabio Torsiello,1927,18.0,70.8,40.0,Alemannia Aachen,9.0,2.0
+218381,Maximilian Theuer,4560,17.0,177.0,48.0,TSG 1899 Hoffenheim II,5.0,1.0
+123657,Lucas Hermes,424,17.0,398.1,200.0,SSV Jahn Regensburg,14.0,3.0
+118190,Samuel Althaus,1710,17.0,186.0,78.0,Preußen Münster,11.0,0.0
+109508,Eryk Grzywacz,2422,17.0,164.9,54.0,TSV Havelse,9.0,2.0
+104533,Diren Dağdeviren,4560,17.0,91.2,58.0,TSG 1899 Hoffenheim II,15.0,2.0
+109617,Tim Köhler,4557,17.0,47.0,37.0,VfB Stuttgart II,13.0,0.0
+118827,Alex Honajzer,4560,17.0,53.9,59.0,TSG 1899 Hoffenheim II,4.0,1.0
+103780,Noah König,1926,17.0,90.5,55.0,SC Verl,17.0,1.0
+161749,Mirza Catovic,4557,17.0,91.7,53.0,VfB Stuttgart II,5.0,0.0
+107976,Tony Menzel,415,17.0,142.1,113.0,Rot-Weiss Essen,20.0,2.0
+216667,Nico Thier,1709,17.0,285.8,101.0,SC Fortuna Köln,8.0,3.0
+106530,Meiko Wäschenbach,1927,17.0,173.7,48.0,Alemannia Aachen,5.0,0.0
+118117,Ayoub Chaikhoun,864,16.0,163.1,60.0,SV Wehen Wiesbaden,5.0,2.0
+103212,Amin Farouk,1926,16.0,359.3,121.0,SC Verl,11.0,3.0
+71040,Verthomy Boboy,426,16.0,26.4,55.0,FC Viktoria Köln,9.0,0.0
+104975,Ouassim Karada,429,16.0,135.5,44.0,FC Hansa Rostock,5.0,1.0
+30071,Yari Otto,1926,16.0,139.1,87.0,SC Verl,15.0,4.0
+104092,Niklas Jahn,426,16.0,51.9,59.0,FC Viktoria Köln,12.0,3.0
+108071,Jannic Ehlers,1708,16.0,154.6,82.0,SV Meppen,7.0,3.0
+152843,Wesley Adeh,1710,16.0,237.9,86.0,Preußen Münster,11.0,3.0
+101635,Ruben Reisig,415,15.0,131.3,55.0,Rot-Weiss Essen,6.0,0.0
+109277,Jan Niemann,1915,15.0,157.4,30.0,SV Waldhof Mannheim,11.0,0.0
+277769,Noah Maboulou,426,15.0,102.7,66.0,FC Viktoria Köln,7.0,1.0
+103816,Joshua Eze,1926,14.0,84.2,66.0,SC Verl,12.0,2.0
+174800,Peter Remmert,455,14.0,195.3,59.0,MSV Duisburg,5.0,1.0
+49069,Nikos Zografakis,1711,14.0,260.6,58.0,SG Sonnenhof Großaspach,5.0,1.0
+51633,Leo Mätzler,424,14.0,56.5,46.0,SSV Jahn Regensburg,12.0,0.0
+228879,Dylan Leonard,1927,13.0,126.0,48.0,Alemannia Aachen,13.0,1.0
+23320,Lars Lokotsch,43,13.0,175.4,151.0,FC Ingolstadt 04,4.0,1.0
+6210,Marcel Benger,445,13.0,80.4,71.0,Fortuna Düsseldorf,11.0,0.0
+123555,Ramien Safi,455,13.0,199.2,58.0,MSV Duisburg,10.0,4.0
+1083,Dominique Heintz,445,13.0,52.3,23.0,Fortuna Düsseldorf,9.0,0.0
+83979,Jannik Mause,1709,13.0,84.9,33.0,SC Fortuna Köln,2.0,0.0
+70520,Alexander Prokopenko,426,13.0,137.2,70.0,FC Viktoria Köln,7.0,1.0
+109338,Kelsey Owusu,851,13.0,110.8,78.0,1. FC Saarbrücken,9.0,0.0
+10067,Fabian Schleusener,445,12.0,233.8,134.0,Fortuna Düsseldorf,13.0,4.0
+165702,Marc Richter,2422,12.0,99.6,38.0,TSV Havelse,5.0,0.0
+109645,Jona Borsum,1708,12.0,68.2,54.0,SV Meppen,11.0,3.0
+9586,Manuel Riemann,1927,12.0,126.3,31.0,Alemannia Aachen,8.0,0.0
+63568,Abdenego Nankishi,851,12.0,119.8,32.0,1. FC Saarbrücken,7.0,2.0
+217327,Ibrahim Ati Allah,864,12.0,240.4,88.0,SV Wehen Wiesbaden,8.0,1.0
+10180,Philipp Hercher,864,12.0,73.2,44.0,SV Wehen Wiesbaden,6.0,3.0
+4204,Hamadi Al Ghaddioui,1709,12.0,43.9,45.0,SC Fortuna Köln,4.0,2.0
+70556,Jakob Golz,415,12.0,203.1,127.0,Rot-Weiss Essen,45.0,0.0
+104343,Antonio Foti,1926,12.0,84.0,35.0,SC Verl,5.0,1.0
+58098,Fabian Eisele,1711,11.0,161.3,142.0,SG Sonnenhof Großaspach,10.0,4.0
+89947,Marco Pledl,426,11.0,137.1,47.0,FC Viktoria Köln,8.0,1.0
+78696,Benjamin Kanuric,43,10.0,36.5,20.0,FC Ingolstadt 04,0.0,0.0
+119208,Ken Izekor,1927,10.0,41.5,15.0,Alemannia Aachen,1.0,1.0
+30252,Eric Hottmann,445,10.0,390.8,121.0,Fortuna Düsseldorf,20.0,9.0
+51532,Leroy Mickels,1915,10.0,96.0,43.0,SV Waldhof Mannheim,1.0,1.0
+172065,Julian Ulbricht,1915,10.0,227.3,174.0,SV Waldhof Mannheim,20.0,3.0
+6512,Cedric Harenbrock,1709,10.0,153.9,50.0,SC Fortuna Köln,3.0,1.0
+44953,Cyrill Akono,1708,10.0,138.9,68.0,SV Meppen,8.0,5.0
+31923,Frederik Christensen,455,9.0,48.0,31.0,MSV Duisburg,3.0,0.0
+31189,David Otto,426,8.0,138.4,166.0,FC Viktoria Köln,17.0,2.0
+118259,Marlon Faß,1711,8.0,138.9,60.0,SG Sonnenhof Großaspach,7.0,1.0
+46964,Simon Engelmann,1708,8.0,45.2,25.0,SV Meppen,4.0,2.0
+120156,Felix Meiser,445,8.0,31.6,39.0,Fortuna Düsseldorf,8.0,0.0
+111250,Tim Heike,1926,7.0,195.3,132.0,SC Verl,9.0,3.0
+104976,Jason Amann,426,7.0,21.9,4.0,FC Viktoria Köln,1.0,0.0
+217722,Alexander Guiddir,2422,7.0,271.6,134.0,TSV Havelse,8.0,3.0
+49860,Kai Brünker,851,7.0,128.2,76.0,1. FC Saarbrücken,7.0,2.0
+67493,Niklas Tauer,2422,7.0,74.9,50.0,TSV Havelse,8.0,1.0
+153637,Jordan Majchrzak,4557,7.0,158.2,95.0,VfB Stuttgart II,5.0,1.0
+117977,Kaden Amaniampong,445,7.0,25.2,16.0,Fortuna Düsseldorf,2.0,0.0
+15199,Max Besuschkow,455,6.0,35.0,47.0,MSV Duisburg,6.0,0.0
+118129,Alexander Staff,851,6.0,187.4,80.0,1. FC Saarbrücken,4.0,1.0
+197120,David Suárez,864,6.0,61.2,52.0,SV Wehen Wiesbaden,11.0,0.0
+47211,Florian Krüger,455,6.0,129.1,61.0,MSV Duisburg,5.0,0.0
+116155,Jakob Bookjans,455,6.0,81.1,50.0,MSV Duisburg,5.0,0.0
+45007,Sinan Karweina,864,6.0,80.3,39.0,SV Wehen Wiesbaden,4.0,1.0
+158838,Marvin Schulz,1710,6.0,140.4,100.0,Preußen Münster,9.0,3.0
+30378,Nick Bätzner,415,6.0,75.7,31.0,Rot-Weiss Essen,3.0,2.0
+112588,Elias Decker,43,6.0,43.6,13.0,FC Ingolstadt 04,4.0,0.0
+118212,Franz Xaver Bleicher,1711,5.0,25.4,24.0,SG Sonnenhof Großaspach,3.0,1.0
+109388,Arlind Rexhepi,1915,5.0,153.5,33.0,SV Waldhof Mannheim,1.0,0.0
+1421,Noah Sarenren Bazee,1915,5.0,60.0,25.0,SV Waldhof Mannheim,3.0,0.0
+45034,Sebastian Vasiliadis,851,5.0,62.4,17.0,1. FC Saarbrücken,5.0,0.0
+83980,Enzo Wirtz,1709,5.0,90.5,57.0,SC Fortuna Köln,4.0,2.0
+153907,Gonçalo Gregório,1915,5.0,116.9,111.0,SV Waldhof Mannheim,8.0,2.0
+234153,Djayson Mendes,1915,5.0,39.2,43.0,SV Waldhof Mannheim,7.0,3.0
+28598,Alexander Prass,4560,5.0,17.6,12.0,TSG 1899 Hoffenheim II,0.0,0.0
+10161,Erik Zenga,1708,5.0,79.6,31.0,SV Meppen,6.0,0.0
+216828,Lorenzo Paldino,2422,5.0,76.1,43.0,TSV Havelse,3.0,1.0
+219247,Obed Chidindu Ugondu,43,5.0,102.6,94.0,FC Ingolstadt 04,9.0,5.0
+126401,Justin von der Hitz,1927,5.0,90.4,32.0,Alemannia Aachen,3.0,1.0
+169192,Sejdo Durakov,43,5.0,76.6,18.0,FC Ingolstadt 04,1.0,0.0
+217931,Arian Dizdarevic,424,4.0,37.3,29.0,SSV Jahn Regensburg,3.0,0.0
+67420,Kaan Caliskaner,851,4.0,31.1,8.0,1. FC Saarbrücken,0.0,0.0
+104180,Donald Nduka,2422,4.0,24.2,36.0,TSV Havelse,12.0,0.0
+83266,Nathan Bitumazala,1927,4.0,55.4,41.0,Alemannia Aachen,5.0,0.0
+56660,Simon Stehle,864,4.0,25.0,43.0,SV Wehen Wiesbaden,6.0,1.0
+84047,Marek Janssen,415,4.0,73.8,71.0,Rot-Weiss Essen,11.0,5.0
+162458,Seung-joon Lee,851,4.0,21.2,34.0,1. FC Saarbrücken,1.0,0.0
+246752,Brayann Kenmoe,4557,3.0,33.1,14.0,VfB Stuttgart II,1.0,0.0
+103730,Luca Bazzoli,415,3.0,17.3,9.0,Rot-Weiss Essen,2.0,0.0
+109793,Lukas Bornschein,445,3.0,3.0,17.0,Fortuna Düsseldorf,7.0,0.0
+78900,Lex Tyger Lobinger,455,3.0,137.0,40.0,MSV Duisburg,2.0,1.0
+26962,Dennis Borkowski,455,3.0,9.9,6.0,MSV Duisburg,0.0,0.0
+109638,Bilal Yalcinkaya,1926,3.0,51.9,39.0,SC Verl,4.0,0.0
+310405,Jakov Dedic,4560,3.0,72.7,112.0,TSG 1899 Hoffenheim II,5.0,1.0
+62496,Patrick Hobsch,424,3.0,45.9,42.0,SSV Jahn Regensburg,5.0,0.0
+108029,Milosz Brzozowski,429,3.0,40.8,46.0,FC Hansa Rostock,6.0,2.0
+934,Terrence Boyd,1915,3.0,25.1,21.0,SV Waldhof Mannheim,3.0,1.0
+116084,Peter Kiedl,429,3.0,54.5,31.0,FC Hansa Rostock,3.0,0.0
+158306,Jykese Fields,4560,3.0,74.8,51.0,TSG 1899 Hoffenheim II,3.0,0.0
+75752,Nikolas Agrafiotis,864,3.0,23.6,20.0,SV Wehen Wiesbaden,1.0,0.0
+106430,Gökdeniz Gürpüz,851,3.0,92.2,13.0,1. FC Saarbrücken,1.0,0.0
+67817,Joseph Ganda,43,3.0,79.3,54.0,FC Ingolstadt 04,6.0,0.0
+108047,Richard Meier,1708,3.0,117.5,74.0,SV Meppen,9.0,5.0
+205291,Konstantin Aleksa,4560,2.0,1.5,10.0,TSG 1899 Hoffenheim II,2.0,0.0
+172014,Tom Opitz,2422,2.0,37.8,32.0,TSV Havelse,10.0,0.0
+152825,Nico Biedermann,4560,2.0,44.0,22.0,TSG 1899 Hoffenheim II,3.0,0.0
+220915,Enis Redzepi,4557,2.0,30.5,67.0,VfB Stuttgart II,4.0,1.0
+153646,Lukas Eixler,445,1.0,21.6,19.0,Fortuna Düsseldorf,2.0,1.0
+122375,Jordi Paulina,445,1.0,0.9,20.0,Fortuna Düsseldorf,4.0,0.0
+161748,Matheos Tsigkas,4557,1.0,39.4,10.0,VfB Stuttgart II,2.0,1.0
+205779,Tim van der Leij,4557,1.0,63.7,68.0,VfB Stuttgart II,4.0,1.0
+94849,Timo Bornemann,1709,1.0,19.4,23.0,SC Fortuna Köln,2.0,0.0
+118309,Jaka Cuber Potocnik,415,1.0,72.9,43.0,Rot-Weiss Essen,5.0,1.0
+108151,John Posselt,424,1.0,0.0,17.0,SSV Jahn Regensburg,1.0,1.0
+118294,Kevin Krumme,1709,1.0,57.0,23.0,SC Fortuna Köln,4.0,0.0
+104919,Anton Bäuerle,851,1.0,3.5,5.0,1. FC Saarbrücken,1.0,0.0
+56432,Ekin Celebi,415,1.0,0.9,2.0,Rot-Weiss Essen,1.0,0.0
+103925,Daniel Starodid,1927,1.0,169.3,100.0,Alemannia Aachen,7.0,0.0
+109340,Jermain Nischalke,447,1.0,93.4,27.0,Würzburger Kickers,1.0,0.0
+22940,Joshua Mees,1710,1.0,4.9,5.0,Preußen Münster,1.0,0.0
+168462,Luca Majetic,1709,1.0,33.7,22.0,SC Fortuna Köln,2.0,0.0
+112378,Eric Gueye,426,0.0,49.1,24.0,FC Viktoria Köln,4.0,1.0
+153178,Maxime Ndong-Penda,4560,0.0,0.0,5.0,TSG 1899 Hoffenheim II,1.0,0.0
+103915,Alem Japaur,1926,0.0,0.0,5.0,SC Verl,1.0,1.0
+99366,David Hummel,429,0.0,0.0,13.0,FC Hansa Rostock,3.0,2.0
+169259,Lion Wagenbach,4560,0.0,2.6,13.0,TSG 1899 Hoffenheim II,2.0,0.0
+10346,Jannik Oltrogge,2422,0.0,0.5,3.0,TSV Havelse,0.0,0.0
+10665,Benedikt Saller,424,0.0,,7.0,SSV Jahn Regensburg,1.0,0.0
+7499,Luke Hemmerich,447,0.0,,2.0,Würzburger Kickers,1.0,0.0
+107653,Zeteny Jano,424,0.0,8.4,9.0,SSV Jahn Regensburg,3.0,0.0
+104318,Thomas Kastanaras,447,0.0,90.8,36.0,Würzburger Kickers,2.0,1.0
+10059,Florian Hübner,864,0.0,,2.0,SV Wehen Wiesbaden,1.0,0.0
+53174,Abdoulaye Kamara,851,0.0,15.3,20.0,1. FC Saarbrücken,5.0,1.0
+332769,Tomislav Bagarić,43,0.0,,5.0,FC Ingolstadt 04,2.0,0.0
+32473,Jonas Michelbrink,1709,0.0,0.0,3.0,SC Fortuna Köln,0.0,0.0
+90027,Jonas Fedl,1708,0.0,,2.0,SV Meppen,0.0,0.0
+172111,Finn Kiszka,2422,0.0,3.9,3.0,TSV Havelse,1.0,0.0
+104844,Aiman Dardari,415,0.0,91.1,45.0,Rot-Weiss Essen,5.0,2.0
+104859,Ognjen Drakulic,43,0.0,9.0,10.0,FC Ingolstadt 04,0.0,0.0
+1212,Robin Ziegele,424,0.0,0.0,6.0,SSV Jahn Regensburg,1.0,0.0
+168885,Raphael Araoye,1926,0.0,0.0,3.0,SC Verl,1.0,0.0
+47014,Kasra Ghawilu,1708,0.0,54.4,24.0,SV Meppen,0.0,0.0
+217532,Deli Hajdini,1711,0.0,0.0,3.0,SG Sonnenhof Großaspach,0.0,0.0
+222808,Kian Speidel,4557,0.0,2.7,3.0,VfB Stuttgart II,1.0,0.0
+51557,Rafael García,1709,0.0,11.9,12.0,SC Fortuna Köln,3.0,0.0
+31293,Romario Rösch,1710,0.0,0.0,2.0,Preußen Münster,0.0,0.0
+106531,Ben Opoku Labes,4560,0.0,0.4,6.0,TSG 1899 Hoffenheim II,0.0,0.0
+159647,Masca,1915,0.0,52.5,22.0,SV Waldhof Mannheim,0.0,0.0
+319257,Nolan Muteba N'Tumba,1915,0.0,0.0,5.0,SV Waldhof Mannheim,0.0,0.0
+118483,Niclas Wessels,1708,0.0,7.8,5.0,SV Meppen,0.0,0.0
+63941,Robin Müller,2422,0.0,0.4,3.0,TSV Havelse,0.0,0.0
